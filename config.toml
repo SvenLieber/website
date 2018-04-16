@@ -6,11 +6,11 @@
 baseurl = "/"
 
 # Title of your site
-title = "Academic"
+title = "Sven Lieber"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
+copyright = "Copyright &copy; 2017-2018 Sven Lieber. All text & images licensed under <a href='https://creativecommons.org/licenses/by/4.0/' target='_blank; title='Creative Commons Attribution 4.0 International License'><abbr class='caps'>CC</abbr> <abbr class='caps'>BY</abbr> 4.0</a> except where otherwise noted."
 
 theme = "academic"
 enableEmoji = true
@@ -27,7 +27,7 @@ googleAnalytics = ""
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 
 [outputs]
   home = [ "HTML", "CSS", "RSS" ]
@@ -50,24 +50,25 @@ defaultContentLanguageInSubdir = false
   font = "default"
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "Sven Lieber"
+  role = "Researcher and PhD student"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "Ghent University - imec", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
-  telegram = ""
+  avatar = "sven-lieber.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  email = "Sven.Lieber@ugent.be"
+  #address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+  #office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  #phone = "888 888 88 88"
+  #skype = "echo123"
+  #telegram = ""
+  pgp = { name = "PGP-Key", url = "https://sven-lieber.org/pgp-key" }
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
-  keybase = ""
+  #keybase = ""
 
   # Discussion link (e.g. link to a forum, mailing list, or chat).
   #   Uncomment line below to use.
@@ -149,7 +150,7 @@ defaultContentLanguageInSubdir = false
   # highlight_style = "github"
 
   # Enable native social sharing buttons?
-  sharing = true
+  sharing = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
@@ -217,22 +218,27 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
+    link = "mailto:sven-lieber@ugent.be"
 
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
+    link = "//twitter.com/SvenLieber"
 
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    link = "https://scholar.google.be/citations?user=-_GsmQgAAAAJ&hl=en"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/gcushen"
+    link = "//github.com/SvenLieber"
+
+  [[params.linkedin]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "https://be.linkedin.com/in/sven-lieber-1b2b70131"
 
 
 # Navigation Links
@@ -255,18 +261,29 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Posts"
+  identifier = "posts"
   url = "#posts"
   weight = 3
+
+[[menu.main]]
+  parent = "posts"
+  name = "Explained"
+  url = "/categories/explained"
+
+[[menu.main]]
+  parent = "posts"
+  name = "Today I Learned"
+  url = "/categories/today-I-learned"
 
 [[menu.main]]
   name = "Projects"
   url = "#projects"
   weight = 4
 
-[[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 5
+#[[menu.main]]
+#  name = "Teaching"
+#  url = "#teaching"
+#  weight = 5
 
 [[menu.main]]
   name = "Contact"
@@ -285,3 +302,10 @@ defaultContentLanguageInSubdir = false
 # Configure the English version of the website.
 [Languages.en]
   languageCode = "en-us"
+
+[Languages.de]
+  languagesCode = "de"
+
+[permalinks]
+  post = "/:year/:month/:title/"
+
