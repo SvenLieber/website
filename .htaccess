@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule "^en/2017/04/07/provenance/$" "/en/2017/04/07/what-is-provenance" [R] 
+</IfModule>
