@@ -80,6 +80,7 @@
   {{ if .Site.GoogleAnalytics }}
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('set', 'anonymizeIp', true);
       ga('create', '{{ .Site.GoogleAnalytics }}', 'auto');
       ga('require', 'eventTracker');
       ga('require', 'outboundLinkTracker');
