@@ -290,6 +290,11 @@ defaultContentLanguageInSubdir = true
   url = "#contact"
   weight = 6
 
+[[menu.main]]
+  name = "Privacy"
+  url = "/privacy"
+  weight = 7
+
 # Taxonomies.
 [taxonomies]
   tag = "tags"
