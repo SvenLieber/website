@@ -16,7 +16,7 @@ image_preview = ""
 tags = []
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://www.imec-int.com/en/what-we-offer/research-portfolio/leaps_2"
+external_link = "https://www.imec-int.com/en/what-we-offer/research-portfolio/leaps"
 
 # Does the project detail page use math formatting?
 math = false
