@@ -267,6 +267,11 @@ defaultContentLanguageInSubdir = true
 
 [[menu.main]]
   parent = "posts"
+  name = "Events"
+  url = "/categories/events"
+
+[[menu.main]]
+  parent = "posts"
   name = "Explained"
   url = "/categories/explained"
 
