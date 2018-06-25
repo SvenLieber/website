@@ -73,17 +73,19 @@ caption = ""
 Did you ever use a language learning app and were annoyed that the exercises are either too easy or too hard?
 That are actually reasons people give up.
 Well, probably you would profit from adaptive learning systems, which adapt the difficulty of the exercises to your abilities!
-Providing Adaptive Learning Analytics Systems with data to do that, is one part of a project I am currently working on.
+Providing Adaptive Learning Analytics Systems with data to do that, is one part of a [project](https://www.imec-int.com/en/what-we-offer/research-portfolio/leaps) I am currently working on.
 <!--more-->
 
-This paper which was accepted at the Linked Learning (LILE) workshop at the WebScience2018 conference describes
+This paper which was accepted at the Linked Learning ([LILE](https://lile2018.wordpress.com/)) workshop at the [WebScience2018](https://websci18.webscience.org/) conference describes
 how we generate Linked Data out of learning activity data (logfiles generated when you are using an educational app).
 Learn here what Linked Data is,
-how it can help and how we also use something called Provenance to assist the users of our system with data protection tasks.
+how it can help and how we also use something called [Provenance](https://sven-lieber.org/en/2017/04/07/what-is-provenance/) to assist the users of our system with data protection tasks.
 
 # Problem
 Adapting exercise difficulties to your abilities is possible using e.g. Machine Learning algorithms. These algorithms need to be trained and therefore need looooots of data!
-But not just any data, the bare nature of an exercise needs to be described (is this an grammatical task? audio task?), also YOU and users in general need to be described (do you have learning disabilities like dyslexia? what do you already know?) and of course these data then needs to be integrated. Strictly speaking, the machine needs to understand that a certain concept like a disability relates somehow to certain other concepts like grammar (which is then an essential part of an exercise).
+But not just any data, the bare nature of an exercise needs to be described (is this an grammatical task? audio task?),
+also YOU and users in general need to be described (do you have learning disabilities like dyslexia? what do you already know?) and of course these data then needs to be integrated.
+Strictly speaking, the machine needs to understand that a certain concept like a disability relates somehow to certain other concepts like grammar (which is then an essential part of an exercise).
 
 # Solution
 Describe exercises and users with the help of semantic technologies and doing that as additional step on already existing learning data.
@@ -92,22 +94,25 @@ How do we describe things semantically so machines can understand it? Therefore 
 Basically Linked Data is a set of design principles. Every concept you describe, 
 
 * should have an unique identifier (you say what a Person is and give it the unique name Person)
-* needs to be dereferenceable (a machine using your concept of a Person should be able to look up what it means) => www.example.com/myWorld#Person would be unique and as it is a web resource also dereferenceable
+* needs to be dereferenceable (a machine using your concept of a Person should be able to look up what it means) => http://xmlns.com/foaf/spec/#term_Person would be unique and as it is a web resource also dereferenceable
 * should be described using standards  (define your concept of a person using a standard like RDF ensures that a machine can read it)
 * should re-use and link to other concepts already existing.
 
+![Linked Data Example](/img/2018-06-23-ld-example.jpg)
+
 In that picture you see an example of Linked Data, expressed as a graph. Different colors indicate the different domains the data comes from.
-The data describing your performed learning activities (blue), data about you (and users in general) (yellow) and data regarding your abilities (color).
+The data describing your performed learning activities (blue), data about you (and users in general) (green) and data regarding your abilities (yellow), the prefixes are shortcuts for an URI.
 
 And there you see that we already successful integrated data from these different domains!
 
 That looks like a nice solution, right? But how do we get the Linked Data?
 
-We are not forcing anyone to change now the way they collect learning activity data. The only thing we require are learning activity data according to the xAPI specification.
-That is a structured text format, which is already used a lot. The learning activity data are usually stored in special databases called Learning Record Stores.
+We are not forcing anyone to change now the way they collect learning activity data. The only thing we require are learning activity data according to the [xAPI specification](https://github.com/adlnet/xAPI-Spec).
+That is a structured text format, which is already used a lot.
+The learning activity data are usually stored in special databases called Learning Record Stores.
 Our solution works on top of that, meaning, we extract the data out of these databases.
 
-Actually we built a small pipeline, which uses standard technologies like JSON-LD to lift the structured text data to actual Linked Data resources!
+Actually we built a small pipeline, which uses standard technologies like [JSON-LD](https://www.w3.org/TR/json-ld/) to lift the structured text data to actual Linked Data resources!
 
 For each step in the pipeline, we also collect Provenance information which we make available as Linked Data as well.
 Why that you may ask?! 
