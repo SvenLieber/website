@@ -35,18 +35,18 @@ selected = true
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-projects = ["leaps.en"]
+projects = ["leaps"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["Learning Analytics", "Linked Data", "Provenance"]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "https://websci18.webscience.org/wp-content/uploads/2018/01/WebSci18_Events_PreProceedings-4-Linked_Learning_2018-lres.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
-url_project = ""
+url_project = "https://www.imec-int.com/en/what-we-offer/research-portfolio/leaps"
 url_slides = "https://www.slideshare.net/SvenLieber/linked-data-generation-for-adaptive-learning-analytics-systems"
 url_video = ""
 url_poster = "https://www.slideshare.net/SvenLieber/poster-linked-data-generation-for-adaptive-learning-analytics-systems"
