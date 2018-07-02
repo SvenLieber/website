@@ -22,7 +22,7 @@ For the ISWS summer school I prepared an interactive poster. Read in his post wh
 
 <!--more-->
 
-My summer this year will start with the attendance of the International Semantic Web Research Summer School (ISWS) in Bertinoro, Italy.
+My summer this year will start with the attendance of the International Semantic Web Research Summer School ([ISWS](http://stlab.istc.cnr.it/isws/wordpress/)) in Bertinoro, Italy.
 For that we were invited to bring a poster, describing our PhD research. My current research tasks involve so called shapes, describing data within a graph of information. 
 **Since graphs and shapes are very tangible concepts**, and one of the main goals of the poster is to gather feedback, we had the idea of making the poster a bit interactive.
 My supervisor suggested post-its, but as I have a lot of creative energy (and probably procrastinate writing papers), I decided to go for a small Knowledge Jigsaw Puzzle.
@@ -54,4 +54,16 @@ That's were shapes come in.
 Given one or multiple workflows, containing different steps, your preferences can be modeled as shape(s) and be used to select the optimal steps for you. 
 Similarly, context information like the device you are using or a certain life situation you are currently in, are somewhat constrains which can be used for optimal steps selection. 
 
+What I did now for the [poster](https://www.slideshare.net/SvenLieber/knowledge-jigsaw-puzzle) is to model the steps to do (blue), conditions need to be met for that step (grey) a transaction (green) with a certain system (orange).
+In the simple puzzle setup there are shapes for secure transactions (https) and conditions.
 
+![Puzzle pieces on the poster](/img/2018-07-02-puzzle-on-poster.jpg)
+
+That is of course only a toy example of one possible way of modeling such steps.
+
+Research-wise it is interesting to investigate in the use of shapes, finding out when they are useful and when it is better to use other means of representing constraints.
+If shapes are used it is also interesting to investigate if shapes shall be only applied one after each other or if they can be combined somehow. Can we derive new shapes?
+Also Reasoning becomes interesting, given different context constraints and other user constraints, can we infer new shapes?
+
+A lot of research to be done!
+**I am looking forward to get a lot of interesting feedback in the poster session.**
