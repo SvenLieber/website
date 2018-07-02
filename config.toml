@@ -281,6 +281,11 @@ defaultContentLanguageInSubdir = true
   url = "/categories/today-I-learned"
 
 [[menu.main]]
+  parent = "posts"
+  name = "Other"
+  url = "/categories/other"
+
+[[menu.main]]
   name = "Projects"
   url = "#projects"
   weight = 4
