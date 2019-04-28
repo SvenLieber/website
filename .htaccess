@@ -2,3 +2,27 @@
 RewriteEngine On
 RewriteRule "^en/2017/04/07/provenance/$" "/en/2017/04/07/what-is-provenance" [R] 
 </IfModule>
+
+Header set Access-Control-Allow-Origin *
+Header set Access-Control-Allow-Headers DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified$
+Options +FollowSymLinks
+
+AddType text/turtle .ttl
+
+Options -MultiViews
+RewriteBase /profile
+
+# Rewrite engine setup
+RewriteEngine On
+
+# HTML
+RewriteCond %{HTTP_ACCEPT} !application/rdf\+xml.*(text/html|application/xhtml\+xml)
+RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml
+
+# TTL
+RewriteCond %{HTTP_ACCEPT} text/turtle
+RewriteRule ^profile$ profile.ttl [R=302,L]
+
+# DEFAULT
+RewriteRule ^profile$ profile.ttl [R=302,L]
+
