@@ -18,8 +18,8 @@ authors = ["Sven Lieber", "Anastasia Dimou", "Ruben Verborgh"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "SeGoFlow: A Semantic Governance Workflow Tool"
-publication_short = "SeGoFlow"
+publication = "In European Semantic Web Conference (pp. 95-99). Springer, Cham."
+publication_short = "In European Semantic Web Conference (pp. 95-99). Springer, Cham."
 
 # Abstract and optional shortened version.
 abstract = ""

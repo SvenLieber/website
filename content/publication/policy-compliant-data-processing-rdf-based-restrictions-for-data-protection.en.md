@@ -18,8 +18,8 @@ authors = ["Sven Lieber"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Policy-compliant data processing: RDF-based restrictions for data-protection"
-publication_short = "Policy-compliant data processing"
+publication = "To appear in the Proceedings of the Doctoral Consortium at ISWC 2019"
+publication_short = "To appear in the Proceedings of the Doctoral Consortium at ISWC 2019"
 
 # Abstract and optional shortened version.
 abstract = ""

@@ -18,8 +18,8 @@ authors = ["Sven Lieber", "Ben De Meester", "Anastasia Dimou", "Ruben Verborgh"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Linked Data Generation for Adaptive Learning Analytics Systems"
-publication_short = ""
+publication = "In LILE workshop, part of the WebScience conference"
+publication_short = "In LILE workshop, part of the WebScience conference"
 
 # Abstract and optional shortened version.
 abstract = ""
