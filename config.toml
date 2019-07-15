@@ -10,7 +10,7 @@ title = "Sven Lieber"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "Copyright &copy; 2017-2018 Sven Lieber. All text & images licensed under <a href='https://creativecommons.org/licenses/by/4.0/' target='_blank; title='Creative Commons Attribution 4.0 International License'><abbr class='caps'>CC</abbr> <abbr class='caps'>BY</abbr> 4.0</a> except where otherwise noted."
+copyright = "Copyright &copy; 2017-2019 Sven Lieber. All text & images licensed under <a href='https://creativecommons.org/licenses/by/4.0/' target='_blank; title='Creative Commons Attribution 4.0 International License'><abbr class='caps'>CC</abbr> <abbr class='caps'>BY</abbr> 4.0</a> except where otherwise noted."
 
 theme = "academic"
 enableEmoji = true
