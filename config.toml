@@ -324,7 +324,7 @@ defaultContentLanguageInSubdir = true
   languageCode = "en-us"
 
 [Languages.de]
-  languagesCode = "de"
+  languageCode = "de"
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"
