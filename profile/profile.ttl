@@ -1,4 +1,4 @@
-@prefix : <https://sven-lieber.org/profile/#>.
+@prefix : <https://sven-lieber.org/profile#>.
 @prefix p: <https://data.verborgh.org/people/>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix cc: <http://creativecommons.org/ns#>.
@@ -11,7 +11,7 @@
 #
 # Profile document
 #
-<https://sven-lieber.org/profile/>
+<https://sven-lieber.org/profile#>
     a foaf:Document;
     rdfs:label "Sven Lieber's FOAF profile"@en;
     foaf:maker :me;
@@ -26,7 +26,7 @@
     foaf:givenName "Sven"@en, "Sven"@de;
     foaf:familyName "Lieber"@en, "Lieber"@de;
     foaf:gender "male"@en;
-    foaf:img <https://sven-lieber.org/content/uploads/2017/04/me.jpg>;
+    foaf:img <https://sven-lieber.org/img/sven-lieber.jpg>;
     foaf:mbox <mailto:sven.lieber@ugent.be>;
     foaf:based_near dbpedia:Ghent;
     foaf:homepage <https://sven-lieber.org>;
