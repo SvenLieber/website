@@ -56,7 +56,7 @@ dbpedia:Ghent_University a org:Organization, schema:CollegeOrUniversity;
        foaf:homepage <http://www.ugent.be/>.
        
 dbpedia:Uni_Freiburg a org:Organization, schema:CollegeOrUniversity;
-        rdfs:label "University Freiburg"@en, "Albert Ludwigs UniversitÃ¤t Freiburg"@de;
+        rdfs:label "University Freiburg"@en, "Albert Ludwigs Universität Freiburg"@de;
         foaf:homepage <https://www.uni-freiburg.de/>;
         schema:alumni  :me.
 
@@ -70,19 +70,76 @@ dbpedia:IMEC a org:Organization;
 #
 <https://sven-lieber.org/> a schema:Blog;
     foaf:maker :me;
-    schema:blogPost <https://sven-lieber.org/en/2017/04/07/provenance/>,
-        <https://sven-lieber.org/de/2017/04/07/was-ist-provenance/>;
-    cc:license <http://creativecommons.org/licenses/by/4.0/>;
-    cc:attributionName "Sven Lieber"@en;
-    cc:attributionURL <https://sven-lieber.org>.
+    schema:blogPost <https://sven-lieber.org/en/2017/04/07/provenance/> ,
+        <https://sven-lieber.org/de/2017/04/07/was-ist-provenance/> ;
+    cc:license <http://creativecommons.org/licenses/by/4.0/> ;
+    cc:attributionName "Sven Lieber"@en ;
+    cc:attributionURL <https://sven-lieber.org> .
 
-<https://sven-lieber.org/en/2017/04/07/provenance/> a schema:BlogPosting;
+<https://sven-lieber.org/en/2017/04/07/provenance/> a schema:BlogPosting ;
   rdfs:label """What is Provenance?"""@en;
-  foaf:maker :me.
+  schema:inLanguage "English" ;
+  foaf:maker :me .
 
-<https://sven-lieber.org/de/2017/04/07/was-ist-provenance/> a schema:BlogPosting;
+<https://sven-lieber.org/de/2017/04/07/was-ist-provenance/> a schema:BlogPosting ;
   rdfs:label """Was ist Provenance?"""@de;
-  foaf:maker :me.
+  schema:inLanguage "German" ;
+  foaf:maker :me .
+
+<https://sven-lieber.org/en/2017/06/28/preparing-travels-abroad/> a schema:BlogPosting ;
+  rdfs:label """Preparing Travels Abroad"""@en ;
+  schema:inLanguage "English" ;
+  foaf:maker :me .
+
+<https://sven-lieber.org/de/2017/06/28/auslandsreisen-vorbereiten/> a schema:BlogPosting ;
+  rdfs:label """Auslandsreisen vorbereiten"""@de ;
+  schema:inLanguage "German" ;
+  foaf:maker :me .
+
+<https://sven-lieber.org/en/2017/07/13/transparency-in-legislation/> a schema:BlogPosting ;
+  rdfs:label """Transparency in Legislation, a must-have"""@en ;
+  schema:inLanguage "English" ;
+  foaf:maker :me .
+
+<https://sven-lieber.org/de/2017/07/13/transparenz-in-der-gesetzgebung/> a schema:BlogPosting ;
+  rdfs:label """Transparenz in der Gesetzgebung, a must-have"""@de ;
+  schema:inLanguage "German" ;
+  foaf:maker :me .
+
+<https://sven-lieber.org/en/2018/06/23/websci-2018/> a schema:BlogPosting ;
+  rdfs:label """WebSci 2018"""@en ;
+  schema:inLanguage "English" ;
+  foaf:maker :me .
+
+<https://sven-lieber.org/de/2018/06/23/websci-2018/> a schema:BlogPosting ;
+  rdfs:label """WebSci 2018"""@de ;
+  schema:inLanguage "German" ;
+  foaf:maker :me .
+
+<https://sven-lieber.org/en/2018/07/02/isws-2018-poster/> a schema:BlogPosting ;
+  rdfs:label """ISWS 2018 Poster"""@en ;
+  schema:inLanguage "English" ;
+  foaf:maker :me .
+
+<https://sven-lieber.org/de/2018/07/02/isws-2018-poster/> a schema:BlogPosting ;
+  rdfs:label """ISWS 2018 Poster"""@de ;
+  schema:inLanguage "German" ;
+  foaf:maker :me .
+
+<https://sven-lieber.org/en/2018/07/09/isws-2018/> a schema:BlogPosting ;
+  rdfs:label """ISWS 2018"""@en ;
+  schema:inLanguage "English" ;
+  foaf:maker :me .
+
+<https://sven-lieber.org/en/publication/linked-data-generation-for-adaptive-learning-analytics-systems/> a schema:BlogPosting ;
+  rdfs:label """Linked Data Generation for Adaptive Learning Analytics Systems"""@en ;
+  schema:inLanguage "English" ;
+  foaf:maker :me .
+
+<https://sven-lieber.org/de/publication/linked-data-generation-for-adaptive-learning-analytics-systems/> a schema:BlogPosting ;
+  rdfs:label """Linked Data Generation for Adaptive Learning Analytics Systems"""@de ;
+  schema:inLanguage "German" ;
+  foaf:maker :me .
 
 #
 # Social Network
