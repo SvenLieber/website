@@ -1,12 +1,16 @@
-@prefix : <https://sven-lieber.org/profile#>.
-@prefix p: <https://data.verborgh.org/people/>.
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-@prefix cc: <http://creativecommons.org/ns#>.
-@prefix dbpedia: <http://dbpedia.org/resource/>.
-@prefix foaf: <http://xmlns.com/foaf/0.1/>.
-@prefix org: <http://www.w3.org/ns/org#>.
-@prefix owl: <http://www.w3.org/2002/07/owl#>.
-@prefix schema: <http://schema.org/>.
+@prefix : <https://sven-lieber.org/profile#> .
+@prefix p: <https://data.verborgh.org/people/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix dbp: <http://dbpedia.org/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix scoro: <http://purl.org/spar/scoro/> .
+@prefix open: <http://open.vocab.org/terms/> .
 
 #
 # Profile document
@@ -28,10 +32,13 @@
     foaf:gender "male"@en;
     foaf:img <https://sven-lieber.org/img/sven-lieber.jpg>;
     foaf:mbox <mailto:sven.lieber@ugent.be>;
+    open:twitter-id "SvenLieber" ;
+    vcard:title "PhD researcher semantic intelligence"@en ;
+    dbp:orcidId "0000-0002-7304-3787";
+    scoro:hasORCID "0000-0002-7304-3787";
     foaf:based_near dbpedia:Ghent;
     foaf:homepage <https://sven-lieber.org>;
     foaf:blog <https://sven-lieber.org/>;
-    <http://dbpedia.org/ontology/orcidId> "0000-0002-7304-3787";
     <http://www.wikidata.org/wiki/Property:P496> <https://orcid.org/0000-0002-7304-3787>;
     foaf:workplaceHomepage <http://idlab.ugent.be/>,
                            <http://idlab.technology/>,
