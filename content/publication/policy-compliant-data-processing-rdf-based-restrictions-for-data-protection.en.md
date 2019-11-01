@@ -47,9 +47,9 @@ url_preprint = "en/publication/policy-compliant-data-processing-rdf-based-restri
 url_code = ""
 url_dataset = ""
 url_project = ""
-url_slides = ""
+url_slides = "https://www.slideshare.net/SvenLieber/policycompliant-data-processing-rdfbased-restrictions-for-dataprotection"
 url_video = ""
-url_poster = ""
+url_poster = "https://www.slideshare.net/SvenLieber/poster-doctoral-consortium-model-rdfbased-restrictions"
 url_source = ""
 
 # Custom links (optional).
