@@ -42,12 +42,12 @@ selected = true
 tags = ["Ontology Engineering", "Restrictions", "Axioms", "Statistics", "RDF"]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "https://dl.acm.org/citation.cfm?id=3364433"
 url_preprint = "en/publication/montolo-stats-ontology-modeling-statistics.pdf"
-url_code = ""
-url_dataset = ""
+url_code = "https://github.com/IDLabResearch/Montolo"
+url_dataset = "https://doi.org/10.5281/zenodo.3343052"
 url_project = ""
-url_slides = ""
+url_slides = "https://www.slideshare.net/SvenLieber/montolostats-ontology-modeling-statistics"
 url_video = ""
 url_poster = ""
 url_source = ""
