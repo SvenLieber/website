@@ -138,6 +138,16 @@ dbpedia:IMEC a org:Organization;
   schema:inLanguage "English" ;
   foaf:maker :me .
 
+<https://sven-lieber.org/en/2019/11/05/iswc-2019/> a schema:BlogPosting ;
+  rdfs:label """ISWC 2019"""@en ;
+  schema:inLanguage "English" ;
+  foaf:maker :me .
+
+<https://sven-lieber.org/en/2019/11/24/kcap-2019/> a schema:BlogPosting ;
+  rdfs:label """K-Cap 2019"""@en ;
+  schema:inLanguage "English" ;
+  foaf:maker :me .
+
 <https://sven-lieber.org/en/publication/linked-data-generation-for-adaptive-learning-analytics-systems/> a schema:BlogPosting ;
   rdfs:label """Linked Data Generation for Adaptive Learning Analytics Systems"""@en ;
   schema:inLanguage "English" ;
