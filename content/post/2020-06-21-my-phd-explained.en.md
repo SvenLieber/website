@@ -34,8 +34,8 @@ and on the other hand the user-friendly visualization of data constraints.
 
 # The big picture
 
-The bullet points build one coherent story,
-but each paragraph can be clicked to read more details.
+The bullet points form one coherent story,
+but each paragraph marked with an arrow can be clicked to read more details.
 
 <details>
 <summary>There is great potential in combining data from diverse fields, called domains.</summary>
@@ -112,7 +112,7 @@ concrete constraints describing what is valid in a certain context and what is i
 In the following I will briefly explain my research regarding knowledge modeling
 and user-friendly visualizations of knowledge graph constraints.
 
-Profesional software engineering is not just programming,
+Professional software engineering is not just programming,
 it is about engineering, defined steps to develop qualitatively high software.
 This includes processes such as the collection of requirements,
 the creation of documentation or the training of users.
@@ -126,10 +126,10 @@ To be precise: the *actual* modeling of restrictions is left to the experience o
 and, thus, does not follow a measurable methodology.
 
 The basic assumption of my research is that several requirements towards data quality
-are already known at design time, e.g. when the rquirements are collected.
+are already known at design time, e.g. when the requirements are collected.
 Additionally for beginners it is not obvious which requirements
 should better be placed within the logic of the data model and which
-in form of external constraints to detect errornous data.
+in form of external constraints to detect erroneous data.
 
 To solve these problems I develop methods to extract requirements
 from existing data models or from domain experts.
@@ -139,9 +139,9 @@ I carefully read the literature of knowledge modeling and I still do!
 The goal is to reuse existing methods as much as possible
 but to adapt them to the modeling of constraints.
 Part of this is also to analyze which measurable pros and cons arise
-when modeling certain restrictions either as logical axioms in the data model or elsewhere.
+certain restrictions are either expressed as logical axioms in the data model or elsewhere.
 
-# my research - part 2: user-friendly visualizations
+# My research - part 2: user-friendly visualizations
 
 In my lab we mostly work in different projects together with industry, the government or institutions.
 The experience of this projects revealed other problems:
@@ -149,7 +149,7 @@ The 2017 newly introduced language is text-based,
 user have to first learn it which might be tricky!
 
 Humans possess an astonishing information processing system, ..
-no, I do not talk about the smartphone in the pocket but from the brain!
+no, I do not talk about the smartphone in the pocket but about the brain!
 From cognitive science we know that text is processed slowly as we have to concentrate more.
 
 In contrast to that shapes and colors are almost automatically processes
