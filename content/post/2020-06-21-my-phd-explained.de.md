@@ -30,14 +30,17 @@ Ich gehe der Frage nach
 wie wir graphbasierte Wissensmodelle erstellen können welche 
 ebenfalls Anforderungen an Datenqualität erfüllen.
 Im speziellen befasse ich mich einerseits mit Methoden der Wissensverarbeitung (Knowledge Engineering),
+also welche Schritte durchgeführt werden müssen um solche Wissensmodelle zu erstellen,
 und andererseits mit benutzerfreundlichen Visualisierungen von Bedingungen in graphbasierten Wissensmodellen (data constraints).
 
 # Das große Ganze
 
-Das Kombinieren von Daten aus verschiedenen Bereichen,
-auch Domänen genannt, hat großes Potential.
+Die Aufzählungspunkte sind eine zusammenhängende Story,
+aber jeder Paragraph kann bei Bedarf angeklickt werden um mehr zu erfahren.
+
 <details>
-  <summary>Kombinieren von Daten (klick mich um mehr zu erfahren)</summary>
+<summary>Das Kombinieren von Daten aus verschiedenen Bereichen,
+auch Domänen genannt, hat großes Potential.</summary>
 "Alexa, schalte die Heizung an wenn ich im Homeoffice bin, es weniger als 18 Grad Celsius hat und die Kilowattstunde Strom nicht mehr als x Euro kostet".
 Was wenn das Thermometer nur Daten in Fahrenheit zur Verfügung stellt?
 Was wenn keine Informationen zu aktuellen Preisen vorliegen?
@@ -45,8 +48,8 @@ Und was ist überhaupt Homeoffice, wie kann Alexa das feststellen?
 Ein Heizungssystem besteht aus vielen Sensoren, mein Kalender besteht aus vielen Daten
 und eine Gemeinde publiziert oft Statistiken oder andere Informationen als "Open Data".
 All diese Daten sind in verschiedenen Formaten und jeder der sich versucht eine nützliche App
-zu Entwickeln welche alle drei Datenquellen verwendet muss das evtl.
-für jedes Heizungsszstem, jede Kalenderapplikation oder jede Gemeinde aufs neue tun!
+zu Entwickeln welche alle drei Datenquellen verwendet muss die App womöglich
+für jedes Heizungsszstem, jede Kalenderapplikation oder jede Gemeinde aufs neue entwickeln!
 Standards helfen das Leben einfacher zu machen, ein Smartphone Ladekabel passt in jede Steckdose
 in einem Land.
 Dasselbe Prinzip gilt auch für Daten, folgen zum Beispiel alle Heizungshersteller einem Standard
@@ -55,12 +58,12 @@ Leider ist so ein Standard auf einen Bereich beschränkt,
 und warum sollte ein Heizungsstandard auch Kalenderinformationen oder Strompreise definieren?!
 </details>
 
-Aber um Daten aus verschiedenen Domänen sinnvoll zu kombinieren ist ein
+<details>
+<summary>Aber um Daten aus verschiedenen Domänen *sinnvoll* zu kombinieren ist ein
 gemeinsames Verständnis in der Form eines standardisierten Vokabulars, einem Datenmodell, nötig:
 Die Temparaturmessung eines Heizungssystems in Grad Celsius sollte nicht einfach
 mit einer Temparaturmessung in Fahrenheit oder gar mit meinem Lebensalter verrechnet werden!
-<details>
-  <summary>Sinnvolles kombinieren von Daten? (klick mich um mehr zu erfahren)</summary>
+</summary>
 Hierfür verwende Ich eine vom World Wide Web Consortium (W3C) empfohlene graphbasierte Sprache.
 Jedes *Ding* und jede mögliche *Beziehung* zwischen *Dingen* bekommt eine eigene Webadresse!
 Dadurch ist *alles* eindeutig identifizierbar, und da alles derselben Graphstruktur folgt
@@ -76,45 +79,83 @@ egal ob es sich jetzt um Informationen zu meiner Heizung oder mir handelt.
 </details>
 
 
-Ein standardisiertes Vokabular sollte detailliert genug sein
-um Fragen zu beantworten die wir evtl. haben: es muss seinen Zweck erfüllen.
-<details>
-  <summary>Der Zweck eines Datenmodells? (klick mich um mehr zu erfahren)</summary>
-</details>
+Ein solches Vokabular welches Konzepte, deren Beziehungen zueinander
+und *Bedeutung* in der Form von Bedingungen definiert
+sollte detailliert genug sein um Fragen zu beantworten
+die wir im vornherein evtl. haben, in anderen Worten: es muss seinen Zweck erfüllen.
 
 
-Obwohl sehr präzise und sinvolle Datenmodelle unverzichtbar für manche Zwecke sind,
+Obwohl sehr präzise und mit *Bedeutung* versehende Datenmodelle unverzichtbar für manche Zwecke sind,
 birgt deren Komplexität Nachteile für viele andere Zwecke.
-<details>
-  <summary>Komplexität eines Datenmodells? (klick mich um mehr zu erfahren)</summary>
-</details>
 
-Selbst mit einem gemeinsamen Datenmodell müssen korrekte und inkorrekte Daten gehandhabt werden,
-normalerweise setzen wir sogar voraus das uns eine Maschine Fehlermeldungen mitteilt falls etwas schiefgelaufen ist.
+Selbst mit einem standarisierten Datenmodell müssen korrekte und inkorrekte Daten gehandhabt werden,
+normalerweise setzen wir sogar voraus das uns ein Computer Fehlermeldungen mitteilt falls etwas schiefgelaufen ist.
 
-Daher ist es offensichtlich dass Fehlerbehandlung teil des Datenmodells sein sollte
-damit es seinen Zweck erfüllt, schließlich erwarten wir dass *die Maschine* korrekt funktioniert!
+Sobald mehrere Systeme Daten austauschen müssen oder ein Benutzer im Spiel ist
+welcher Daten in eine Applikation eingibt muss mit fehlerhaften Daten gerechnet werden.
 
-Die momentan häufig verwendete Modellierungssprache um graphbasierte Datenmodelle zu erstellen
+Daher ist es offensichtlich dass Fehlerbehandlung beim Erstellen eines Datenmodells mitbehandelt werden sollte.
+Schließlich erwarten wir dass *eine App* oder Webseite korrekt funktioniert!
+
+Die momentan standardisierte Modellierungssprache *OWL* mit der graphbasierte Datenmodelle erstellt werden können
 basiert auf Logik, komplexe Eigenschaften können modelliert werden sodass Computerprogramme,
 basierend auf der Logik, sogar neues Wissen ableiten können!
 
 
-Erst im Jahr 2017 wurde eine Sprache vorgestellt welche diese Modellierungssprache ergänzt,
-konkrete Bedingungen was in einem gewissen Kontext korrekt und was inkorrekt ist können nun modelliert werden.
+Erst im Jahr 2017 wurde die Entwicklung einer anderen Modellierungssprache abgeschlossen und deren Verwendung vom W3C Komitee empfohlen.
+Diese Modellierungssprache ergänzt die logikbasierte Modellilerungssprache *OWL* mit Fehlerbehandlung, eine Sprache namens SHACL:
+konkrete Bedingungen was in einem gewissen Kontext korrekt und was inkorrekt ist können nun modelliert werden!
+*Was einfach klingt ist der Startschuss für meine Forschung ...*
 
-# Meine Forschung
+# Meine Forschung - Teil 1: Methoden der Wissensverarbeitung
+
+Im folgenden beschreibe ich kurz meine Forschhung zu Methoden der Datenmodellierung
+und benutzerfreundlichen Visualisierungen von *Bedingungen* für graphbasierten Wissensmodellen.
 
 Professionelle Softwareentwicklung ist nicht nur Programmierung,
 es geht um ingenieursmäßig definierte Schritte um qualitativ hochwertige Software zu erstellen,
-das involviert auch Prozesse wie das sammeln von Anforderungen und Schulen von Benutzern.
+das schließt auch Prozesse wie das Sammeln von Anforderungen,
+das Erstellen von Dokumentation und das Schulen von Benutzern mit ein.
 
-Ähnliche Methoden wurden von Wissenschaftlern für die Erstellung von graphbasierten Datenmodellen vorgeschlagen.
+Ähnliche Methoden wurden von Wissenschaftlern für die Erstellung von graphbasierten Datenmodellen vorgeschlagen
+und in etlichen Projekten für nützlich befunden.
 
-Leider sind diese Methoden im Detail nicht sehr genau und decken vorallem Anforderungen an Datenqualität nicht ab!
+Leider sind diese Methoden im Detail nicht sehr genau und decken
+vorallem Anforderungen an Datenqualität nur unzureichend ab!
+Um genau zu sein: das eigentliche Modellieren von Bedingungen wird der Erfahrung des Modellierers überlassen
+und folgt daher keiner meßbaren Methodik.
 
-Grundannahme meiner Forschung ist das jedoch Anforderungen an Datenqualität bereits bei
-der Definition vom Zweck des Datenmodells und beim sammeln der Anforderungen bekannt sind.
+Grundannahme meiner Forschung ist das jedoch einige Anforderungen an Datenqualität bereits bei
+der Definition vom Zweck des Datenmodells und beim Sammeln der Anforderungen bekannt sind.
+Außerdem ist es für einen Einsteiger nicht ersichtlich welche Anforderungen
+besser als Logik ins Datenmodell gepackt werden sollen und welche als externe Bedingungen
+um fehlerhafte Daten zu entdecken.
 
-Ich entwickle Methoden um solche Anforderungen aus existierenden Datenmodellen zu extrahieren
+Um diese Probleme zu Lösen entwickle Ich Methoden um solche 
+Anforderungen aus existierenden Datenmodellen zu extrahieren
 oder von Domänenexperten in Erfahrung zu bringen.
+
+Dabei erfinde ich das Rad nicht neu,
+ich habe mich intensiv in die Literatur zur Wissensmodellierung eingearbeitet und tue es immernoch!
+Das Ziel ist es bestehende Methoden soweit wie möglich wiederzuverwenden
+sie jedoch für die Modellierung von Bedingungen anzupassen.
+Dazu gehört auch zu analysieren welche meßbaren Vor- und Nachteile es bringt
+gewisse Bedingungen entweder als Logik des Datenmodells oder anderweitig zu modellieren.
+
+# Meine Forschung - Teil 2: Benutzerfreundliche Visualisierungen
+
+In meinem Labor arbeiten wir hauptsächlich an verschiedenen Projekten mit Industrie, Behörden und Institutionen.
+Die Erfahrung aus diesen Projekten hat andere Probleme offenbart:
+Die 2017 neu vorgestellte Sprache um Bedingungen zu modellieren ist textbasiert,
+Nutzer müssen diese Sprache erst erlernen was nicht ohne Tücken ist!
+
+Menschen besitzen ein erstaunliches Informationsverarbeitungssystem, ..
+nein, ich rede nicht vom Smartphone in der Hosentasche sondern vom Gehirn!
+Aus der Kognitionswissenschaft wissen wir das Text langsam verarbeitet wird da wir mehr Konzentration aufbringen müssen.
+
+Im Gegensatz dazu werden Formen und Farben fast schon automatisch und daher ohne sichtliche Mühe erkannt.
+Wir arbeiten mit graphbasierten Wissensmodellen welche sehr greifbar sind, das machen wir uns zu Nutze!
+
+Wir entwickeln grafische Sprachen um die Bedinungen auf unser graphbasiertes Wissensmodell zu beschreiben.
+Unter der Annahme dass solche grafischen Sprachen *intuitiver* sind als eine fremde Textsyntax,
+untersuchen wir in Studien welche grafischen Sprachen sich am besten eignen.

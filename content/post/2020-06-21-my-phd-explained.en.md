@@ -28,19 +28,42 @@ freed from academic precision and more from the big picture and with plenty of e
 **To summarize it in one sentence: I deal with data modeling.**
 I pursue the question how we can build data models of knowledge graphs
 which also comply with requirements towards data quality.
-In particular I investigate on the one hand methods of knowledge engineering
+In particular I investigate on the one hand methods of knowledge engineering,
+so which steps need to be performed to create such knowledge graphs,
 and on the other hand the user-friendly visualization of data constraints.
 
 # The big picture
 
-There is great potential in combining data from diverse fields or just in general.
+The bullet points build one coherent story,
+but each paragraph can be clicked to read more details.
 
-**But to combine data from different fields in a meaningful way
-a common understanding in the form of a shared vocabulary (data model) is needed:
-A temperature measurement in celsius should not be added to a
-measurement performed in kelvin or even with my age!**
 <details>
-<summary>Combine data in a meaningful way? (click me)</summary>
+<summary>There is great potential in combining data from diverse fields, called domains.</summary>
+"Alexa, turn the heating on if I am in home office, if it has less than 18 degrees celsius
+and if the kilowatt hour energy costs less than x Euro".
+What if the thermometer only provides data in Fahrenheit?
+What when no information regarding pricing is available?
+And what is even "home office", how can Alexa determine this?
+A heating system consists of plenty of sensors, my calendar consists of a lot of data
+and a municipality often publishes statistics or other information as "Open Data".
+All these data are in different formats
+and everyone who tries to develop a useful app which uses all three data sources
+might have to develop it for every heating system, every calendar application
+or each municipality again.
+Standards help to make lives easier,
+a smarthone charger fits in each power plug of a certain country.
+The same principle also applies on data, if for example all heating system manufacturer
+follow one standard data model an app can be reused across multiple heating system models.
+Unfortunately such a standard is limited to one domain,
+and why would a heating system standard define calendar information or energy prices?!
+</details>
+
+<details>
+<summary>But to combine data from different fields in a *meaningful* way
+a common understanding in the form of a standardized vocabulary (data model) is needed:
+A temperature measurement in celsius should not be added to a
+measurement performed in fahrenheit or even to my age!
+</summary>
 Therefore I am using a graph-based language recommended by the world wide web consortium (W3C).
 Every *thing* and every possible *relationship* between *things* will get an own web address!
 Hence *everything* is uniquely identifiable and because everything follows the same graph structure,
@@ -55,16 +78,84 @@ Additionally such a graph can be searched for information in a uniform way
 no matter if it is information regarding my heating or regarding me.
 </details>
 
+Such a shared vocabulary which consists of conocepts, relationships among the concepts
+and *meaning* in the form of restrictions
+should be detailled enough to answer questions we initially have,
+in other words: it should fulfill its purpose.
 
-A shared vocabulary should still be detailed enough to answer
-questions we potentially have; it has to fulfill a purpose.
 
 Although very precise and meaningful data models are indispensable for some use cases,
-their complexity comprises drawbacks in most common cases.
+their complexity comprises drawbacks in a lot of other cases.
 
 Even with a common data model correct and incorrect data need to be handled,
-usually we even expect error messages from machines if something is incorrect.
+usually we even expect error messages from computers if something is incorrect.
 
-So it is apparent that 
+As soon as multiple systems have to exchange data or as soon as a human user is involved
+who inserts data via an application one has to consider incorrect data.
 
-# My research
+So it is apparent that error handling should be considered when developing data models.
+Eventually we expect that *an app* or website works propertly!
+
+The currently standardized modeling language *OWL* with which knowledge graphs can be build
+is based on logic.
+Complex characteristics can be modeled such that computer programs,
+based on this logic, can infer new knowledge!
+
+Just in the year 2017 the development of another modeling language was finished
+and its use recommended by W3C.
+This modeling language complements the logic-based language *OWL* with error handling capabilities, a language called SHACL:
+concrete constraints describing what is valid in a certain context and what is invalid can now be modeled!
+*What sounds easy is the begin of my research ...*
+
+# My research - part 1: knowledge engineering
+
+In the following I will briefly explain my research regarding knowledge modeling
+and user-friendly visualizations of knowledge graph constraints.
+
+Profesional software engineering is not just programming,
+it is about engineering, defined steps to develop qualitatively high software.
+This includes processes such as the collection of requirements,
+the creation of documentation or the training of users.
+
+Similar methods were proposed by researchers for knowledge modeling
+and found useful in plenty of projects.
+
+Unfortunately these methods are not very detailed and
+do especially cover requirements towards data quality only insufficiently.
+To be precise: the *actual* modeling of restrictions is left to the experience of the modeler
+and, thus, does not follow a measurable methodology.
+
+The basic assumption of my research is that several requirements towards data quality
+are already known at design time, e.g. when the rquirements are collected.
+Additionally for beginners it is not obvious which requirements
+should better be placed within the logic of the data model and which
+in form of external constraints to detect errornous data.
+
+To solve these problems I develop methods to extract requirements
+from existing data models or from domain experts.
+
+Thereby I do not reinvent the wheel,
+I carefully read the literature of knowledge modeling and I still do!
+The goal is to reuse existing methods as much as possible
+but to adapt them to the modeling of constraints.
+Part of this is also to analyze which measurable pros and cons arise
+when modeling certain restrictions either as logical axioms in the data model or elsewhere.
+
+# my research - part 2: user-friendly visualizations
+
+In my lab we mostly work in different projects together with industry, the government or institutions.
+The experience of this projects revealed other problems:
+The 2017 newly introduced language is text-based,
+user have to first learn it which might be tricky!
+
+Humans possess an astonishing information processing system, ..
+no, I do not talk about the smartphone in the pocket but from the brain!
+From cognitive science we know that text is processed slowly as we have to concentrate more.
+
+In contrast to that shapes and colors are almost automatically processes
+with no visible effort.
+We work with knowledge graphs which are tangible, we take advantage of that!
+
+We develop graphical languages to describe constraints on our knowledge graphs.
+Based on the assumption that such languages are *more intuitive* compared to an alien text syntax
+we examine in user studies which graphical languages are suited best.
