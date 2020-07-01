@@ -31,7 +31,8 @@ wie wir graphbasierte Wissensmodelle erstellen können welche
 ebenfalls Anforderungen an Datenqualität oder Datenschutzbestimmungen erfüllen.
 Im speziellen befasse ich mich einerseits mit Methoden der Wissensverarbeitung (Knowledge Engineering),
 also welche Schritte durchgeführt werden müssen um solche Wissensmodelle zu erstellen,
-und andererseits mit benutzerfreundlichen Visualisierungen von Bedingungen in graphbasierten Wissensmodellen (data constraints).
+und andererseits mit benutzerfreundlichen Visualisierungen von Bedingungen in graphbasierten Wissensmodellen (data constraints),
+damit auch *Nicht-Experten* solche Bedingungen erstellen können.
 
 # Das große Ganze
 
@@ -64,6 +65,7 @@ und warum sollte ein Heizungsstandard auch Kalenderinformationen oder Strompreis
 gemeinsames Verständnis in der Form eines standardisierten Vokabulars, einem Datenmodell, nötig:
 Die Temparaturmessung eines Heizungssystems in Grad Celsius sollte nicht einfach
 mit einer Temparaturmessung in Fahrenheit oder gar mit meinem Lebensalter verrechnet werden!
+Außerdem sollten die Daten unabhänging von Programmcode existieren und *selbstbeschreibend* sein damit sie auch wiederverwendet werden können.
 </summary>
 Hierfür verwende Ich das Resource Description Framework ([RDF](https://www.w3.org/TR/2014/REC-rdf11-concepts-20140225/)),
 eine vom World Wide Web Consortium (W3C) empfohlene graphbasierte Sprache.
@@ -203,5 +205,12 @@ Wir entwickeln grafische Sprachen um die Bedinungen auf unser graphbasiertes Wis
 Unter der Annahme dass solche grafischen Sprachen *intuitiver* sind als eine fremde Textsyntax,
 untersuchen wir in Studien welche grafischen Sprachen sich am besten eignen und
 wie wir sie anpassen müssen.
+
+**So, das wars!
+Ich hoffe ich konnte ein wenig Licht ins Dunkle bringen :-)**
+
+Nachfolgend noch ein Bild von der ISWC 2019 Konferenz
+bei der ich den Plan meiner Doktorarbeit als Präsentation und als Poster
+vorgestellt habe (mein [Reisebericht](https://sven-lieber.org/en/2019/11/05/iswc-2019/), momentan leider nur in Englisch).
 
 ![Me presenting my poster at the ISWC doctoral consortium in 2019](/img/2019-11-05-iswc-poster-sven.jpg)

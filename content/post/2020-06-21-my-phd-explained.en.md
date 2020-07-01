@@ -26,11 +26,12 @@ freed from academic precision and more from the big picture and with plenty of e
 <!--more-->
 
 **To summarize it in one sentence: I deal with data modeling.**
-I pursue the question how we can build data models of knowledge graphs
+I pursue the question how we can build knowledge graphs
 which also comply with requirements towards data quality and privacy.
 In particular I investigate on the one hand methods of knowledge engineering,
 so which steps need to be performed to create such knowledge graphs,
-and on the other hand the user-friendly visualization of data constraints.
+and on the other hand the user-friendly visualization of data constraints
+such that also *non-experts* can create such constraints.
 
 # The big picture
 
@@ -64,6 +65,7 @@ and why would a heating system standard define calendar information or energy pr
 a common understanding in the form of a standardized vocabulary (data model) is needed:
 A temperature measurement in Celsius should not be added to a
 measurement performed in Fahrenheit or even to my age!
+Additionally, data should exist independently from program code and should be *self-describing* so they can be reused.
 </summary>
 Therefore I am using the Resource Description Framework ([RDF](https://www.w3.org/TR/2014/REC-rdf11-concepts-20140225/)) a graph-based language recommended by the world wide web consortium (W3C).
 Every *thing* and every possible *relationship* between *things* will get an own web address!
@@ -205,4 +207,11 @@ We develop graphical languages to describe constraints on our knowledge graphs.
 Based on the assumption that such languages are *more intuitive* compared to an alien text syntax
 we examine in user studies which graphical languages are suited best.
 
+**So that's it!
+I hope I cleared some things out :-)**
+
+Below is a picture of the ISWC 2019 conference
+where I presented my PhD plan both as presentation and as a poster (my [trip report](https://sven-lieber.org/en/2019/11/05/iswc-2019/)).
+
+![Me presenting my poster at the ISWC doctoral consortium in 2019](/img/2019-11-05-iswc-poster-sven.jpg)
 ![Me presenting my poster at the ISWC doctoral consortium in 2019](/img/2019-11-05-iswc-poster-sven.jpg)
