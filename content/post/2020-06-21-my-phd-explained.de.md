@@ -12,7 +12,7 @@ categories = ["explained"]
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = ""
+image = "2020-06-phd-explained.jpg"
 caption = ""
 preview = true
 
@@ -203,3 +203,5 @@ Wir entwickeln grafische Sprachen um die Bedinungen auf unser graphbasiertes Wis
 Unter der Annahme dass solche grafischen Sprachen *intuitiver* sind als eine fremde Textsyntax,
 untersuchen wir in Studien welche grafischen Sprachen sich am besten eignen und
 wie wir sie anpassen müssen.
+
+![Me presenting my poster at the ISWC doctoral consortium in 2019](/img/2019-11-05-iswc-poster-sven.jpg)

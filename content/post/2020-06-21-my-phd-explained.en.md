@@ -12,7 +12,7 @@ categories = ["explained"]
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = ""
+image = "2020-06-phd-explained.jpg"
 caption = ""
 preview = true
 
@@ -204,3 +204,5 @@ We work with knowledge graphs which are tangible, we take advantage of that!
 We develop graphical languages to describe constraints on our knowledge graphs.
 Based on the assumption that such languages are *more intuitive* compared to an alien text syntax
 we examine in user studies which graphical languages are suited best.
+
+![Me presenting my poster at the ISWC doctoral consortium in 2019](/img/2019-11-05-iswc-poster-sven.jpg)
