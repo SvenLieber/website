@@ -39,6 +39,7 @@ but each paragraph marked with an arrow can be clicked to read more details.
 
 <details>
 <summary>There is great potential in combining data from diverse fields, called domains.</summary>
+Information from different domains is necessary to execute the following example order.
 "Alexa, turn the heating on if I am in home office, if it has less than 18 degrees celsius
 and if the kilowatt hour energy costs less than x Euro".
 What if the thermometer only provides data in Fahrenheit?
@@ -51,7 +52,7 @@ and everyone who tries to develop a useful app which uses all three data sources
 might have to develop it for every heating system, every calendar application
 or each municipality again.
 Standards help to make lives easier,
-a smarthone charger fits in each power plug of a certain country.
+a smartphone charger fits in each power plug of a certain country.
 The same principle also applies on data, if for example all heating system manufacturer
 follow one standard data model an app can be reused across multiple heating system models.
 Unfortunately such a standard is limited to one domain,
@@ -61,15 +62,15 @@ and why would a heating system standard define calendar information or energy pr
 <details>
 <summary>But to combine data from different fields in a *meaningful* way
 a common understanding in the form of a standardized vocabulary (data model) is needed:
-A temperature measurement in celsius should not be added to a
-measurement performed in fahrenheit or even to my age!
+A temperature measurement in Celsius should not be added to a
+measurement performed in Fahrenheit or even to my age!
 </summary>
-Therefore I am using a graph-based language recommended by the world wide web consortium (W3C).
+Therefore I am using the Resource Description Framework ([RDF](https://www.w3.org/TR/2014/REC-rdf11-concepts-20140225/)) a graph-based language recommended by the world wide web consortium (W3C).
 Every *thing* and every possible *relationship* between *things* will get an own web address!
 Hence *everything* is uniquely identifiable and because everything follows the same graph structure,
 a *heating system* can relate via a *serial-number*-relationship to a *number*
 but also via a *belongs-to*-relationship to *me*.
-It can also be specified that a concrete *measurement* is of type *celsius*.
+It can also be specified that a concrete *measurement* is of type *Celsius*.
 I in turn can be in multiple relationships to personal information such as my *bloodtype*
 or my *date of birth*.
 The big plus: computer programs can look up these "websites"
@@ -78,28 +79,67 @@ Additionally such a graph can be searched for information in a uniform way
 no matter if it is information regarding my heating or regarding me.
 </details>
 
-Such a shared vocabulary which consists of conocepts, relationships among the concepts
+<details>
+<summary>
+Such a shared vocabulary which consists of concepts, relationships among the concepts
 and *meaning* in the form of restrictions
-should be detailled enough to answer questions we initially have,
+should be detailed enough to answer questions we initially have,
 in other words: it should fulfill its purpose.
+</summary>
+A first step in knowledge engineering is the collection of requirements,
+e.g. in the form of questions.
+Therefore, in a later step of knowledge engineering, it can be checked
+if the data model fulfills its purpose,
+if initially asked questions can be answered.
+</details>
 
 
+<details>
+<summary>
 Although very precise and meaningful data models are indispensable for some use cases,
 their complexity comprises drawbacks in a lot of other cases.
+</summary>
+Very precise data models in RDF are often created
+for the domains of *bio engineering* and *engineering*.
+These data models are so prceise that special programs
+can infer new knowledge based on the given logical rules
+and detect inconsistencies;
+something which saves lots of money and problems.
+The downside is that the creation of such precise models is cumbersome,
+experts are needed and the reusability is hampered,
+meaning that too much problem specific assumptions were made in the model.
+In contrast to this we have the web,
+if we google a local restaurant Google shows us in an infobox
+the opening hours, the founding year, the address and much more.
+These are also data from different domains,
+usually provided on the website of the restaurant which is
+taken into account by Google.
+Specific information in the website are
+marked with standardized vocabularies.
+This is the same principle but this vocabulary
+named schema.org is very broad and is subject to less logical restrictions.
+This makes the model easier reusable!
+</details>
 
+<details>
+<summary>
 Even with a common data model correct and incorrect data need to be handled,
 usually we even expect error messages from computers if something is incorrect.
-
+</summary>
 As soon as multiple systems have to exchange data or as soon as a human user is involved
 who inserts data via an application one has to consider incorrect data.
+</details>
+
 
 So it is apparent that error handling should be considered when developing data models.
-Eventually we expect that *an app* or website works propertly!
+Eventually we expect that *an app* or website works property!
 
 The currently standardized modeling language *OWL* with which knowledge graphs can be build
 is based on logic.
 Complex characteristics can be modeled such that computer programs,
 based on this logic, can infer new knowledge!
+However, constraints are not modeled in a way how we might expect it to be,
+in the sense of detecting incorrect data.
 
 Just in the year 2017 the development of another modeling language was finished
 and its use recommended by W3C.

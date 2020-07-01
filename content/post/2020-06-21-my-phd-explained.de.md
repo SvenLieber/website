@@ -36,11 +36,12 @@ und andererseits mit benutzerfreundlichen Visualisierungen von Bedingungen in gr
 # Das große Ganze
 
 Die Aufzählungspunkte sind eine zusammenhängende Story,
-aber jeder Paragraph kann bei Bedarf angeklickt werden um mehr zu erfahren.
+aber jeder Paragraph der mit einem Pfeil markiert ist kann bei Bedarf angeklickt werden um mehr zu erfahren.
 
 <details>
 <summary>Das Kombinieren von Daten aus verschiedenen Bereichen,
 auch Domänen genannt, hat großes Potential.</summary>
+Um den folgenden Befehl auszuführen müssen Informationen aus verschiedenen Bereichen zur Verfügung stehen.
 "Alexa, schalte die Heizung an wenn ich im Homeoffice bin, es weniger als 18 Grad Celsius hat und die Kilowattstunde Strom nicht mehr als x Euro kostet".
 Was wenn das Thermometer nur Daten in Fahrenheit zur Verfügung stellt?
 Was wenn keine Informationen zu aktuellen Preisen vorliegen?
@@ -64,7 +65,8 @@ gemeinsames Verständnis in der Form eines standardisierten Vokabulars, einem Da
 Die Temparaturmessung eines Heizungssystems in Grad Celsius sollte nicht einfach
 mit einer Temparaturmessung in Fahrenheit oder gar mit meinem Lebensalter verrechnet werden!
 </summary>
-Hierfür verwende Ich eine vom World Wide Web Consortium (W3C) empfohlene graphbasierte Sprache.
+Hierfür verwende Ich das Resource Description Framework ([RDF](https://www.w3.org/TR/2014/REC-rdf11-concepts-20140225/)),
+eine vom World Wide Web Consortium (W3C) empfohlene graphbasierte Sprache.
 Jedes *Ding* und jede mögliche *Beziehung* zwischen *Dingen* bekommt eine eigene Webadresse!
 Dadurch ist *alles* eindeutig identifizierbar, und da alles derselben Graphstruktur folgt
 kann ein *Heizungssystem* welches in der *Seriennummer*-beziehung zu einer *Nummer steht*,
@@ -79,20 +81,55 @@ egal ob es sich jetzt um Informationen zu meiner Heizung oder mir handelt.
 </details>
 
 
-Ein solches Vokabular welches Konzepte, deren Beziehungen zueinander
+<details>
+<summary>Ein solches Vokabular welches Konzepte, deren Beziehungen zueinander
 und *Bedeutung* in der Form von Bedingungen definiert
 sollte detailliert genug sein um Fragen zu beantworten
 die wir im vornherein evtl. haben, in anderen Worten: es muss seinen Zweck erfüllen.
+</summary>
+Ein erster Schritt in der Wissensmodellierung ist das Aufschreiben der Anforderungen,
+zum Beispiel in Form von Fragen.
+Dadurch kann in einem späterern Schritt in der Wissensmodelleriung überprüft werden
+ob das Datenmodell seine Anforderungen erfüllt, also die Fragen beantworten kann.
+</details>
 
 
+<details>
+<summary>
 Obwohl sehr präzise und mit *Bedeutung* versehende Datenmodelle unverzichtbar für manche Zwecke sind,
 birgt deren Komplexität Nachteile für viele andere Zwecke.
+</summary>
+In den Domänen *Biotechnik* und *Maschinenbau* werden oft sehr präzise
+Datenmodelle mit RDF erstellt.
+Diese sind so präzise das spezielle Programme mit den gegebenen logischen Regeln
+neues Wissen ableiten und logische *Inkonsistenzen* entdecken können;
+etwas das sehr viel Geld und Probleme ersparen kann!
+Der Nachteil ist dass das Erstellen solcher präzisen Datenmodelle sehr aufwendig
+ist, man Experten benötigt und das Datenmodell evtl. schlecht wiederverwendbar ist,
+also zuviele problemspezifische Annahmen im Modell getroffen wurden.
+Im Kontrast dazu haben wir das Web,
+googlen wir ein lokales Restaurant zeigt Google uns in einer Infobox
+die Öffnungszeiten, das Jahr der Gründung, die Addresse und vieles mehr.
+Das sind ebenfalls Daten aus verschiedenen Domänen, für gewöhnlich
+auf der Webseite des Restaurants zur Verfügung gestellt die dann
+von Google gelesen werden.
+Spezifische Informationen in der Webseite sind, ebenfalls mit einem
+standardisierten Vokabular, gekennzeichnet!
+Das ist dasselbe Prinzip, allerdings ist dieses Vokabular,
+genannt Schema.org, sehr breit gefächert und unterliegt
+weniger logischen Beschränkungen.
+Dass macht das Modell einfach wiederverwendbar!
+</details>
 
+<details>
+<summary>
 Selbst mit einem standarisierten Datenmodell müssen korrekte und inkorrekte Daten gehandhabt werden,
-normalerweise setzen wir sogar voraus das uns ein Computer Fehlermeldungen mitteilt falls etwas schiefgelaufen ist.
-
+normalerweise setzen wir sogar voraus das uns ein Computer Fehlermeldungen mitteilt falls etwas schief gelaufen ist.
+</summary>
 Sobald mehrere Systeme Daten austauschen müssen oder ein Benutzer im Spiel ist
-welcher Daten in eine Applikation eingibt muss mit fehlerhaften Daten gerechnet werden.
+welcher Daten in eine Applikation eingibt muss mit fehlerhaften Daten gerechnet werden!
+</details>
+
 
 Daher ist es offensichtlich dass Fehlerbehandlung beim Erstellen eines Datenmodells mitbehandelt werden sollte.
 Schließlich erwarten wir dass *eine App* oder Webseite korrekt funktioniert!
@@ -100,6 +137,8 @@ Schließlich erwarten wir dass *eine App* oder Webseite korrekt funktioniert!
 Die momentan standardisierte Modellierungssprache *OWL* mit der graphbasierte Datenmodelle erstellt werden können
 basiert auf Logik, komplexe Eigenschaften können modelliert werden sodass Computerprogramme,
 basierend auf der Logik, sogar neues Wissen ableiten können!
+Allerdings können Bedingungen nicht so modelliert werden wie wir das gerne hätten,
+also damit inkorrekte Daten gemeldet werden.
 
 
 Erst im Jahr 2017 wurde die Entwicklung einer anderen Modellierungssprache abgeschlossen und deren Verwendung vom W3C Komitee empfohlen.
@@ -109,7 +148,7 @@ konkrete Bedingungen was in einem gewissen Kontext korrekt und was inkorrekt ist
 
 # Meine Forschung - Teil 1: Methoden der Wissensverarbeitung
 
-Im folgenden beschreibe ich kurz meine Forschhung zu Methoden der Datenmodellierung
+Im folgenden beschreibe ich kurz meine Forschung zu Methoden der Datenmodellierung
 und benutzerfreundlichen Visualisierungen von *Bedingungen* für graphbasierten Wissensmodellen.
 
 Professionelle Softwareentwicklung ist nicht nur Programmierung,
@@ -121,9 +160,9 @@ das Erstellen von Dokumentation und das Schulen von Benutzern mit ein.
 und in etlichen Projekten für nützlich befunden.
 
 Leider sind diese Methoden im Detail nicht sehr genau und decken
-vorallem Anforderungen an Datenqualität nur unzureichend ab!
+vor allem Anforderungen an Datenqualität nur unzureichend ab!
 Um genau zu sein: das eigentliche Modellieren von Bedingungen wird der Erfahrung des Modellierers überlassen
-und folgt daher keiner meßbaren Methodik.
+und folgt daher keiner messbaren Methodik.
 
 Grundannahme meiner Forschung ist das jedoch einige Anforderungen an Datenqualität bereits bei
 der Definition vom Zweck des Datenmodells und beim Sammeln der Anforderungen bekannt sind.
@@ -136,10 +175,10 @@ Anforderungen aus existierenden Datenmodellen zu extrahieren
 oder von Domänenexperten in Erfahrung zu bringen.
 
 Dabei erfinde ich das Rad nicht neu,
-ich habe mich intensiv in die Literatur zur Wissensmodellierung eingearbeitet und tue es immernoch!
+ich habe mich intensiv in die Literatur zur Wissensmodellierung eingearbeitet und tue es immer noch!
 Das Ziel ist es bestehende Methoden soweit wie möglich wiederzuverwenden
 sie jedoch für die Modellierung von Bedingungen anzupassen.
-Dazu gehört auch zu analysieren welche meßbaren Vor- und Nachteile es bringt
+Dazu gehört auch zu analysieren welche messbaren Vor- und Nachteile es bringt
 gewisse Bedingungen entweder als Logik des Datenmodells oder anderweitig zu modellieren.
 
 # Meine Forschung - Teil 2: Benutzerfreundliche Visualisierungen
@@ -158,4 +197,5 @@ Wir arbeiten mit graphbasierten Wissensmodellen welche sehr greifbar sind, das m
 
 Wir entwickeln grafische Sprachen um die Bedinungen auf unser graphbasiertes Wissensmodell zu beschreiben.
 Unter der Annahme dass solche grafischen Sprachen *intuitiver* sind als eine fremde Textsyntax,
-untersuchen wir in Studien welche grafischen Sprachen sich am besten eignen.
+untersuchen wir in Studien welche grafischen Sprachen sich am besten eignen und
+wie wir sie anpassen müssen.
