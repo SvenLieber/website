@@ -28,7 +28,7 @@ befreit von akademischer Genauigkeit und mehr mit dem Großen und Ganzen im Blic
 **Um es in einem Satz zusammenzufassen: Ich beschäftige mich mit Datenmodellierung.**
 Ich gehe der Frage nach
 wie wir graphbasierte Wissensmodelle erstellen können welche 
-ebenfalls Anforderungen an Datenqualität erfüllen.
+ebenfalls Anforderungen an Datenqualität oder Datenschutzbestimmungen erfüllen.
 Im speziellen befasse ich mich einerseits mit Methoden der Wissensverarbeitung (Knowledge Engineering),
 also welche Schritte durchgeführt werden müssen um solche Wissensmodelle zu erstellen,
 und andererseits mit benutzerfreundlichen Visualisierungen von Bedingungen in graphbasierten Wissensmodellen (data constraints).
@@ -180,6 +180,10 @@ Das Ziel ist es bestehende Methoden soweit wie möglich wiederzuverwenden
 sie jedoch für die Modellierung von Bedingungen anzupassen.
 Dazu gehört auch zu analysieren welche messbaren Vor- und Nachteile es bringt
 gewisse Bedingungen entweder als Logik des Datenmodells oder anderweitig zu modellieren.
+Ein Beispiel meiner Doktorarbeit sind Datenschutzbestimmungen.
+Um die Einhaltung von Datenschutzbestimmungen zu überprüfen muss einerseits
+das Datenmodell relevante Informationen hergeben aber womöglich auch
+Regeln in der Form von Bedinungen.
 
 # Meine Forschung - Teil 2: Benutzerfreundliche Visualisierungen
 

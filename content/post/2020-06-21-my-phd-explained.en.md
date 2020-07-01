@@ -27,7 +27,7 @@ freed from academic precision and more from the big picture and with plenty of e
 
 **To summarize it in one sentence: I deal with data modeling.**
 I pursue the question how we can build data models of knowledge graphs
-which also comply with requirements towards data quality.
+which also comply with requirements towards data quality and privacy.
 In particular I investigate on the one hand methods of knowledge engineering,
 so which steps need to be performed to create such knowledge graphs,
 and on the other hand the user-friendly visualization of data constraints.
@@ -180,6 +180,11 @@ The goal is to reuse existing methods as much as possible
 but to adapt them to the modeling of constraints.
 Part of this is also to analyze which measurable pros and cons arise
 certain restrictions are either expressed as logical axioms in the data model or elsewhere.
+One use case in my PhD are privacy regulations.
+To check compliance with privacy regulations on the one hand
+the data model needs to provide relevant information
+and on the other hand constraints are possibly needed.
+
 
 # My research - part 2: user-friendly visualizations
 
