@@ -214,4 +214,3 @@ Below is a picture of the ISWC 2019 conference
 where I presented my PhD plan both as presentation and as a poster (my [trip report](https://sven-lieber.org/en/2019/11/05/iswc-2019/)).
 
 ![Me presenting my poster at the ISWC doctoral consortium in 2019](/img/2019-11-05-iswc-poster-sven.jpg)
-![Me presenting my poster at the ISWC doctoral consortium in 2019](/img/2019-11-05-iswc-poster-sven.jpg)
