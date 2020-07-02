@@ -25,6 +25,39 @@ befreit von akademischer Genauigkeit und mehr mit dem Großen und Ganzen im Blic
 
 <!--more-->
 
+## Data, Big Data, Big Mess
+
+**Daten ohne Beschreibung sind nutzlos.**
+Stellt euch vor Ihr findet einen Zettel mit vielen Nummern.
+Ganz ohne Kontext habt ihr keine Ahnung was die Nummern bedeuten.
+Evtl. existiert irgendwo ein Computerprogramm das genau
+weiß wie die Nummern auf diesem Zettel zu interpretieren sind,
+für euch oder auch fuer andere Programme ist dieser Zettel jedoch nutzlos!
+
+**Das Hinzufügen von Beschreibungen gibt Kontext und macht die Daten selbstbeschreibend
+und dadurch interpretierbar.**
+Notiert ihr jedoch dass die erste Spalte Gewicht gemessen in Kilogramm ist
+und dass die zweite Spalte jeweils ein Geburtsdatum ist
+und dass beides Eigenschaften einer Person sind deren Name
+in der dritten Spalte steht habt ihr Datenmodellierung betrieben!
+Außerdem sind die Daten nun selbtbeschreibend und unabhänging von
+speziellen Computerprogrammen.
+Übrigens: Dieser Zettel kann stellvertretend für eine Datei oder eine Webseite stehen.
+
+## Sinnvolle Datenkombination
+
+Das Kombinieren von Daten aus verschiedenen Bereichen,
+auch Domänen genannt, hat großes Potential.
+Zum Beispiel ..
+
+Aber um Daten aus verschiedenen Domänen *sinnvoll* zu kombinieren ist ein
+gemeinsames Verständnis in der Form eines standardisierten Vokabulars, einem Datenmodell, nötig:
+Die Temparaturmessung eines Heizungssystems in Grad Celsius sollte nicht einfach
+mit einer Temparaturmessung in Fahrenheit oder gar mit meinem Lebensalter verrechnet werden!
+
+
+
+
 **Um es in einem Satz zusammenzufassen: Ich beschäftige mich mit Datenmodellierung.**
 Ich gehe der Frage nach
 wie wir graphbasierte Wissensmodelle erstellen können welche 

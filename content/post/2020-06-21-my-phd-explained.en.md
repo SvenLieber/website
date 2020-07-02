@@ -25,6 +25,37 @@ freed from academic precision and more from the big picture and with plenty of e
 
 <!--more-->
 
+## Data, Big Data, Big Mess
+
+**Data without description is useless.**
+Imagine you find a piece of paper full with numbers.
+Without context you have no clue what these numbers mean.
+Maybe somewhere a computer program exists which knows how to
+read and interpret this data.
+However, for you or other programs this piecce of paper is useless!
+
+**Adding descriptions provides context and makes the data self-describing
+and hence interpretable.**
+But if you note that the first column is *weight* measured in *kilogram*
+and that the second column represents birth dates
+and that both are characteristics of a person
+whose name is noted in the third column you performed data modeling!
+Additionally the data are now *self-described* and
+independent from specific computer programs.
+By the way: This piece of paper could be representative for a file or a website.
+
+## Meaningful data combination
+
+There is great potential in combining data from diverse fields, called domains.
+For example ...
+
+But to combine data from different fields in a *meaningful* way
+a common understanding in the form of a standardized vocabulary (data model) is needed:
+A temperature measurement in Celsius should not be added to a
+measurement performed in Fahrenheit or even to my age!
+
+
+
 **To summarize it in one sentence: I deal with data modeling.**
 I pursue the question how we can build knowledge graphs
 which also comply with requirements towards data quality and privacy.
@@ -32,6 +63,7 @@ In particular I investigate on the one hand methods of knowledge engineering,
 so which steps need to be performed to create such knowledge graphs,
 and on the other hand the user-friendly visualization of data constraints
 such that also *non-experts* can create such constraints.
+
 
 # The big picture
 
