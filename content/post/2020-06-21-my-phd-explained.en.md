@@ -25,7 +25,121 @@ freed from academic precision and more from the big picture and with plenty of e
 
 <!--more-->
 
-## Data, Big Data, Big Mess
+The bullet points form one coherent story,
+but each paragraph marked with an arrow can be clicked to read more details.
+
+# The context
+
+Did you ever wonder how an assistance system like *Alexa* or *Siri*
+can answer arbitrarily questions?
+Therefore such  system needs to search data of different fields
+also referred to as domains.
+
+For that it suggests to combine these data in a natural way,
+you have to imagine it like a graph:
+**Nodes** are things like concrete persons and **connections**
+between the nodes are the relationships between those things.
+As text such a graph could look like this:
+
+```
+Sven hasBirthday 25.04.1988 .
+Sven worksFor IDLab .
+IDLab headQuartersIn Belgium .
+Belgium belongsTo Europe .
+```
+
+<details>
+<summary>
+But first it has to be determined **what** can be connected **how** under which **restrictions**
+and this is called a **data model**.
+Generally speaking I'm researching how such data models can be created.
+</summary>
+Data modeling is nothing new, but in contrast to the past
+where data was modeled for a single database or a single computer program
+we make use of the world wide web.
+Each concept and every relationship such as `person` and `headQuartersIn`
+but also concrete data itself like `Sven` or `Belgium`
+gets an own web address!
+Thereby they are globally unique identifiable and computer programs
+as well as users can look up the concept or the information!
+This could look like on the following page: https://sven-lieber.org/profile
+</details>
+
+# My research - part 1: the data modeling process
+
+Well, everyone can create such a data model in one afternoon,
+this is not a big deal.
+The challenge, however, is to make it professional so 
+in the end a qualitatively high data model pops out.
+Ideally the data model should be constructed in a way
+that it solves the problems it was created for in the first place!
+For the question "How is the weather today in Ghent?"
+the data model for example at least needs to represent
+the concepts *weather* and *town* as well as *temporal information*.
+
+<details>
+<summary>
+Now a data model can be developed being easy and reusable,
+or complex and tailored to solve a very concrete problem.
+</summary>
+If you google any business, Google will show you on the right
+within an infobox what the opening hours or the founding year of that business is.
+Among others, Google can do this because the website owners used
+a standardized data model to mark information in their website.
+</details>
+
+<details>
+<summary>
+Usually within the creation of a data model one has to
+talk to officials and experts, analyze existing data
+and have a clue about existing data models.
+After all the data model should follow standards and
+support seamless data exchange with other data models, called interoperability.
+**All that is also a complex process which can be split into steps.**
+</summary>
+By the way, this is the same for professional software engineering.
+A measurable process subject to optimization distinguishes
+software engineering from the simple act of *programming*.
+</details>
+
+The first part of my research revolves around this process.
+I'm pursuing the question **what is the best way to represent restrictions in a data model**,
+so how one can create a data model which is not too simple but also not too complex for a given problem.
+Restrictions could be on the one hand logical axioms like `all life forms have a birth date`,
+or on the other hand testable constraints important for data exchange and data quality such as `the birth date has to be smaller than the death date`.
+
+Thereby I do not reinvent the wheel,
+I carefully read the literature of knowledge modeling and I still do!
+The goal is to reuse existing methods as much as possible
+but to adapt them to the modeling of constraints.
+Part of this is also to analyze which measurable pros and cons arise
+certain restrictions are either expressed as
+logical axioms in the data model or as constraints.
+One use case in my PhD are privacy regulations.
+To check compliance with privacy regulations on the one hand
+the data model needs to provide relevant information
+and on the other hand constraints are possibly needed.
+
+# My research - part 2: user-friendly visualizations
+
+In my lab we mostly work in different projects together with industry, the government or institutions.
+The experience of these projects revealed concrete problems regarding **user-friendliness** of modeling languages:
+A 2017 newly introduced language to represent constraints in graph data models is text-based,
+user have to first learn it which might be tricky!
+
+**Pictures are worth a thousand words.**
+Humans possess an astonishing information processing system though, ..
+no, I do not talk about the smartphone in the pocket but about the brain!
+From cognitive science we know that text is processed slowly as we have to concentrate more.
+In contrast to that shapes and colors are almost automatically processes
+with no visible effort.
+We work with knowledge graphs which are tangible, we take advantage of that!
+
+**We develop graphical languages** to describe constraints on our knowledge graphs.
+Based on the assumption that such languages are *more intuitive* compared to an alien text syntax
+we examine in user studies which graphical languages are suited best.
+
+## And why all that?
 
 **Data without description is useless.**
 Imagine you find a piece of paper full with numbers.
@@ -44,205 +158,27 @@ Additionally the data are now *self-described* and
 independent from specific computer programs.
 By the way: This piece of paper could be representative for a file or a website.
 
-## Meaningful data combination
+If data are properly described they can be combined in a **meaningful way**
+and such combined data can be searched quicker, easier and most importantly
+in a uniform way which is then utilized by systems such as Alexa or Siri!
+A not-meaningful combination is for example the addition
+of a temperature in degree celsius on my age in years.
 
-There is great potential in combining data from diverse fields, called domains.
-For example ...
+# Summarized
 
-But to combine data from different fields in a *meaningful* way
-a common understanding in the form of a standardized vocabulary (data model) is needed:
-A temperature measurement in Celsius should not be added to a
-measurement performed in Fahrenheit or even to my age!
-
-
-
-**To summarize it in one sentence: I deal with data modeling.**
-I pursue the question how we can build knowledge graphs
-which also comply with requirements towards data quality and privacy.
+Based on what was read we can summarize:
+**I deal with data modeling.**
+I pursue the question how we can build knowledge graphs which also comply with
+requirements towards data quality and privacy.
 In particular I investigate on the one hand methods of knowledge engineering,
 so which steps need to be performed to create such knowledge graphs,
 and on the other hand the user-friendly visualization of data constraints
-such that also *non-experts* can create such constraints.
-
-
-# The big picture
-
-The bullet points form one coherent story,
-but each paragraph marked with an arrow can be clicked to read more details.
-
-<details>
-<summary>There is great potential in combining data from diverse fields, called domains.</summary>
-Information from different domains is necessary to execute the following example order.
-"Alexa, turn the heating on if I am in home office, if it has less than 18 degrees celsius
-and if the kilowatt hour energy costs less than x Euro".
-What if the thermometer only provides data in Fahrenheit?
-What when no information regarding pricing is available?
-And what is even "home office", how can Alexa determine this?
-A heating system consists of plenty of sensors, my calendar consists of a lot of data
-and a municipality often publishes statistics or other information as "Open Data".
-All these data are in different formats
-and everyone who tries to develop a useful app which uses all three data sources
-might have to develop it for every heating system, every calendar application
-or each municipality again.
-Standards help to make lives easier,
-a smartphone charger fits in each power plug of a certain country.
-The same principle also applies on data, if for example all heating system manufacturer
-follow one standard data model an app can be reused across multiple heating system models.
-Unfortunately such a standard is limited to one domain,
-and why would a heating system standard define calendar information or energy prices?!
-</details>
-
-<details>
-<summary>But to combine data from different fields in a *meaningful* way
-a common understanding in the form of a standardized vocabulary (data model) is needed:
-A temperature measurement in Celsius should not be added to a
-measurement performed in Fahrenheit or even to my age!
-Additionally, data should exist independently from program code and should be *self-describing* so they can be reused.
-</summary>
-Therefore I am using the Resource Description Framework ([RDF](https://www.w3.org/TR/2014/REC-rdf11-concepts-20140225/)) a graph-based language recommended by the world wide web consortium (W3C).
-Every *thing* and every possible *relationship* between *things* will get an own web address!
-Hence *everything* is uniquely identifiable and because everything follows the same graph structure,
-a *heating system* can relate via a *serial-number*-relationship to a *number*
-but also via a *belongs-to*-relationship to *me*.
-It can also be specified that a concrete *measurement* is of type *Celsius*.
-I in turn can be in multiple relationships to personal information such as my *bloodtype*
-or my *date of birth*.
-The big plus: computer programs can look up these "websites"
-and read and interpret the definition of *things* and *relationships*.
-Additionally such a graph can be searched for information in a uniform way
-no matter if it is information regarding my heating or regarding me.
-</details>
-
-<details>
-<summary>
-Such a shared vocabulary which consists of concepts, relationships among the concepts
-and *meaning* in the form of restrictions
-should be detailed enough to answer questions we initially have,
-in other words: it should fulfill its purpose.
-</summary>
-A first step in knowledge engineering is the collection of requirements,
-e.g. in the form of questions.
-Therefore, in a later step of knowledge engineering, it can be checked
-if the data model fulfills its purpose,
-if initially asked questions can be answered.
-</details>
-
-
-<details>
-<summary>
-Although very precise and meaningful data models are indispensable for some use cases,
-their complexity comprises drawbacks in a lot of other cases.
-</summary>
-Very precise data models in RDF are often created
-for the domains of *bio engineering* and *engineering*.
-These data models are so prceise that special programs
-can infer new knowledge based on the given logical rules
-and detect inconsistencies;
-something which saves lots of money and problems.
-The downside is that the creation of such precise models is cumbersome,
-experts are needed and the reusability is hampered,
-meaning that too much problem specific assumptions were made in the model.
-In contrast to this we have the web,
-if we google a local restaurant Google shows us in an infobox
-the opening hours, the founding year, the address and much more.
-These are also data from different domains,
-usually provided on the website of the restaurant which is
-taken into account by Google.
-Specific information in the website are
-marked with standardized vocabularies.
-This is the same principle but this vocabulary
-named schema.org is very broad and is subject to less logical restrictions.
-This makes the model easier reusable!
-</details>
-
-<details>
-<summary>
-Even with a common data model correct and incorrect data need to be handled,
-usually we even expect error messages from computers if something is incorrect.
-</summary>
-As soon as multiple systems have to exchange data or as soon as a human user is involved
-who inserts data via an application one has to consider incorrect data.
-</details>
-
-
-So it is apparent that error handling should be considered when developing data models.
-Eventually we expect that *an app* or website works property!
-
-The currently standardized modeling language *OWL* with which knowledge graphs can be build
-is based on logic.
-Complex characteristics can be modeled such that computer programs,
-based on this logic, can infer new knowledge!
-However, constraints are not modeled in a way how we might expect it to be,
-in the sense of detecting incorrect data.
-
-Just in the year 2017 the development of another modeling language was finished
-and its use recommended by W3C.
-This modeling language complements the logic-based language *OWL* with error handling capabilities, a language called SHACL:
-concrete constraints describing what is valid in a certain context and what is invalid can now be modeled!
-*What sounds easy is the begin of my research ...*
-
-# My research - part 1: knowledge engineering
-
-In the following I will briefly explain my research regarding knowledge modeling
-and user-friendly visualizations of knowledge graph constraints.
-
-Professional software engineering is not just programming,
-it is about engineering, defined steps to develop qualitatively high software.
-This includes processes such as the collection of requirements,
-the creation of documentation or the training of users.
-
-Similar methods were proposed by researchers for knowledge modeling
-and found useful in plenty of projects.
-
-Unfortunately these methods are not very detailed and
-do especially cover requirements towards data quality only insufficiently.
-To be precise: the *actual* modeling of restrictions is left to the experience of the modeler
-and, thus, does not follow a measurable methodology.
-
-The basic assumption of my research is that several requirements towards data quality
-are already known at design time, e.g. when the requirements are collected.
-Additionally for beginners it is not obvious which requirements
-should better be placed within the logic of the data model and which
-in form of external constraints to detect erroneous data.
-
-To solve these problems I develop methods to extract requirements
-from existing data models or from domain experts.
-
-Thereby I do not reinvent the wheel,
-I carefully read the literature of knowledge modeling and I still do!
-The goal is to reuse existing methods as much as possible
-but to adapt them to the modeling of constraints.
-Part of this is also to analyze which measurable pros and cons arise
-certain restrictions are either expressed as logical axioms in the data model or elsewhere.
-One use case in my PhD are privacy regulations.
-To check compliance with privacy regulations on the one hand
-the data model needs to provide relevant information
-and on the other hand constraints are possibly needed.
-
-
-# My research - part 2: user-friendly visualizations
-
-In my lab we mostly work in different projects together with industry, the government or institutions.
-The experience of this projects revealed other problems:
-The 2017 newly introduced language is text-based,
-user have to first learn it which might be tricky!
-
-Humans possess an astonishing information processing system, ..
-no, I do not talk about the smartphone in the pocket but about the brain!
-From cognitive science we know that text is processed slowly as we have to concentrate more.
-
-In contrast to that shapes and colors are almost automatically processes
-with no visible effort.
-We work with knowledge graphs which are tangible, we take advantage of that!
-
-We develop graphical languages to describe constraints on our knowledge graphs.
-Based on the assumption that such languages are *more intuitive* compared to an alien text syntax
-we examine in user studies which graphical languages are suited best.
+such that also non-experts can create such constraints.
 
 **So that's it!
 I hope I cleared some things out :-)**
 
 Below is a picture of the ISWC 2019 conference
-where I presented my PhD plan both as presentation and as a poster (my [trip report](https://sven-lieber.org/en/2019/11/05/iswc-2019/)).
+where I presented my PhD plan both as presentation and as a poster (my [trip report](https://sven-lieber.org/en/2019/11/05/iswc-2019/) of this conference held in New Zealand).
 
 ![Me presenting my poster at the ISWC doctoral consortium in 2019](/img/2019-11-05-iswc-poster-sven.jpg)
