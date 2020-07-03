@@ -30,13 +30,13 @@ aber jeder Paragraph der mit einem Pfeil markiert ist kann bei Bedarf angeklickt
 
 # Der Kontext
 Habt Ihr euch je gefragt wie ein Assistenzsystem wie Alexa oder Siri
-so schnell Antworten auf beliebige Fragen finden können?
+Antworten auf beliebige Fragen finden können?
 Dazu muss so ein System Daten von unterschiedlichen Fachbereichen,
 auch Domänen genannt, durchsuchen können.
 
 Dafür bietet es sich an Daten auf natürliche Weise zu verbinden,
 man muss sich das ganze wie einen Graphen vorstellen:
-Knoten sind Dinge wie konkrete Personen und die Verbindungen
+**Knoten** sind Dinge wie konkrete Personen und **Verbindungen**
 zwischen den Knoten sind die Beziehungen zwischen diesen Dingen.
 Als Text kann so ein Graph zum Beispiel so aussehen: 
 
@@ -51,6 +51,8 @@ Belgien gehörtZu Europa .
 <summary>
 **Was** jedoch **wie** miteinander unter **welchen Bedingungen** verlinkt werden kann und soll
 muss man aber erst einmal festlegen, das wird **Datenmodell** genannt.
+In diesem Beispiel kann mein Arbeitgeber IDLab, welches eine Organisation ist, keinen Geburtags haben,
+ebenso kann Sven keinen Firmensitz haben da er eine Person ist.
 Und im großen und ganzen forsche Ich daran wie solche Datenmodelle erstellt werden können.
 </summary>
 Datenmodellierung ist nichts neues, anstatt jedoch wie bisher Daten nur für
@@ -73,18 +75,25 @@ damit am Ende ein qualitativ hochwertiges Datenmodell herauskommt.
 Ideallerweise solle das Datenmodell so konstruiert sein
 das es die Probleme löst weswegen es erstellt worden ist!
 Für die Frage "Wie ist das Wetter heute in Gent?"
-muss das Datenmodell beispielsweise zumindest die Konzepte *Wetter* und *Stadt* enthalten.
+muss das Datenmodell beispielsweise zumindest
+die Konzepte *Wetter* und *Stadt* aber auch *zeitliche Informationen* enthalten.
 
 <details>
 <summary>
-Nun kann ein Datenmodell einfach und wiederverwendbar erstellt werden,
+Nun kann ein Datenmodell einfach und wiederverwendbar entwickelt werden,
 oder sehr komplex und auf ein konkretes Problem zugeschnitten.
 </summary>
+Ein Beispiel für ein einfaches und wiederverwendbares Datenmodell ist das folgende.
 Wenn Ihr irgend ein Geschäft googelt zeigt euch Google rechts in einer
-Infobox zum Beispiel Öffnungszeiten oder das Gründungsjahr.
+Infobox zum Beispiel Öffnungszeiten oder das Gründungsjahr des Geschäfts.
 Das kann unter anderem gemacht werden weil die Webseitenbetreiber
 ein standardisiertes Datenmodell verwendet haben um Informationen
 in Ihrer Webseite zu kennzeichnen.
+Dafür wird nicht viel Genauigkeit verlangt da die Information hauptsächlich
+menschlichen Nutzern angezeigt wird.
+Im Gegensatz dazu werden in der *Biomedizin* sehr komplexe Datenmodelle
+verwendet welche logischen Regeln folgen.
+Diese sind so präzise das selbst Computerprogramme sie "verstehen können"
 </details>
 
 <details>
@@ -93,8 +102,10 @@ Für gewöhnlich muss man beim Erstellen eines Datenmodells mit
 vielen Verantwortlichen und Experten sprechen,
 existierende Daten analysieren und eine Ahnung von existierenden
 Datenmodellen haben.
-Das ganze ist also ein komplexer *Prozess* den man in Schritte
-aufteilen kann.
+Schließlich soll das Datenmodell einheitlichen Standards folgen
+und nahtlosen Datenaustausch mit anderen modellen, auch interoperabilität genannt, fördern.
+**Das ganze ist also ein komplexer Prozess den man in Schritte
+aufteilen kann.**
 </summary>
 Das ist übrigens auch in der professionellen Softwareentwicklung,
 dem Software Engineering so.
@@ -151,7 +162,7 @@ für euch oder auch fuer andere Programme ist dieser Zettel jedoch nutzlos!
 
 **Das Hinzufügen von Beschreibungen gibt Kontext und macht die Daten selbstbeschreibend
 und dadurch interpretierbar.**
-Notiert ihr jedoch dass die erste Spalte Gewicht gemessen in Kilogramm ist
+Notiert ihr dass die erste Spalte auf dem Zettel Gewicht gemessen in Kilogramm ist
 und dass die zweite Spalte jeweils ein Geburtsdatum ist
 und dass beides Eigenschaften einer Person sind deren Name
 in der dritten Spalte steht habt ihr Datenmodellierung betrieben!
@@ -161,7 +172,7 @@ speziellen Computerprogrammen.
 
 Wenn Daten gut beschrieben sind lassen sie sich *sinnvoll kombinieren*
 und solch kombinierte Daten lassen sich dann schneller, einfacher
-und vorallem einheitlich Durchsuchen was sich dann Systeme wie Alexa oder Siri zu Nutzen machen!
+und vorallem einheitlich Durchsuchen was sich dann **Systeme wie Alexa oder Siri zu Nutzen machen!**
 Eine nicht sinvolle Kombination ist zum Beispiel das Verrechnen
 einer Temparatur in Grad Celsius mit meinem Lebensalter in Jahren.
 
@@ -182,6 +193,6 @@ Ich hoffe ich konnte ein wenig Licht ins Dunkle bringen :-)**
 
 Nachfolgend noch ein Bild von der ISWC 2019 Konferenz
 bei der ich den Plan meiner Doktorarbeit als Präsentation und als Poster
-vorgestellt habe (mein [Reisebericht](https://sven-lieber.org/en/2019/11/05/iswc-2019/) dieser Konferenz die in Neuseeland war, momentan leider nur in Englisch).
+vorgestellt habe (mein Reisebericht zu dieser Konferenz welche in Neuseeland stattgefunden hat ist [hier](https://sven-lieber.org/en/2019/11/05/iswc-2019/), momentan leider nur in Englisch).
 
 ![Me presenting my poster at the ISWC doctoral consortium in 2019](/img/2019-11-05-iswc-poster-sven.jpg)

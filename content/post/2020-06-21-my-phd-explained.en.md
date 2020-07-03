@@ -32,12 +32,12 @@ but each paragraph marked with an arrow can be clicked to read more details.
 
 Did you ever wonder how an assistance system like *Alexa* or *Siri*
 can answer arbitrarily questions?
-Therefore such  system needs to search data of different fields
+Therefore such a system needs to search data of different fields
 also referred to as domains.
 
-For that it suggests to combine these data in a natural way,
+To assist that, it makes sense to combine these data in a natural way,
 you have to imagine it like a graph:
-**Nodes** are things like concrete persons and **connections**
+**nodes** are things like concrete persons and **connections**
 between the nodes are the relationships between those things.
 As text such a graph could look like this:
 
@@ -52,6 +52,8 @@ Belgium belongsTo Europe .
 <summary>
 But first it has to be determined **what** can be connected **how** under which **restrictions**
 and this is called a **data model**.
+In this example my employer IDLab, which is an organization cannot have a date of birth
+and similarly Sven cannot have headquarter as he is a person.
 Generally speaking I'm researching how such data models can be created.
 </summary>
 Data modeling is nothing new, but in contrast to the past
@@ -82,10 +84,15 @@ the concepts *weather* and *town* as well as *temporal information*.
 Now a data model can be developed being easy and reusable,
 or complex and tailored to solve a very concrete problem.
 </summary>
-If you google any business, Google will show you on the right
+An example of an easy and reusable data model:
+if you google any business, Google will show you on the right
 within an infobox what the opening hours or the founding year of that business is.
 Among others, Google can do this because the website owners used
 a standardized data model to mark information in their website.
+Not much precision is needed as the information is mainly shown to humans.
+In contrast to this, in *biomedical* science very complex data models
+following logical rules are created which are very precise such that also
+computer programs can "understand it".
 </details>
 
 <details>
@@ -113,7 +120,7 @@ I carefully read the literature of knowledge modeling and I still do!
 The goal is to reuse existing methods as much as possible
 but to adapt them to the modeling of constraints.
 Part of this is also to analyze which measurable pros and cons arise
-certain restrictions are either expressed as
+if certain restrictions are either expressed as
 logical axioms in the data model or as constraints.
 One use case in my PhD are privacy regulations.
 To check compliance with privacy regulations on the one hand
@@ -146,11 +153,11 @@ Imagine you find a piece of paper full with numbers.
 Without context you have no clue what these numbers mean.
 Maybe somewhere a computer program exists which knows how to
 read and interpret this data.
-However, for you or other programs this piecce of paper is useless!
+However, for you or other programs this piece of paper is useless!
 
 **Adding descriptions provides context and makes the data self-describing
 and hence interpretable.**
-But if you note that the first column is *weight* measured in *kilogram*
+If you note on the piece of paper that the first column is *weight* measured in *kilogram*
 and that the second column represents birth dates
 and that both are characteristics of a person
 whose name is noted in the third column you performed data modeling!
@@ -160,7 +167,7 @@ By the way: This piece of paper could be representative for a file or a website.
 
 If data are properly described they can be combined in a **meaningful way**
 and such combined data can be searched quicker, easier and most importantly
-in a uniform way which is then utilized by systems such as Alexa or Siri!
+in a uniform way **which is then utilized by systems such as Alexa or Siri!**
 A not-meaningful combination is for example the addition
 of a temperature in degree celsius on my age in years.
 
@@ -179,6 +186,6 @@ such that also non-experts can create such constraints.
 I hope I cleared some things out :-)**
 
 Below is a picture of the ISWC 2019 conference
-where I presented my PhD plan both as presentation and as a poster (my [trip report](https://sven-lieber.org/en/2019/11/05/iswc-2019/) of this conference held in New Zealand).
+where I presented my PhD plan both as presentation and as a poster (my trip report of this conference held in New Zealand is [here](https://sven-lieber.org/en/2019/11/05/iswc-2019/)).
 
 ![Me presenting my poster at the ISWC doctoral consortium in 2019](/img/2019-11-05-iswc-poster-sven.jpg)
