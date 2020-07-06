@@ -30,7 +30,7 @@ aber jeder Paragraph der mit einem Pfeil markiert ist kann bei Bedarf angeklickt
 
 # Der Kontext
 Habt Ihr euch je gefragt wie ein Assistenzsystem wie Alexa oder Siri
-Antworten auf beliebige Fragen finden können?
+Antworten auf beliebige Fragen finden kann?
 Dazu muss so ein System Daten von unterschiedlichen Fachbereichen,
 auch Domänen genannt, durchsuchen können.
 
@@ -103,7 +103,7 @@ vielen Verantwortlichen und Experten sprechen,
 existierende Daten analysieren und eine Ahnung von existierenden
 Datenmodellen haben.
 Schließlich soll das Datenmodell einheitlichen Standards folgen
-und nahtlosen Datenaustausch mit anderen modellen, auch interoperabilität genannt, fördern.
+und nahtlosen Datenaustausch mit anderen Datenmodellen, auch interoperabilität genannt, fördern.
 **Das ganze ist also ein komplexer Prozess den man in Schritte
 aufteilen kann.**
 </summary>

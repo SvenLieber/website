@@ -32,7 +32,7 @@ but each paragraph marked with an arrow can be clicked to read more details.
 
 Did you ever wonder how an assistance system like *Alexa* or *Siri*
 can answer arbitrarily questions?
-Therefore such a system needs to search data of different fields
+Therefore such a system needs to search data of different disciplines
 also referred to as domains.
 
 To assist that, it makes sense to combine these data in a natural way,
