@@ -1,6 +1,7 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule "^en/2017/04/07/provenance/$" "/en/2017/04/07/what-is-provenance" [R] 
+RewriteRule "^ecodalo-video$" "https://vimeo.com/374617281" [R]
 </IfModule>
 
 Header set Access-Control-Allow-Origin *
