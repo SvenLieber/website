@@ -42,14 +42,14 @@ selected = true
 tags = ["Statistics", "RDF", "Restrictions", "Constraints", "SHACL"]
 
 # Links (optional).
-url_pdf = "https://biblio.ugent.be/publication/8679400"
+url_pdf = "http://ceur-ws.org/Vol-2721/paper584.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = "https://zenodo.org/record/3988930"
 url_project = ""
 url_slides = "https://www.slideshare.net/SvenLieber/statistics-about-data-shape-use-in-rdf-data"
 url_video = "https://www.youtube.com/watch?v=6-OdjYdEpeU"
-url_poster = ""
+url_poster = "https://biblio.ugent.be/publication/8679400"
 url_source = ""
 
 # Custom links (optional).
