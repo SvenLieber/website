@@ -12,6 +12,7 @@ weight = 5
   interests = [
     "Provenance",
     "Privacy",
+    "Cultural Heritage",
     "Semantic Web"
   ]
 
