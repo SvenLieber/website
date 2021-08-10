@@ -33,6 +33,7 @@ weight = 5
 # About me
 
 Hello! My name is Sven Lieber, welcome to my website.
-Currently I am a PhD student in Information Engineering Technology at the University of Ghent in Belgium.
-I am working in the Semantic Web Group of [IDLab](http://idlab.technology) (Internet & Data Lab), which is a core research group of [imec](https://www.imec-int.com/en/home).
-
+Currently I am a PhD student in Information Engineering Technology at the University of Ghent in Belgium
+and a data manager at the Royal Library of Belgium (KBR).
+I am working in the KNowledge On Web Scale [KNoWS](https://knows.idlab.ugent.be/) group of [IDLab](http://idlab.technology) (Internet & Data Lab), which is a core research group of [imec](https://www.imec-int.com/en/home).
+At KBR I am working in the research and innovation department and are mainly involved in the [BELTRANS](https://www.kbr.be/en/projects/beltrans) project.
