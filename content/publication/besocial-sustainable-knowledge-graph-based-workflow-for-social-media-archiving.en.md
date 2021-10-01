@@ -42,13 +42,13 @@ projects = ["besocial"]
 tags = ["Social Media", "Archiving", "GLAM", "RML"]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "https://ebooks.iospress.nl/volumearticle/57416"
 url_preprint = "/en/publication/besocial-sustainable-knowledge-graph-based-workflow-for-social-media-archiving.pdf"
 url_code = ""
 url_dataset = ""
 url_project = "https://www.kbr.be/en/projects/besocial/"
-url_slides = ""
-url_video = ""
+url_slides = "https://www.slideshare.net/SvenLieber/besocial-a-knowledge-graph-for-social-media-archiving"
+url_video = "https://youtu.be/oYmzD3e8rBE?t=1912"
 url_poster = ""
 url_source = ""
 
