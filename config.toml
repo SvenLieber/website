@@ -10,7 +10,7 @@ title = "Sven Lieber"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "Copyright &copy; 2017-2021 Sven Lieber. All text & images licensed under <a href='https://creativecommons.org/licenses/by/4.0/' target='_blank; title='Creative Commons Attribution 4.0 International License'><abbr class='caps'>CC</abbr> <abbr class='caps'>BY</abbr> 4.0</a> except where otherwise noted."
+copyright = "Copyright &copy; 2017-2022 Sven Lieber. All text & images licensed under <a href='https://creativecommons.org/licenses/by/4.0/' target='_blank; title='Creative Commons Attribution 4.0 International License'><abbr class='caps'>CC</abbr> <abbr class='caps'>BY</abbr> 4.0</a> except where otherwise noted."
 
 theme = "academic"
 enableEmoji = true
@@ -51,15 +51,15 @@ defaultContentLanguageInSubdir = true
 
   # Your details.
   name = "Sven Lieber"
-  role = "PhD researcher and data manager"
+  role = "data manager"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Ghent University - imec", url = "" }, { name = "Royal Library of Belgium (KBR)", url = "" } ]
+  organizations = [ { name = "Royal Library of Belgium (KBR)", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "sven-lieber.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "Sven.Lieber@ugent.be"
+  email = "Sven.Lieber@kbr.be"
   #address = "Building 1 Room 1, Stanford University, California, 90210, USA"
   #office_hours = "Monday 10:00 to 13:00 or email for appointment"
   #phone = "888 888 88 88"
@@ -218,7 +218,7 @@ defaultContentLanguageInSubdir = true
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:sven-lieber@ugent.be"
+    link = "mailto:sven-lieber@kbr.be"
 
   [[params.social]]
     icon = "twitter"

@@ -19,6 +19,11 @@ weight = 5
 # List your qualifications (such as academic degrees).
 
 [[education.courses]]
+  course = "PhD in Information Engineering Technology"
+  institution = "Ghent University, Belgium"
+  year = 2022
+
+[[education.courses]]
   course = "MSc in Computer Science"
   institution = "University of Freiburg, Germany"
   year = 2016
@@ -33,7 +38,5 @@ weight = 5
 # About me
 
 Hello! My name is Sven Lieber, welcome to my website.
-Currently I am a PhD student in Information Engineering Technology at the University of Ghent in Belgium
-and a data manager at the Royal Library of Belgium (KBR).
-I am working in the KNowledge On Web Scale [KNoWS](https://knows.idlab.ugent.be/) group of [IDLab](http://idlab.technology) (Internet & Data Lab), which is a core research group of [imec](https://www.imec-int.com/en/home).
-At KBR I am working in the research and innovation department and are mainly involved in the [BELTRANS](https://www.kbr.be/en/projects/beltrans) project.
+Currently I am a data manager at the Royal Library of Belgium (KBR)
+where I am working in the research and innovation department and are mainly involved in the [BELTRANS](https://www.kbr.be/en/projects/beltrans) research project.
