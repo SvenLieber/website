@@ -39,7 +39,7 @@ selected = true
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Knowledge Graph", "Axioms", "Constraints", "RDF", "SHACL", "RDFS", "OWL"]
+tags = ["Knowledge Graph", "Axioms", "Constraints", "RDF", "SHACL"]
 
 # Links (optional).
 url_pdf = "/en/publication/phd.pdf"
@@ -47,8 +47,8 @@ url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
-url_slides = ""
-url_video = ""
+url_slides = "https://www.slideshare.net/SvenLieber/assessing-creating-and-using-knowledge-graph-restrictions"
+url_video = "https://www.youtube.com/watch?v=NofQSwc3Svk"
 url_poster = ""
 url_source = ""
 
@@ -65,8 +65,22 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = ""
+image = "2022-03-10-phd-thesis-structure.jpg"
 caption = ""
 
 +++
+
+
+Mehr und mehr Daten werden erzeugt, aber die sinnvolle Beantwortung von Fragen mit diesen Daten ist nicht einfach, da wir ein gemeinsames Verständnis darüber benötigen, was die verschiedenen Daten bedeuten und wie sie zusammenhängen.
+Wissensgraphen mit Konzepten und Verbindungen zwischen Konzepten bieten eine flexible Möglichkeit, Informationen darzustellen: "Sven (Ding) schreibt (Verbindung) Dissertation (Ding)“ und "Sven (Ding) ist eine (Verbindung) Person (Ding)."
+Die technologische Basis dieser Graphen kann das Web sein, wobei Komponenten des Graphen Webadressen sind, sodass Menschen und Maschinen Komponenten des Graphen nachschlagen können.
+
+Allerdings muss man mögliche Verbindungen im Graphen so benschränken, dass auch ein Computer daraus einen Sinn machen kann.
+Sonst kann eine "Dissertation (Ding)  Luft (Ding) atmen (Verbindung)", was keinen Sinn macht und zu falschen Dateneinsichten führt.
+Benschränkungen können entweder unter Verwendung von Axiomen ausgedrückt werden, um eine formale Bedeutung bereitzustellen, oder als lokale Einschränkungen, um Daten zu validieren.
+
+Diese Doktorarbeit befasst sich mit der Unterstützung von Benutzern bei der Bewertung, Erstellung und Verwendung von Einschränkungen des Knowledge Graph.
+Konkret wird in dieser Dissertation die FAIR Montolo-Statistiken beigesteuert, die Benutzer bei der Bewertung bestehender Knowledge Graphs auf der Grundlage verwendeter Benschränkungen unterstützt.
+Die beiden visuellen Notationen ShapeUML und ShapeVOWL werden vorgestellt und evaluiert: Sie repräsentieren alle Constraint-Typen der Shapes Constraint Language (SHACL) und bringen damit den Stand der Technik voran.
+Schließlich wird die Verwendung von Benschränkungen zur Darstellung formaler Bedeutung und zur Bewertung der Datenqualität für einen Anwendungsfall der Archivierung von sozialen Medien im BESOCIAL-Projekt der Königlichen Bibliothek von Belgien (KBR) demonstriert.
 
