@@ -2,6 +2,7 @@
 @prefix p: <https://data.verborgh.org/people/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix cc: <http://creativecommons.org/ns#> .
+@prefix cert: <http://www.w3.org/ns/auth/cert#> .
 @prefix dbpedia: <http://dbpedia.org/resource/> .
 @prefix dbp: <http://dbpedia.org/ontology/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -31,9 +32,9 @@
     foaf:familyName "Lieber"@en, "Lieber"@de;
     foaf:gender "male"@en;
     foaf:img <https://sven-lieber.org/img/sven-lieber.jpg>;
-    foaf:mbox <mailto:sven.lieber@ugent.be>;
+    foaf:mbox <mailto:sven.lieber@kbr.be>;
     open:twitter-id "SvenLieber" ;
-    vcard:title "PhD researcher semantic intelligence"@en ;
+    vcard:title "data manager at the Royal Library of Belgium (KBR)"@en ;
     dbp:orcidId "0000-0002-7304-3787";
     scoro:hasORCID "0000-0002-7304-3787";
     foaf:based_near dbpedia:Ghent;
@@ -47,6 +48,16 @@
     org:memberOf <http://idlab.technology/#organization>,
                  dbpedia:Ghent_University,
                  dbpedia:IMEC.
+
+#
+# WebID key information
+#
+:me cert:key [
+    a cert:RSAPublicKey ;
+    rdfs:label "" ;
+    cert:modulus "DFFB58F4977CD5E746152069D11D31EC6B8807D771A9B3D9D285A6DBECD1B9AD53DD21201F9B509F02AF9DCA5C5D0DC9F37BF443F660FC4C7B79845FAF15E8035BCCF342D389983C554D7A529D0A4EB8046C753574C44091336B6E560D08E0BE912811B92EB437E453237E42C59C3F97DD52930E18BDB66DE7D0B4427C23CD612E6D0E0F56BED20626BC2CF21AAA9B60B13A489A523094B302FCC27C978EFBCE328DA92D74BCC3A4EC5191BAAD036A06FF258B9BF040B79715B723A39653CCD7B16A5C61B7FF7298DA81B01E6D36ED64A6C6E771F9026FD8EE1E48C9FCB0068D69594735A7C1948915DFF2A1CD95CC6F8066F689F232174240EA427BA26338C5" ;
+    cert:exponent "65537"^^xsd:nonNegativeInteger 
+] .
 
 
 #
