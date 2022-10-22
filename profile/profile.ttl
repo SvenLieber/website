@@ -26,12 +26,15 @@
 # Personal details
 #
 :me a foaf:Person;
+    a schema:Person ;
     foaf:name  "Sven Lieber"@en, "Sven Lieber"@de;
     rdfs:label "Sven Lieber"@en, "Sven Lieber"@de;
     foaf:givenName "Sven"@en, "Sven"@de;
     foaf:familyName "Lieber"@en, "Lieber"@de;
     foaf:gender "male"@en;
     foaf:img <https://sven-lieber.org/img/sven-lieber.jpg>;
+    schema:sameAs <https://www.wikidata.org/entity/Q59469449> ;
+    owl:sameAs <https://www.wikidata.org/entity/Q59469449> ;
     foaf:mbox <mailto:sven.lieber@kbr.be>;
     open:twitter-id "SvenLieber" ;
     vcard:title "data manager at the Royal Library of Belgium (KBR)"@en ;
