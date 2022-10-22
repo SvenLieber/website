@@ -2,7 +2,7 @@
 date = 2022-10-17T13:37:00  # Schedule page publish date.
 
 title = "The Benefits of International Standards for Research Data Management"
-time_start = 2022-10-17T11:00:00
+time_start = 2022-09-14T11:00:00
 time_end = ""
 abstract = ""
 abstract_short = ""
