@@ -1,0 +1,4 @@
+outs:
+- md5: 81e0110d1b03558efd001d640e544b23
+  size: 70
+  path: deploy.sh

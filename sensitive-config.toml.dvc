@@ -1,0 +1,4 @@
+outs:
+- md5: e4dd241373ac20c912835f190d84f2c4
+  size: 66
+  path: sensitive-config.toml

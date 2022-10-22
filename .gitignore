@@ -1,3 +1,4 @@
 public/
 .idea/
-config-sensitive.toml
+/sensitive-config.toml
+/deploy.sh

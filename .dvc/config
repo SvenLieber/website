@@ -1,0 +1,4 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = webdavs://drive.sven-lieber.org/remote.php/dav/files/sven/website
