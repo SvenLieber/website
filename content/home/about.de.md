@@ -33,7 +33,5 @@ weight = 5
 # Über mich
 
 Hallo! Mein Name ist Sven Lieber, willkommen auf meiner Webseite.
-Momentan bin ich Doktorand in Information Engineering Technology an der Universität Gent in Belgien
-und Data Manager an der Königlichen Bibliothek Belgiens (KBR).
-Ich arbeite in der KNowledge On Web Scale [KNoWS](https://knows.idlab.ugent.be/) Arbeitsgruppe des [IDLab's](http://idlab.technology) (Internet & Data Lab), welches eine Kernforschungsgruppe von [imec](https://www.imec-int.com/en/home) ist.
-Bei KBR arbeite Ich in der Abteilung für Forschung und Innovation und bin hauptsächlich im [BELTRANS](https://www.kbr.be/en/projects/beltrans) Projekt involviert.
+Momentan bin ich Data Manager an der Königlichen Bibliothek Belgiens (KBR),
+wo Ich in der Abteilung für Forschung und Innovation arbeite, hauptsächlich am [BELTRANS](https://www.kbr.be/en/projects/beltrans).
