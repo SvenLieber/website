@@ -11,6 +11,7 @@ Header set Access-Control-Allow-Origin *
 Header set Access-Control-Allow-Headers DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified$
 Options +FollowSymLinks
 
+# Tell Apache to use mime type text/turtle when encountering a .ttl file
 AddType text/turtle .ttl
 
 Options -MultiViews
