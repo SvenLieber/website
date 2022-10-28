@@ -47,7 +47,7 @@ url_preprint = "/en/publication/besocial-sustainable-knowledge-graph-based-workf
 url_code = ""
 url_dataset = ""
 url_project = "https://www.kbr.be/en/projects/besocial/"
-url_slides = "https://www.slideshare.net/SvenLieber/besocial-a-knowledge-graph-for-social-media-archiving"
+url_slides = "https://doi.org/10.5281/zenodo.7258374"
 url_video = "https://youtu.be/oYmzD3e8rBE?t=1912"
 url_poster = ""
 url_source = ""

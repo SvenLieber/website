@@ -47,9 +47,9 @@ url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = "https://www.imec-int.com/en/what-we-offer/research-portfolio/leaps"
-url_slides = "https://www.slideshare.net/SvenLieber/linked-data-generation-for-adaptive-learning-analytics-systems"
+url_slides = "https://doi.org/10.5281/zenodo.7257398"
+url_poster = "https://doi.org/10.5281/zenodo.7257459"
 url_video = ""
-url_poster = "https://www.slideshare.net/SvenLieber/poster-linked-data-generation-for-adaptive-learning-analytics-systems"
 url_source = ""
 
 # Custom links (optional).

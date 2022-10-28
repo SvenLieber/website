@@ -49,7 +49,7 @@ url_dataset = ""
 url_project = ""
 url_slides = ""
 url_video = ""
-url_poster = "https://www.slideshare.net/SvenLieber/poster-segoflow-asemantic-workflow-editor"
+url_poster = "https://doi.org/10.5281/zenodo.7257432"
 url_source = ""
 
 # Custom links (optional).
