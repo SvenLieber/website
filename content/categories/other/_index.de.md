@@ -1,5 +1,0 @@
-+++
-title = "Other"
-+++
-
-Verschiedene posts
