@@ -49,7 +49,10 @@
         {{- if gt $sameasIndex 0 }}, {{ end -}}
         {{ $sameasRecord.url }}
       {{ end }}  
-         ]}
+      {{ if isset $value "sameas" }}
+         ]
+      {{end}}
+      }
     {{ end }}
   ],
   {{ else }}
