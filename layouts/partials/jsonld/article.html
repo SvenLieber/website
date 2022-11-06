@@ -1,0 +1,75 @@
+{{- $page := .page }}
+{{ $summary := .summary }}
+{{ $featured_image := partial "functions/get_featured_image.html" $page }}
+
+{{/* Get schema type. */}}
+{{ $schema := "Article" }}
+{{ if eq $page.Type "post" }}
+  {{ $schema = "BlogPosting" }}
+{{ end }}
+
+{{ $author := partial "functions/get_author_name" $page }}
+{{ $publisher := site.Params.marketing.seo.org_name | default site.Title }}
+{{ $logo_url := partial "functions/get_logo_url" $page -}}
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": {{$schema}},
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{$page.Permalink}}
+  },
+  "headline": {{$page.Title}},
+  {{ if $featured_image }}
+  "image": [
+    {{$featured_image.Permalink}}
+  ],
+  {{end}}
+  "datePublished": {{ $page.PublishDate.Format "2006-01-02T15:04:05Z07:00" }},
+  "dateModified": {{ $page.Lastmod.Format "2006-01-02T15:04:05Z07:00" }},
+
+  {{ if isset $page.Params "metadata" }}
+    {{/* Start a sameAs array. Not conditional, because we assume there is at least one author */}}
+    "author": [
+    {{ range $index, $value := ($page.Params.metadata.authors) }}
+      {{- if gt $index 0 }}, {{ end -}}
+      {
+      "@type": "Person",
+      "name": {{ $value.name }}
+
+      {{/* Start a sameAs array */}}
+      {{ if isset $value "sameas" }}
+        , "sameAs": [
+      {{ end }}
+
+      {{/* Create a sameAs record for each value, using the 'url' key array */}}
+      {{ range $sameasIndex, $sameasRecord := ($value.sameas) }}
+        {{- if gt $sameasIndex 0 }}, {{ end -}}
+        {{ $sameasRecord.url }}
+      {{ end }}  
+         ]}
+    {{ end }}
+  ],
+  {{ else }}
+    {{/* Fallback if no metadata are described: use the standard theme annotation of the first author */}}
+    {{with $author}}
+  "author": {
+    "@type": "Person",
+    "name": {{.}}
+  },
+    {{ end }}
+  {{ end }}
+ 
+  "publisher": {
+    "@type": "Organization",
+    "name": {{$publisher}},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{$logo_url}}
+    }
+  },
+  "description": {{$summary}}
+}
+</script>
