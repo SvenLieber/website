@@ -8,6 +8,18 @@ share: false
 authors:
   - admin
 
+metadata:
+  authors:
+    - name: Sven Lieber
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0002-7304-3787'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q59469449'
+
+
+
 date: 2019-07-14T13:37:00+02:00
 doi: ''
 

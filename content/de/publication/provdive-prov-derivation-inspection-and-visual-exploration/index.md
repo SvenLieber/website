@@ -12,6 +12,30 @@ authors:
   - Tom De Nies
   - Erik Mannens
 
+metadata:
+  authors:
+    - name: Sven Lieber
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0002-7304-3787'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q59469449'
+    - name: Io Taxidou
+    - name: Peter M. Fischer
+    - name: Tom De Nies
+      sameas:
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q115013243'
+    - name: Erik Mannens
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0001-7946-4884'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q57418730'
+
+
+
 date: '2017-06-01T13:37:00+02:00'
 doi: ''
 

@@ -11,6 +11,35 @@ authors:
   - Anastasia Dimou
   - Ruben Verborgh
 
+metadata:
+  authors:
+    - name: Ben De Meester
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0003-0248-0987'
+    - name: Sven Lieber
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0002-7304-3787'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q59469449'
+    - name: Anastasia Dimou
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0003-2138-7972'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q57418715'
+    - name: Ruben Verborgh
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0002-8596-222X'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q30085536'
+
+
+
 date: 2018-07-01T13:37:00+02:00
 doi: ''
 

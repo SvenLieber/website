@@ -15,7 +15,6 @@ authors:
   - Julie M. Birkholz
   - Anastasia Dimou
 
-# todo: instead of defining it for every page, define it once per co-author on page level, and have an if in the template: if exist in page, then extract values (then I can reuse the regular author list 'authors', and 'metadata' will be on page level
 metadata:
   authors:
     - name: Sven Lieber
