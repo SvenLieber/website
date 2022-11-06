@@ -15,8 +15,60 @@ authors:
   - Julie M. Birkholz
   - Anastasia Dimou
 
+# todo: instead of defining it for every page, define it once per co-author on page level, and have an if in the template: if exist in page, then extract values (then I can reuse the regular author list 'authors', and 'metadata' will be on page level
+metadata:
+  authors:
+    - name: Sven Lieber
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0002-7304-3787'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q59469449'
+    - name: Dylan Van Assche
+      website: ''
+      sameas:
+        - name: 'Wikidata'
+          url: 'https://orcid.org/0000-0002-7195-9935'
+    - name: Sally Chambers
+      website: ''
+      sameas:
+         - name: 'Orcid'
+           url: 'https://orcid.org/0000-0002-2430-475X'
+         - name: 'Wikidata'
+           url: 'https://www.wikidata.org/entity/Q65088461'
+    - name: Fien Messens
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0003-3150-5469'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q109305869'
+    - name: Friedel Geeraert
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0002-5780-2763'
+    - name: Julie M. Birkholz
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0003-1193-0847'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q107719116'
+    - name: Anastasia Dimou
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0003-2138-7972'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q57418715'
+
 date: 2021-08-10T13:37:00+02:00
 doi: ''
+
+summary: "test summary"
+mySummary: "another summary"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2021-08-10T13:37:00+02:00
