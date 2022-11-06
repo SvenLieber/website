@@ -112,3 +112,42 @@ extensions:
 security:
   # Allow frame for embedding speaker notes in slides
   allow_frame: false
+
+metadata:
+  givenName: Sven
+  familyName: Lieber
+  name: Sven Lieber
+  sameas:
+    - icon: twitter
+      icon_pack: fab
+      link: https://twitter.com/SvenLieber
+    - icon: linkedin
+      icon_pack: fab
+      link: https://be.linkedin.com/in/sven-lieber-1b2b70131
+    - icon: barcode
+      icon_pack: fa
+      link: https://www.wikidata.org/entity/Q59469449
+    - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+      icon_pack: fas
+      link: https://scholar.google.be/citations?user=-_GsmQgAAAAJ&hl=en
+    - icon: github
+      icon_pack: fab
+      link: https://github.com/SvenLieber
+    - icon: orcid
+      icon_pack: ai
+      link: https://orcid.org/0000-0002-7304-3787
+    - icon: dplp
+      icon_pack: ai
+      link: https://dblp.org/pid/216/2489
+    - icon: figshare
+      icon_pack: ai
+      link: https://figshare.com/authors/wd/10009451
+    - icon: zotero
+      icon_pack: ai
+      link: https://zotero.org/slieber
+    - icon: acm-dl
+      icon_pack: ai
+      link: https://dl.acm.org/profile/99659241698
+
+
+

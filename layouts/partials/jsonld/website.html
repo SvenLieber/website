@@ -9,6 +9,18 @@
     "query-input": "required name=search_term_string"
   },
   {{end -}}
-  "url": {{site.BaseURL}}
+  "url": {{site.BaseURL}},
+  "about": {
+    "@type": "Person",
+    "name": {{ site.Params.metadata.name }},
+    "givenName": {{ site.Params.metadata.givenName }},
+    "familyName": {{ site.Params.metadata.familyName }},
+    "sameAs": [
+    {{ range $sameasIndex, $sameasRecord := (site.Params.metadata.sameas) }}
+      {{- if gt $sameasIndex 0 }}, {{ end -}}
+      {{ $sameasRecord.link }}
+    {{ end }}
+    ]
+  }
 }
 </script>
