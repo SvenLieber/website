@@ -66,8 +66,6 @@ metadata:
 date: 2021-08-10T13:37:00+02:00
 doi: ''
 
-summary: "test summary"
-mySummary: "another summary"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2021-08-10T13:37:00+02:00
