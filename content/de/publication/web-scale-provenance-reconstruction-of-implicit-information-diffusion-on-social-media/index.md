@@ -37,7 +37,7 @@ metadata:
 
 
 date: 2017-10-20T13:37:00+02:00
-doi: '1234'
+doi: ''
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2017-01-01T00:00:00Z'

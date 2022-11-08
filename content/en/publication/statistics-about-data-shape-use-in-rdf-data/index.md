@@ -41,7 +41,7 @@ metadata:
 
 
 date: 2020-09-30T13:37:00+02:00
-doi: '1234'
+doi: ''
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2020-09-30T13:37:00+02:00
