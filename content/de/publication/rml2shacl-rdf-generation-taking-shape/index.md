@@ -28,7 +28,7 @@ metadata:
     - name: Dylan Van Assche
       website: ''
       sameas:
-        - name: 'Wikidata'
+        - name: 'Orcid'
           url: 'https://orcid.org/0000-0002-7195-9935'
     - name: Sven Lieber
       website: ''
