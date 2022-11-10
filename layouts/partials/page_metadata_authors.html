@@ -1,0 +1,42 @@
+{{/* Display author list. */}}
+{{ $pageParams := .Params }}
+
+{{- $taxonomy := "authors" }}
+{{ if .Param $taxonomy }}
+  {{ range $index, $value := (.GetTerms $taxonomy) }}
+    {{- /* Highlight the author's name? */ -}}
+    {{- $highlight_name := .Page.Params.highlight_name | default false -}}
+
+    {{- if gt $index 0 }}, {{ end -}}
+    <span {{ if $highlight_name }}class="author-highlighted"{{end}}>
+      {{/* Effectively check the page's `_build` option as `_build` is not exposed in Hugo's Page object. */}}
+      {{- if .RelPermalink -}}
+        <a href="{{.RelPermalink}}">{{.LinkTitle}}</a>
+      {{- else -}}
+        {{ .LinkTitle }}
+      {{- end -}}
+    {{ $currentName := .LinkTitle }}
+    {{ range $authorIndex, $authorRecord := ($pageParams.metadata.authors) }}
+      {{ if eq $authorRecord.name $currentName }}
+        {{ range $sameasIndex, $sameasRecord := ($authorRecord.sameas) }}
+          {{ if eq $sameasRecord.name "Orcid" }} 
+            <a href={{$sameasRecord.url}}>
+              <span style="color: #A6CE39"><i class="fa-brands fa-orcid"></i></span>
+            </a>
+          {{ end }}
+          {{ if eq $sameasRecord.name "Wikidata" }} 
+            <a href={{$sameasRecord.url}}>
+              <i class="fa fa-barcode"></i>
+            </a>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    </span>
+    {{- if isset $.Params "author_notes" -}}
+      {{- with (index $.Params.author_notes $index) -}}
+        <i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="{{.}}"></i>
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
