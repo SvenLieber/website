@@ -33,7 +33,7 @@ education:
     - course: PhD in Information Engineering Technology
       institution: Universiteit Gent, Belgien
       year: 2022
-    - course: MSc in Computer Science
+    - course: MSc in Informatik
       institution: Albert-Ludwigs Universität Freiburg, Deutschland
       year: 2016
     - course: BSc in Kommunikations- und Softwaretechnik
@@ -99,4 +99,4 @@ highlight_name: true
 
 Hallo! Mein Name ist Sven Lieber, willkommen auf meiner Webseite.
 Momentan bin ich Data Manager an der Königlichen Bibliothek Belgiens (KBR),
-wo Ich in der Abteilung für Forschung und Innovation arbeite, hauptsächlich am [BELTRANS](https://www.kbr.be/en/projects/beltrans).
+wo Ich in der Abteilung für Forschung und Innovation arbeite, hauptsächlich am [BELTRANS](https://www.kbr.be/en/projects/beltrans) Projekt.
