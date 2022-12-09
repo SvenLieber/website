@@ -12,9 +12,9 @@ location: "Online"
 #  postcode: '94305'
 #  country: United States
 
-summary: "Use your data to achieve something! You will likely encounter data quality issues... We present data quality procedures at the Royal Library of Belgium, how the BELTRANS project revealed more subtle issues, and our developed Librarian-In-The-Loop workflow to semi-automatically improve data quality."
+summary: "Verwenden Sie Ihre Daten um etwas zu erreichen! Sehr wahrscheinlich stoßen Sie dann auf Datenqualitätsprobleme... Wir präsentieren Datenqualitätsverfahren an der Königlichen Bibliothek Belgiens, wie das BELTRANS Forschungsprojekt mehr Probleme ans Licht gebracht hat, und unseren entwickelten Librarian-In-The-Loop Workflow um Datenqualität halbautomatisch zu verbessern"
 
-abstract: "Use your data to achieve something! You will likely encounter data quality issues... We present data quality procedures at the Royal Library of Belgium, how the BELTRANS project revealed more subtle issues, and our developed Librarian-In-The-Loop workflow to semi-automatically improve data quality."
+abstract: "Verwenden Sie Ihre Daten um etwas zu erreichen! Sehr wahrscheinlich stoßen Sie dann auf Datenqualitätsprobleme... Wir präsentieren Datenqualitätsverfahren an der Königlichen Bibliothek Belgiens, wie das BELTRANS Forschungsprojekt mehr Probleme ans Licht gebracht hat, und unseren entwickelten Librarian-In-The-Loop Workflow um Datenqualität halbautomatisch zu verbessern"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -41,10 +41,10 @@ links:
     icon_pack: fab
     name: Follow
     url: https://twitter.com/SvenLieber
-url_code: 'https://github.com/kbrbe/beltrans-data-integration/tree/feature/149-documentation-litl/data-quality'
+url_code: 'https://github.com/kbrbe/beltrans-data-integration/tree/main/data-quality'
 url_pdf: ''
 url_slides: 'https://doi.org/10.5281/zenodo.7372985'
-url_video: ''
+url_video: 'https://www.youtube.com/watch?v=r29W73vle2I'
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

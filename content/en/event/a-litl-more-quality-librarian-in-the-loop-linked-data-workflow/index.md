@@ -41,10 +41,10 @@ links:
     icon_pack: fab
     name: Follow
     url: https://twitter.com/SvenLieber
-url_code: 'https://github.com/kbrbe/beltrans-data-integration/tree/feature/149-documentation-litl/data-quality'
+url_code: 'https://github.com/kbrbe/beltrans-data-integration/tree/main/data-quality'
 url_pdf: ''
 url_slides: 'https://doi.org/10.5281/zenodo.7372985'
-url_video: ''
+url_video: 'https://www.youtube.com/watch?v=r29W73vle2I'
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
