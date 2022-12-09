@@ -12,9 +12,8 @@
 {{ $publisher := site.Params.marketing.seo.org_name | default site.Title }}
 {{ $logo_url := partial "functions/get_logo_url" $page -}}
 
-
 <script type="application/ld+json">
-{
+[{
   "@context": "https://schema.org",
   "@type": {{$schema}},
   "mainEntityOfPage": {
@@ -74,5 +73,74 @@
     }
   },
   "description": {{$summary}}
-}
+},
+
+{{/* IF publication: create breadcrumb annotation for direct link from publications */}}
+  {{ if (eq $page.Type "publication") }}
+  {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Publication",
+    "item": "https://sven-lieber.org/publication"
+  },
+  {
+    "@type": "ListItem",
+    "position": 2,
+    "name": {{ $page.Title }}
+  }
+  ]},
+  {{ end }}
+
+{{/* IF post: create breadcrumb annotation for links via category */}}
+  {{ if (eq $page.Type "post") }}
+    {{ range $categoryIndex, $category := ($page.Params.categories) }}
+      {{ $categoryLower := (lower $category) }}
+      {{ $categoryNormalized := (replace $categoryLower " " "-") }}
+      {{- if gt $categoryIndex 0 }}, {{ end -}}
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": {{ $category }},
+        "item": "https://sven-lieber.org/category/{{ $categoryNormalized }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": {{ $page.Title }}
+      }
+     ]
+    },
+    {{ end }}
+  {{ end }}
+
+{{/* create breadcrumb annotation for links via tags */}}
+  {{ range $tagIndex, $tag := ($page.Params.tags) }}
+      {{ $tagLower := (lower $tag) }}
+      {{ $tagNormalized := (replace $tagLower " " "-") }}
+    {{- if gt $tagIndex 0 }}, {{ end -}}
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": {{ $tag }},
+      "item": "https://sven-lieber.org/tag/{{ $tagNormalized }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ $page.Title }}
+    }
+   ]
+  }
+  {{ end }}
+
+]
 </script>
