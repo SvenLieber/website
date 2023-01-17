@@ -40,6 +40,8 @@ categories:
   - explained
 ---
 
+{{% callout note %}} Anmerkung: Dieser Blogpost beschreibt meine Doktorarbeit aus der Perspektive vom Juni 2020. Die finale Doktorarbeit von 2022 unterscheidet sich ein bisschen davon. {{% /callout %}}
+
 Es ist besonders schwierig die eigene Dokotorarbeit der Familie und Freunden zu erklären,
 gerade in so einem abstrakten Gebiet wie der Informatik.
 Im folgenden Blogpost werde Ich versuchen meine Doktorarbeit zu erklären,

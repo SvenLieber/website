@@ -38,6 +38,9 @@ categories:
   - explained
 ---
 
+
+{{% callout note %}} A side note: This post describes my PhD work from the perspective of June 2020. The actual finished PhD in 2022 was slightly different in comparison. {{% /callout %}}
+
 It is particularly challenging to explain PhD research to family and friends,
 especially in an abstract field such as Computer Science.
 In the following blog post I will try to explain my PhD,
@@ -209,3 +212,4 @@ Below is a picture of the ISWC 2019 conference
 where I presented my PhD plan both as presentation and as a poster (my trip report of this conference held in New Zealand is [here](https://sven-lieber.org/en/2019/11/05/iswc-2019/)).
 
 ![Me presenting my poster at the ISWC doctoral consortium in 2019](/iswc-2019/2019-11-05-iswc-poster-sven.jpg)
+
