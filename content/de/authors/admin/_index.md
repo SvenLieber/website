@@ -48,6 +48,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
+  - icon: mastodon
+    icon_pack: fab
+    link: https://fosstodon.org/@SvenLieber
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/SvenLieber
@@ -69,7 +72,7 @@ social:
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0000-0002-7304-3787
-  - icon: dplp
+  - icon: dblp
     icon_pack: ai
     link: https://dblp.org/pid/216/2489
   - icon: figshare
