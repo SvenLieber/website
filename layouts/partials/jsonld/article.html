@@ -73,11 +73,11 @@
     }
   },
   "description": {{$summary}}
-},
+}
 
 {{/* IF publication: create breadcrumb annotation for direct link from publications */}}
   {{ if (eq $page.Type "publication") }}
-  {
+  ,{
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [{
@@ -91,7 +91,7 @@
     "position": 2,
     "name": {{ $page.Title }}
   }
-  ]},
+  ]}
   {{ end }}
 
 {{/* IF post: create breadcrumb annotation for links via category */}}
@@ -100,7 +100,7 @@
       {{ $categoryLower := (lower $category) }}
       {{ $categoryNormalized := (replace $categoryLower " " "-") }}
       {{- if gt $categoryIndex 0 }}, {{ end -}}
-    {
+    ,{
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [{
@@ -115,7 +115,7 @@
         "name": {{ $page.Title }}
       }
      ]
-    },
+    }
     {{ end }}
   {{ end }}
 
@@ -124,7 +124,7 @@
       {{ $tagLower := (lower $tag) }}
       {{ $tagNormalized := (replace $tagLower " " "-") }}
     {{- if gt $tagIndex 0 }}, {{ end -}}
-  {
+  ,{
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [{
