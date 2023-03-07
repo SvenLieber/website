@@ -99,7 +99,6 @@
     {{ range $categoryIndex, $category := ($page.Params.categories) }}
       {{ $categoryLower := (lower $category) }}
       {{ $categoryNormalized := (replace $categoryLower " " "-") }}
-      {{- if gt $categoryIndex 0 }}, {{ end -}}
     ,{
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -123,7 +122,6 @@
   {{ range $tagIndex, $tag := ($page.Params.tags) }}
       {{ $tagLower := (lower $tag) }}
       {{ $tagNormalized := (replace $tagLower " " "-") }}
-    {{- if gt $tagIndex 0 }}, {{ end -}}
   ,{
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
