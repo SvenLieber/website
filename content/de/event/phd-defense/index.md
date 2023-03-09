@@ -5,13 +5,15 @@ share: false
 event: PhD defense Sven Lieber
 event_url: https://biblio.ugent.be/publication/8745750
 
-location: Ghent
-#address:
-#  street: 450 Serra Mall
-#  city: Stanford
-#  region: CA
-#  postcode: '94305'
-#  country: United States
+location: Campus Boekentoren (Auditorium P)
+address:
+  street: Rozier 9
+  city: Ghent
+  region: East Flanders
+  postcode: '9000'
+  country: Belgium
+
+
 
 summary: Die öffentliche Verteidigung meiner Doktorarbeit mit dem Titel "Assessing, Creating and Using Knowledge Graph Restrictions"
 

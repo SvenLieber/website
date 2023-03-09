@@ -4,13 +4,14 @@ share: false
 
 event: "Linked Data and International Standards for Cultural Heritage"
 event_url: "https://www.kbr.be/en/agenda/linked-data-and-international-standards-for-cultural-heritage/"
-location: "Brussels"
-#address:
-#  street: 450 Serra Mall
-#  city: Stanford
-#  region: CA
-#  postcode: '94305'
-#  country: United States
+
+location: "Royal Library of Belgium (KBR)"
+address:
+  street: Kunstberg 28
+  city: Brussels
+  region: Brussels
+  postcode: '1000'
+  country: Belgium
 
 summary: Der Mehrwert durch das Gebrauchen von offenen Standards und Standardidentifiern beim berücksichtigen von Datenqualität
 
