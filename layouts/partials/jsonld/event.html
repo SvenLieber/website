@@ -13,7 +13,16 @@
   },
   "name": {{$page.Title}},
   {{ with $page.Params.location }}
+  {{ if (eq . "Online") }}
+  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+  {{else}}
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  {{end}}
   "location": {
+    {{ if (eq . "Online") }}
+    "@type": "VirtualLocation",
+    "url": {{$page.Params.event_url | default ""}}
+    {{else}}
     "@type": "Place",
     "name": {{. | plainify}}{{if $page.Params.address}},
     "address": {
@@ -23,7 +32,8 @@
       "postalCode": {{$page.Params.address.postcode | default ""}},
       "addressRegion": {{$page.Params.address.region | default ""}},
       "addressCountry": {{$page.Params.address.country | default ""}}
-    }
+    },
+    {{end}}
     {{end}}
   },
   {{end}}
@@ -36,6 +46,7 @@
   {{with $page.Params.date_end}}
   "endDate": {{ (time .).Format "2006-01-02T15:04:05Z07:00" }},
   {{end}}
+  "eventStatus": "https://schema.org/EventScheduled",
   {{with $author}}
   "performer": {
     "@type": "Person",
