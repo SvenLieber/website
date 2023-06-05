@@ -25,7 +25,9 @@ interests:
   - Semantic Web
   - Cultural Heritage
   - FAIR data
+  - Digital Humanities
   - Provenance
+  - Web Annotations
 
 # Education to show in About widget
 education:
@@ -103,3 +105,10 @@ Hello! My name is Sven Lieber, welcome to my website.
 Currently I am a data manager at the Royal Library of Belgium (KBR)
 where I am working in the research and innovation department, mainly at the [BELTRANS](https://www.kbr.be/en/projects/beltrans) research project.
 
+I am a curious person and see myself as a [Knowledge Scientist](https://www.knowledgescientist.org/).
+Someone who reads into a topic or problem, analyzes data and subsequently devises and applies solutions.
+This includes communicating results using both technical and social skills.
+
+Via this website I share blog posts and resources related to my publications and presentations.
+For a update on my work and topics around Knowledge Graphs, FAIR data, Linked Data and Open Science,
+please consider subscribing to my weekly newsletter [**FAIR Data Digest**](https://sven-lieber.org/en/newsletter/)!
