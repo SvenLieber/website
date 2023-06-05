@@ -110,5 +110,5 @@ Someone who reads into a topic or problem, analyzes data and subsequently devise
 This includes communicating results using both technical and social skills.
 
 Via this website I share blog posts and resources related to my publications and presentations.
-For a update on my work and topics around Knowledge Graphs, FAIR data, Linked Data and Open Science,
+For an update on my work and topics around Knowledge Graphs, FAIR data, Linked Data and Open Science,
 please consider subscribing to my weekly newsletter [**FAIR Data Digest**](https://sven-lieber.org/en/newsletter/)!

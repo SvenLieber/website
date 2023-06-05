@@ -1,5 +1,5 @@
 ---
-title: Newsletter
+title: FAIR Data Digest Newsletter
 date: '2023-06-05T00:00:00+01:00'
 draft: false
 share: false
