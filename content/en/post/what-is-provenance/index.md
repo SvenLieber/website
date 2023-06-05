@@ -39,6 +39,12 @@ categories:
 Having Provenance or not having it, that could be worth than several hundred million dollar. Where does something come from, how was it changed since it exists, that is provenance. These informations help human beings to asses things. Which questions need to be answered and what is my role as computer scientists in this research field?!
 <!--more-->
 
+{{% callout note %}}
+If you want to get notified about more content or want to receive weekly updates on FAIR and Linked Data,
+please consider subscribing to my weekly Newsletter.
+{{% /callout %}}
+<iframe src="https://fairdata.substack.com/embed" width="100%" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+
 In 2015 the painting Les Femmes d’Alger from Picasso was sold for
 unbelievable [179 Mio Dollars](http://www.independent.co.uk/arts-entertainment/art/news/pablo-picasso-les-femmes-dalger-version-o-sells-for-179m-and-sets-new-world-record-10243056.html).
 The painting La Bella Principessa from Leonardo da Vinci was sold for surprisingly cheap 20,000 Dollars (see [Ludäscher](https://link.springer.com/chapter/10.1007%2F978-3-319-40226-0_7)).

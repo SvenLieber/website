@@ -66,6 +66,13 @@ Instead in this post I will mainly focus on talks from the following topics whic
 * Languages and approaches to map tabular data to Linked Data
 * Knowledge Graphs of scientific practices or literature
 
+{{% callout note %}}
+If you want to get notified about more content or want to receive weekly updates on FAIR and Linked Data,
+please consider subscribing to my weekly Newsletter.
+{{% /callout %}}
+<iframe src="https://fairdata.substack.com/embed" width="100%" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+
+
 
 # SciKnow workshop
 On the first day I attended the [Third International Workshop on Capturing Scientific Knowledge (Sciknow 2019)](https://sciknow.github.io/sciknow2019/).

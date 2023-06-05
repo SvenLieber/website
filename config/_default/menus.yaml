@@ -8,32 +8,38 @@ main:
     url: '#about'
     weight: 10
   - name: Posts
-    url: '/posts'
+    url: 'category'
     weight: 20
+    pageRef: '/category'
+    identifier: posts
   - name: Events
     url: 'category/events'
-    parent: Posts
+    parent: posts
   - name: Explained
     url: 'category/explained'
-    parent: Posts
+    parent: posts
   - name: Other
     url: 'category/other'
-    parent: Posts
+    parent: posts
   - name: Projects
     url: 'project'
     weight: 30
   - name: Talks
     url: 'event'
     weight: 40
+    identifier: talks
+  - name: Newsletter
+    url: 'newsletter'
+    weight: 50
   - name: Publications
     url: 'publication'
-    weight: 50
+    weight: 60
   - name: Privacy
     url: 'privacy'
-    weight: 60
+    weight: 70
   - name: Contact
     url: '#contact'
-    weight: 70
+    weight: 80
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.

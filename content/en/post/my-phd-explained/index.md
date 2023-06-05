@@ -51,6 +51,13 @@ freed from academic precision and more from the big picture and with plenty of e
 The bullet points form one coherent story,
 but each paragraph marked with an arrow can be clicked to read more details.
 
+{{% callout note %}}
+If you want to get notified about more content or want to receive weekly updates on FAIR and Linked Data,
+please consider subscribing to my weekly Newsletter.
+{{% /callout %}}
+<iframe src="https://fairdata.substack.com/embed" width="100%" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+
+
 # The context
 
 Did you ever wonder how an assistance system like *Alexa* or *Siri*

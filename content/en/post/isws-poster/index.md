@@ -48,6 +48,12 @@ For that we were invited to bring a poster, describing our PhD research. My curr
 **Since graphs and shapes are very tangible concepts**, and one of the main goals of the poster is to gather feedback, we had the idea of making the poster a bit interactive.
 My supervisor suggested post-its, but as I have a lot of creative energy (and probably procrastinate writing papers), I decided to go for a small Knowledge Jigsaw Puzzle.
 
+{{% callout note %}}
+If you want to get notified about more content or want to receive weekly updates on FAIR and Linked Data,
+please consider subscribing to my weekly Newsletter.
+{{% /callout %}}
+<iframe src="https://fairdata.substack.com/embed" width="100%" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+
 # What is the whole context?
 Within the Semantic Web, information are modeled using vocabularies of terms, relationships among these terms and also constraints, things which aren't allowed.
 The combination of the mentioned vocabularies, relationships and constraints is usually called an ontology and can be expressed in a formal language.

@@ -45,6 +45,12 @@ Continue reading for the full travel report.
 
 <!--more-->
 
+{{% callout note %}}
+If you want to get notified about more content or want to receive weekly updates on FAIR and Linked Data,
+please consider subscribing to my weekly Newsletter.
+{{% /callout %}}
+<iframe src="https://fairdata.substack.com/embed" width="100%" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+
 # About the summer school
 This first edition of the International Semantic Web Research Summer School ([ISWS](http://isws2018.semanticwebschool.org/)) was held in July 1 until July 7 in the University Residency Center in Bertinoro, Italy. 
 The Residency Center is basically an old castle used for conferences and training courses and is a very nice venue. The center also provides hotel-ish bedrooms with bathrooms.

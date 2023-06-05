@@ -41,6 +41,12 @@ categories:
 The cabinet of Germany has the plan to publish the drafts of laws and associated position papers of the lobbies. This should be done for more than 600 laws of the past 4 years. This transparency can reveal a lot. For instance, which Lobby influenced which law actively. Nearly 17,000 documents are planned to be published. But how can one handle this huge amount?
 <!--more-->
 
+{{% callout note %}}
+If you want to get notified about more content or want to receive weekly updates on FAIR and Linked Data,
+please consider subscribing to my weekly Newsletter.
+{{% /callout %}}
+<iframe src="https://fairdata.substack.com/embed" width="100%" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+
 4 years, over 600 laws, nearly 17,000 documents. These numbers are currently everywhere in the German media. The law "Informationsfreiheitsgesetz", enables all citizens to
 request administrative data of the government. This include documents of the origin of law, like the first draft, the position papers of the lobbies regarding this draft or
 the later draft of the government, which considers the position papers.

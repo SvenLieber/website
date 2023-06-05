@@ -60,6 +60,13 @@ The conference also had several sessions regarding ontologies and ontology desig
 **What I didn't like**
 I missed a few really good workshops because I had to attend the Doctoral Consortium a full day. Fully attending it is a good thing, just a pity it overlaps with other workshops.
 
+{{% callout note %}}
+If you want to get notified about more content or want to receive weekly updates on FAIR and Linked Data,
+please consider subscribing to my weekly Newsletter.
+{{% /callout %}}
+<iframe src="https://fairdata.substack.com/embed" width="100%" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+
+
 # OTTR tutorial
 For the first workshop day I've chosen to attend the tutorial on [scalable construction of sustainable knowledge bases](http://ottr.xyz/event/2019-10-267-iswc/) which was all about the Reasonaable Ontology Templates (OTTR) framework.
 It was given by [Martin G. Skjæveland](http://folk.uio.no/martige/), [Leif Harald Karlsen](https://www.mn.uio.no/ifi/personer/adm/leifhka/)  and [Daniel Lupp](https://www.mn.uio.no/ifi/english/people/aca/danielup/) from the University of Oslo,
