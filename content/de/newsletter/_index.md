@@ -2,14 +2,20 @@
 title: FAIR Data Digest Newsletter
 date: '2023-06-05T00:00:00+01:00'
 draft: false
-share: false
+share: true
 commentable: false
 editable: false
+
+summary: Mein wöchentlicher Englischsprachiger Newsletter mit Updates zu meiner Arbeit, FAIR Data, Linked Data, Open Science und mehr
 
 # Optional header image (relative to `static/media/` folder).
 header:
   caption: ''
-  image: ''
+  image: 'newsletter-logo-basic.jpg'
+
+image:
+  preview_only: true
+
 ---
 
 Erhalte Sie **jeden Dienstag** die neuesten Updates zu meiner Arbeit und nützliche Links zu Open Science und FAIR und Linked Data direkt in den Posteingang! (Newsletter auf Englisch)

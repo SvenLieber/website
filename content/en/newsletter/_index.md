@@ -2,14 +2,19 @@
 title: FAIR Data Digest Newsletter
 date: '2023-06-05T00:00:00+01:00'
 draft: false
-share: false
+share: true
 commentable: false
 editable: false
+
+summary: My weekly newsletter about my work updates, FAIR data, Linked Data, Open Science and more.
 
 # Optional header image (relative to `static/media/` folder).
 header:
   caption: ''
-  image: ''
+  image: 'newsletter-logo-basic.jpg'
+
+image:
+  preview_only: true
 ---
 
 Get the latest updates about my work and useful links about Open Science and FAIR and Linked Data **every Tuesday** directly into your inbox!
