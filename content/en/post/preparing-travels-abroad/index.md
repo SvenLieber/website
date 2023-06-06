@@ -37,6 +37,12 @@ categories:
 You are traveling abroad to a conference and you think you are prepared? Think again! There is always something you probably will forget about and if some unfavorable circumstances following each other you may find yourself in real trouble. Check out my list, learn from my mistakes and extend it, in case I missed something!
 <!--more-->
 
+{{% callout note %}}
+If you want to get notified about more content or want to receive weekly updates on FAIR and Linked Data,
+please consider subscribing to my weekly Newsletter.
+{{% /callout %}}
+<iframe src="https://fairdata.substack.com/embed" width="100%" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+
 In most of the cases a good preparation seems time consuming and who need all this, nothing will happen, right?! On a recent trip to Seattle in the United states the worst case happened, 
 I lost my passport. A lot of steps needed to be done, but outside of the usual environment obvious, self-evident things become challenging.
 Let’s go through my use-case to check what is needed. A small remark, I heed some of the mentioned points, but for some I didn’t even saw the problem arising.
