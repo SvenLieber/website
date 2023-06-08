@@ -17,7 +17,12 @@ image:
   preview_only: true
 ---
 
-Get the latest updates about my work and useful links about Open Science and FAIR and Linked Data **every Tuesday** directly into your inbox!
+Get the latest updates, interesting links or reviews about the following **every Tuesday** directly into your inbox!
+* updates of my work at the Royal Library of Belgium, programming, ...
+* FAIR data, Open Data, Open Science, ...
+* Knowledge Graphs, Linked Data, Ontologies, ...
+* (Belgian) Cultural Heritage, Digital Humanities, ...
+
 
 Here you can **subscribe for free** to get my weekly Newsletter.
 
@@ -25,7 +30,7 @@ Here you can **subscribe for free** to get my weekly Newsletter.
 
 ## View the archive
 
-Looking for something or just want to see what you can expect from my Newsletter?
+Looking for a specific edition or just want to see what you can expect from my Newsletter?
 Browse through old Newsletter editions!
 
 {{< cta cta_text="Check the archive" cta_link="https://fairdata.substack.com/archive" cta_new_tab="false" >}}
