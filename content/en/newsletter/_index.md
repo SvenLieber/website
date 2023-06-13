@@ -33,4 +33,4 @@ Here you can **subscribe for free** to get my weekly Newsletter.
 Looking for a specific edition or just want to see what you can expect from my Newsletter?
 Browse through old Newsletter editions!
 
-{{< cta cta_text="Check the archive" cta_link="https://fairdata.substack.com/archive" cta_new_tab="false" >}}
+{{< cta cta_text="Check the archive" cta_link="https://fair-data-digest.org/archive" cta_new_tab="false" >}}

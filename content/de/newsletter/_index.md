@@ -33,4 +33,4 @@ Hier können Sie sich **umsonst** in meinen wöchentlichen Newsletter **einschre
 Suchen Sie eine bestimmte Ausgabe oder möchten Sie einfach nur sehen, was Sie von meinem Newsletter erwarten können?
 Stöbern Sie in alten Newsletter-Ausgaben!
 
-{{< cta cta_text="Check the archive" cta_link="https://fairdata.substack.com/archive" cta_new_tab="false" >}}
+{{< cta cta_text="Check the archive" cta_link="https://fair-data-digest.org/archive" cta_new_tab="false" >}}

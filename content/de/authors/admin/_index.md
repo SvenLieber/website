@@ -111,5 +111,5 @@ Jemand der sich in ein Gebiet oder Problem einarbeitet, Daten analysiert und im 
 Das schließt auch die Kommunikation der Resultate in angemessener Form mit ein.
 
 Auf dieser Webseite teile ich Blogposts und digitale Ressourcen zu meinen öffentlichen Publikationen und Präsentationen.
-Abonnieren Sie meinen wöchentlichen englischsprachigen [**FAIR Data Digest**](https://sven-lieber.org/de/newsletter/) Newsletter
+Abonnieren Sie meinen wöchentlichen englischsprachigen [**FAIR Data Digest**](https://fair-data-digest.org) Newsletter
 um über meinen persönlichen Werdegang und Themen rund Wissensgraphen, FAIRen Daten, Linked Data und Open Science informiert zu bleiben!
