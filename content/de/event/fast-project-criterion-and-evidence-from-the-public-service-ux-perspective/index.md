@@ -42,7 +42,7 @@ links:
     url: https://twitter.com/SvenLieber
 url_code: ''
 url_pdf: ''
-url_slides: "https://joinup.ec.europa.eu/sites/default/files/event/attachment/2019-06/CCCEV%20webinar%20presentation_FAST%20project_Sven%20LIEBER.pdf"
+url_slides: "https://zenodo.org/record/8001639"
 url_video: "https://www.youtube.com/watch?v=c04BdKrJuYQ&list=PLTqrUzsdFBKb8YYA1wXiJa45cne1YiLV-"
 
 # Markdown Slides (optional).
