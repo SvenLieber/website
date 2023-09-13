@@ -52,7 +52,7 @@ social:
     link: '/#contact'
   - icon: mastodon
     icon_pack: fab
-    link: https://fosstodon.org/@SvenLieber
+    link: https://hcommons.social/@SvenLieber
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/SvenLieber
