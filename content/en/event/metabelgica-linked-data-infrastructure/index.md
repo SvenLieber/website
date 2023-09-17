@@ -24,7 +24,7 @@ publishDate: '2023-09-11T00:00:00Z'
 
 authors:
   - admin
-tags: []
+tags: ["RDF", "Linked Data", "Authority File", "Research Data Infrastructure", "Karlsruhe", "CoRDI", "GLAM"]
 
 # Is this a featured talk? (true/false)
 featured: true
@@ -39,7 +39,7 @@ links:
     name: Follow
     url: https://twitter.com/SvenLieber
 url_code: ''
-url_pdf: ''
+url_pdf: 'https://doi.org/10.52825/cordi.v1i.381'
 url_slides: 'https://doi.org/10.5281/zenodo.8337301'
 url_video: ''
 
@@ -55,6 +55,6 @@ slides: ''
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: ['metabelgica']
 ---
 
