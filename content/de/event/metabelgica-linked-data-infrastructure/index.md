@@ -15,8 +15,8 @@ location: Karlsruhe, Germany
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2023-09-12T11:00:00'
-date_end: '2023-09-14T17:00:00Z'
+date: '2023-09-12T15:10:00'
+date_end: '2023-09-12T15:25:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
