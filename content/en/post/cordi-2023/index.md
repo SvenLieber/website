@@ -46,8 +46,16 @@ categories:
   - events
 ---
 
-It is difficult to foster innovation and perform high quality research when the underlying data is not accessible and usable. Data and data services should be offered via so-called research data infrastructures, think of user-friendly web platforms, repositories and databases.
-In this blog post I will reflect on the 1st Conference on Research Data Infrastructure that I have attended in September 2023. My post will cover the keynotes, the poster sessions, our own work around Knowledge Graphs and Wikibase, as well as a selection of other interesting talks.
+It is difficult to foster innovation and perform high quality research 
+when the underlying data is not accessible and usable. 
+Data and data services should be offered via so-called _research data infrastructures_, 
+think of user-friendly web platforms, repositories, and databases.
+But how does it work in practice, and how important is the human aspect of it?
+I have been at the **1st Conference on Research Data Infrastructure**,
+12 – 14 September 2023, and got some pretty good insights.
+In this blog post I will reflect on the conference and cover the keynotes, 
+the poster sessions, our own work around Knowledge Graphs and Wikibase, 
+as well as a selection of other interesting talks.
 <!--more--> 
 
 ## Context
@@ -66,29 +74,29 @@ have brought hundreds of institutional partners together
 to build and maintain research infrastructure within numerous research projects.
 National initiatives have emerged as well. 
 
-Under the theme “Connecting Communities”, 
-the association related to the German National Research Data Infrastructure (NFDI) 
+Under the theme _**Connecting Communities**_, 
+the association related to the _German National Research Data Infrastructure (NFDI)_ 
 organized the 1st Conference on Research Data Infrastructure (CoRDI). 
 More than **680 persons** attended this international multi-track conference 
 which hosted **84 presentations** and more than a **100 posters**. 
-Next to very interesting keynotes, there were thematic tracks at the first day 
+Next to inspiring keynotes, there were thematic tracks at the first day 
 and tracks related to enabling, connecting, linking, 
 harmonizing,  securing, and spreading of Research Data Management (RDM) 
 on the remaining days.
 
-**My main takeaways are**
+**My main takeaways**
 
-* human problems need to be fixed (connecting communities, data governance, etc)
-* Knowledge Graphs and especially Wikibase gain attention
-* Increasing need for sustainably funded data management careers
+* It’s mostly about human problems that need to be fixed (connecting communities, data governance, etc)
+* Knowledge Graphs and especially Wikibase gain attention in the context of research (data) infrastructures
+* There is an increasing need for sustainably funded data management careers
 
-In the rest of this post I will focus on my main highlights, 
-not on all the presentations I have attended. 
+In the rest of this post I will focus on my _main highlights_, 
+not on all the presentations that I have seen. 
 Also, since the conference was organized in the frame of NFDI, 
 a lot of networking and promotion was devoted to the different NFDI consortia.
 I am not affiliated with any of these consortia 
 and because I haven’t worked with any of those consortia in the past, 
-this blog post is limited to my own personal experiences at the conference.
+this blog post is limited to my own personal (outsider) experiences at the conference.
 I am glad to update the post and link relevant other blog posts that provide other insides.
 
 {{% callout note %}}
@@ -102,14 +110,14 @@ please consider subscribing to my weekly Newsletter.
 ## Keynotes
 
 Three excellent keynotes were given which gave different insights into data: 
-Christine Borgman zoomed into the bigger picture of 
+**Christine Borgman** zoomed into the bigger picture of 
 Knowledge Infrastructures, 
-Julia Janssen presented how data and scientific insights 
+**Julia Janssen** presented how data and scientific insights 
 can be translated into art installations, 
-and Mark D. Wilkinson talked about his regrets 
+and **Mark D. Wilkinson** talked about his regrets 
 when co-designing the first FAIR principles and the road ahead.
 
-### Christine Borgman
+### Christine Borgman – Knowledge Infrastructures
 
 > “May all your problems be technical” – Jim Gray
 
@@ -121,7 +129,7 @@ we have already a lot of platforms and initiatives.
 But what about data governance? 
 To which extent do different communities agree on data management practices? 
 According to her, we should focus on Knowledge Infrastructures, 
-including also the social component!
+**including also the social component!**
 
 ![Needed data governance according to Christine Borgman](cordi-2023/2023-09-12_cordi-keynote-governance.jpg)
 
@@ -133,7 +141,7 @@ Christine Borgman pledges for a data management workforce:
 who cover the middle ground between knowledge and data production.
 I fully agree! More such careers are needed (and sustainably funded) at different research institutions.
 
-### Julia Janssen
+### Julia Janssen – data art installations
 
 Data, .. this anyway is something really abstract. 
 The researcher and artist [Julia Janssen](https://studiojuliajanssen.com/) 
@@ -150,7 +158,7 @@ Just to try figuring out why she might like the color green.
 Other people literally crawled under it to get to know her better,
 looking at her interests trying to find out why she might like the color green.
 
-### Mark D. Wilkinson
+### Mark D. Wilkinson – FAIR principles
 
 A common theme at the conference were of course the FAIR principles.
 The third and last keynote about those principles 
@@ -158,7 +166,7 @@ was given by the main author of the original FAIR principles paper,
 [Mark D. Wilkinson](https://orcid.org/0000-0001-6960-357X) ([DOI: 10.5281/zenodo.8353153](https://doi.org/10.5281/zenodo.8353153)).
 Besides presenting his most recent work, he also talked about his regrets
 after almost 10 years since the initial version of the principles from a 2014 workshop.
-One of his regrets is the term data, apparently the term FAIR Digital Objects or FAIR Research Objects seems to capture their ideas better with less confusion. Also the term license turned out to be an issue, access or usage policy would have been better, avoiding the heavy legislative meaning.
+One of his **regrets** is the term **data**, apparently the term FAIR Digital Objects or FAIR Research Objects seems to capture their ideas better with less confusion. Also **the term license** turned out to be an issue, _access_ or _usage policy_ would have been better, avoiding the heavy legislative meaning.
 
 ![Mark D. Wilkinson presenting his keynote at CoRDI](cordi-2023/2023-09-14_cordi-fair.jpg)
 
@@ -171,23 +179,24 @@ Those specifications and implementations for Knowledge Graph Construction were d
 
 ## Poster session(s)
 One of the most engaging events during a conference is of course the poster session. 
-And CoRDI had two of it! 
+**And CoRDI had two of it!**
 Many, many posters and as much motivated researchers to present it. 
 Topics covered among others anything around data management plans, 
 terminologies, persistent identifiers, FAIR initiatives 
 and of course posters presenting the different NFDI consortia. 
-From the plenty of posters I will focus on two in this blog post, 
-a very detailed and a more high level one. 
-Please check the proceedings for all posters if you are interested.
+From the plenty of posters I will focus on two in this blog post:
+one more technical poster and one highlighting international collaboration.
 
 There have been posters from various domains, 
-nicely showing the overlap of problems and solutions between the domains. 
+and it became apparent that there is an overlap between the domains 
+in terms of problems and solutions. 
 For example, there was the poster from [Steffen Neumann](https://orcid.org/0000-0002-7899-7192) 
 and colleagues about repository federations in the chemical domain ([DOI: 10.52825/cordi.v1i.202](https://doi.org/10.52825/cordi.v1i.202)). 
 Among others, they work with the 
-Open Archives Initiatives Protocol for Metadata Harvesting (OAI-PMH), 
-which is also a common interface in the library domain.
+_Open Archives Initiatives Protocol for Metadata Harvesting (OAI-PMH)_, 
+which is also a common interface in the library domain where I am currently in.
 There I have learned that it is possible to embed JSON-LD in OAI-PMH and retrieve it via Xpath.
+A very handy way to publish Linked Data using already available interfaces.
 
 ![A poster about repository federations of the chemical domain](cordi-2023/2023-09-13_cordi-repository-federation.jpg)
 
@@ -197,7 +206,7 @@ based on the example of the SSHOC market place.
 In the [8th edition](https://fair-data-digest.org/archive/8) 
 of the [FAIR Data Digest](https://fair-data-digest.org), 
 I have covered with an example how differently national ERIC nodes
-might be linked with national initiatives.
+might be linked with national initiatives (what is an ERIC? [check here](https://fair-data-digest.org/archive/6)).
 Nice to see it and talk about it in real life.
 
 
@@ -207,8 +216,9 @@ Nice to see it and talk about it in real life.
 ## MetaBelgica, Wikibase and NFDI4Culture
 
 I participated at CoRDI to present our envisioned platform [MetaBelgica](https://www.kbr.be/en/projects/metabelgica/) 
-which aims to become the single source of truth 
-for cultural heritage metadata about Belgian entities of type persons, organizations, time/events and locations.
+which aims to become 
+the **single source of truth for cultural heritage metadata about Belgian entities** 
+of type persons, organizations, time/events and locations.
 
 For those of you subscribed to my [FAIR Data Digest newsletter](https://fair-data-digest.org), 
 you already read about the main idea behind MetaBelgica 
@@ -217,20 +227,20 @@ The following image summarizes the problem we aim to solve.
 
 ![The problem that MetaBelgica aims to solve: providing a single source of truth for Belgian entities related to cultural heritage, to remove duplicate efforts on the side of the data curators and the users](cordi-2023/2023-09-12_cordi-metabelgica.jpg)
 
-Each participating institution manages metadata about their own collections 
+Each participating institution (left in the image) manages metadata about their own collections 
 using domain-specific data standards. 
 This is totally fine, because usually there aren’t any conflicts, 
 because there is no overlap in the collections. 
 But as part of the cataloging process, 
-the same related data about entities such as persons or events are created by each institution separately.
-This results in duplicate efforts for the institutions and for the users.
+the same related data about entities such as persons or events are created by each institution separately. Over and over again.
+This results in **duplicate efforts for the institutions and for the users**.
 
 We want to integrate the data of the partnering institutions 
 by using the Resource Description Framework (RDF) 
-and use the Wikibase software as a platform to manage the integrated data.
+and use the Wikibase software as a platform to manage the integrated data in a Knowledge Graph.
 
 ### Knowledge Graphs at NFDI
-With our submission related to Linked Data we are not alone!
+With our submission related to Knowledge Graphs we are not alone!
 
 Under high pressure of continuously ringing alarm bells during the national-wide sirens and (phone) alarm system test, [Lozana Rossenova](https://orcid.org/0000-0002-5190-1867) 
 presented work about Knowledge Graph Infrastructure based on Wikibase
@@ -243,10 +253,14 @@ also presented work that originated from NFDI4Culture
 Their original NFDI4Culture ontology was extended to cover other NFDI consortia.
 In that adaptation process, the ontology was modularized into a core and several extensions.
 
+This is great! Plenty of lessons learned and possible networking and collaboration ahead
+with respect to MetaBelgica.
+
 ## Selection of presentations
 There were tons of interesting presentations, 
 but unfortunately I could not split myself to see all. 
-Here is a small selection of some presentations from various domains so you get an idea.
+Here is a small selection of some presentations from various domains 
+such that you will get an idea of research data infrastructure solutions at CoRDI.
 
 ### Social sciences
 
@@ -260,12 +274,15 @@ I am wondering if with respect to safe rooms there is a Belgian gap in social sc
 
 ![Safe rooms for the International Data Access Network, but not in Belgium](cordi-2023/2023-09-13_cordi-saferoom.jpg)
 
-### Basics
+### Data spaces
 [Peter Wittenburg](https://orcid.org/0000-0003-3538-0106) 
 presented the idea of FAIR Data Objects (FDOs), 
 which according to his vision should become similarly to TCP/IP 
-a standard protocol for data exchange.
-([DOI: 10.52825/cordi.v1i.263](https://doi.org/10.52825/cordi.v1i.263))
+a standard protocol for data exchange
+([DOI: 10.52825/cordi.v1i.263](https://doi.org/10.52825/cordi.v1i.263)).
+Like this, **FAIR data can flow through the emerging data spaces**
+similar to how TCP/IP packages flow through the internet.
+
 ![Peter Wittenburg presenting FAIR Data Objects at CoRDI](cordi-2023/2023-09-13_cordi-fdo.jpg)
 
 ### Physics
@@ -277,8 +294,25 @@ there are also alignments with the NFDI ([DOI: 10.52825/cordi.v1i.339](https://d
 
 ![Nicola Knight presenting UK physical sciences data infrastructures](cordi-2023/2023-09-13_cordi-uk.jpg)
 
+### Scholarly Communication
+Even though we have all the open and FAIR data and code repositories,
+the actual way of scholarly communication 
+via research papers has not change much over the centuries.
+[Sören Auer](https://orcid.org/0000-0002-0698-2864) 
+presented the _Open Research Knowledge Graph (ORKG)_ and how they plan to change that
+([DOI: 10.52825/cordi.v1i.272](https://doi.org/10.52825/cordi.v1i.272)).
+One adds structured information about the contributions of a specific paper to the Knowledge Graph
+via a web interface.
+**Comparisons and visualizations can be created on the fly**, 
+everything gets DOIs and is thus citable.
+They also experimented already to promote the ORKG earlier in the publication process,
+for example as preparation for the submission to the SEMANTiCS conference 
+according to  Sören Auer.
+
+![Scholarly Communication via publications has not change much over the centuries, the Open Research Knowledge Graph wants to change that](cordi-2023/2023-09-14_cordi-orkg.jpg)
+
 ### Research Data Management
-A whole team of people presented the state initiative for Research Data Management ([DOI: 10.52825/cordi.v1i.242](https://doi.org/10.52825/cordi.v1i.242)).
+A whole team of people presented the state initiatives for Research Data Management ([DOI: 10.52825/cordi.v1i.242](https://doi.org/10.52825/cordi.v1i.242)).
 The following image shows some German states that are already participating in this initiative.
 They do some necessary field-work, providing support to researchers directly,
 or support smaller members such as Universities of Applied Sciences in grant applications.
@@ -299,6 +333,7 @@ Connecting the dots as the title mentions, or connecting communities, the theme 
 ## Final remarks
 
 This is it, I hope you enjoyed reading this blog post about CoRDI 2023.
+Let me know if you have any questions, feedback or remarks.
 
 Thanks to the whole CoRDI team for making this edition happen!
 I am looking forward to a possible 2025 edition of CoRDI to learn about the progress of the community.
