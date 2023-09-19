@@ -220,6 +220,9 @@ which aims to become
 the **single source of truth for cultural heritage metadata about Belgian entities** 
 of type persons, organizations, time/events and locations.
 
+* Abstract: https://doi.org/10.52825/cordi.v1i.381
+* Presentation: https://doi.org/10.5281/zenodo.8337301 
+
 For those of you subscribed to my [FAIR Data Digest newsletter](https://fair-data-digest.org), 
 you already read about the main idea behind MetaBelgica 
 in the [last edition](https://fair-data-digest.org/archive/15). 
