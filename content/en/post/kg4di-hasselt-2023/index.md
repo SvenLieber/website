@@ -7,6 +7,7 @@ share: true
 # Link this post with a project
 projects: []
 
+postDOI: 10.59350/rwmp4-kmt63
 toc: true
 
 # Date published
@@ -47,6 +48,18 @@ tags:
 
 categories:
   - events
+
+metadata:
+  authors:
+    - name: Sven Lieber
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0002-7304-3787'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q59469449'
+
+
 ---
 
 In June 2023 I attended a workshop in Hasselt, Belgium, organized by a research network on Knowledge Graphs and Data Integration.

@@ -37,6 +37,18 @@ tags:
 
 categories:
   - events
+
+metadata:
+  authors:
+    - name: Sven Lieber
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0002-7304-3787'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q59469449'
+
+
 ---
 
 In the first week of July I participated the first edition of the International Semantic Web Research Summer School (ISWS) in Bertinoro, Italy.

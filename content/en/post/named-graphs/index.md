@@ -6,6 +6,8 @@ share: true
 # Link this post with a project
 projects: []
 
+postDOI: 10.59350/n84f2-8q140
+
 # Date published
 date: 2023-06-26T19:00:00+01:00
 
@@ -37,6 +39,18 @@ tags:
 
 categories:
   - explained
+
+metadata:
+  authors:
+    - name: Sven Lieber
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0002-7304-3787'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q59469449'
+
+
 ---
 
 With the Resource Description Framework (RDF) you can represent Linked Data as subject-predicate-object triples.

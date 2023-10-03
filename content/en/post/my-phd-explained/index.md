@@ -6,6 +6,8 @@ share: false
 # Link this post with a project
 projects: []
 
+postDOI: 10.59350/t981k-esy49
+
 # Date published
 date: 2020-06-21T16:28:14+02:00
 
@@ -36,6 +38,18 @@ tags:
 
 categories:
   - explained
+
+metadata:
+  authors:
+    - name: Sven Lieber
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0002-7304-3787'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q59469449'
+
+
 ---
 
 

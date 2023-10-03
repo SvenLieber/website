@@ -7,6 +7,8 @@ share: true
 # Link this post with a project
 projects: []
 
+postDOI: 10.59350/b1cch-96c36
+
 toc: true
 
 # Date published
@@ -45,6 +47,18 @@ tags:
 
 categories:
   - events
+
+metadata:
+  authors:
+    - name: Sven Lieber
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0002-7304-3787'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q59469449'
+
+
 ---
 
 This year we had the honor to host the 10th anniversary edition of the DHBenelux conference at the Royal Library of Belgium (KBR).

@@ -6,6 +6,8 @@ share: false
 # Link this post with a project
 projects: []
 
+postDOI: https://doi.org/10.59350/7tkkb-n0636
+
 # Date published
 date: 2017-04-07
 
@@ -34,6 +36,18 @@ tags:
 
 categories:
   - explained
+
+metadata:
+  authors:
+    - name: Sven Lieber
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0002-7304-3787'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q59469449'
+
+
 ---
 
 Having Provenance or not having it, that could be worth than several hundred million dollar. Where does something come from, how was it changed since it exists, that is provenance. These informations help human beings to asses things. Which questions need to be answered and what is my role as computer scientists in this research field?!

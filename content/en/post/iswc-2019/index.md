@@ -6,6 +6,8 @@ share: false
 # Link this post with a project
 projects: []
 
+postDOI: 10.59350/t4htw-mb320
+
 # Date published
 date: 2019-11-05T08:41:37+01:00
 
@@ -41,6 +43,18 @@ tags:
 
 categories:
   - events
+
+metadata:
+  authors:
+    - name: Sven Lieber
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0002-7304-3787'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q59469449'
+
+
 ---
 
 In the last week of October 2019 I attended the International Semantic Web Conference (ISWC) in Auckland, New Zealand.

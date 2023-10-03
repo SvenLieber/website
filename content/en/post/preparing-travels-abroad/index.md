@@ -6,6 +6,8 @@ share: false
 # Link this post with a project
 projects: []
 
+postDOI: 10.59350/wvqdm-71d04
+
 # Date published
 date: 2017-06-28
 
@@ -31,6 +33,18 @@ authors:
 
 categories:
   - other
+
+metadata:
+  authors:
+    - name: Sven Lieber
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0002-7304-3787'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q59469449'
+
+
 ---
 
 

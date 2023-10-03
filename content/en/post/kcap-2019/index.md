@@ -6,6 +6,8 @@ share: false
 # Link this post with a project
 projects: []
 
+postDOI: 10.59350/wgcpn-56q54
+
 # Date published
 date: 2019-11-24T21:09:40+01:00
 
@@ -39,6 +41,18 @@ tags:
 
 categories:
   - events
+
+metadata:
+  authors:
+    - name: Sven Lieber
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0002-7304-3787'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q59469449'
+
+
 ---
 
 At the end of November 2019 I could visit the sunny California to attend the Conference on Knowledge Capture (K-Cap).

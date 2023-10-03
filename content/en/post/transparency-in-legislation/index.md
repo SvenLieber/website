@@ -6,6 +6,8 @@ share: false
 # Link this post with a project
 projects: []
 
+postDOI: 10.59350/fxsbw-47a67
+
 # Date published
 date: 2017-07-13
 
@@ -36,6 +38,18 @@ tags:
 
 categories:
   - explained
+
+metadata:
+  authors:
+    - name: Sven Lieber
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0002-7304-3787'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q59469449'
+
+
 ---
 
 The cabinet of Germany has the plan to publish the drafts of laws and associated position papers of the lobbies. This should be done for more than 600 laws of the past 4 years. This transparency can reveal a lot. For instance, which Lobby influenced which law actively. Nearly 17,000 documents are planned to be published. But how can one handle this huge amount?

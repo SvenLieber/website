@@ -37,6 +37,18 @@ tags:
 
 categories:
   - other
+
+metadata:
+  authors:
+    - name: Sven Lieber
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0002-7304-3787'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q59469449'
+
+
 ---
 
 For the ISWS summer school I prepared an interactive poster. Read in his post what it is about and see how it was made.

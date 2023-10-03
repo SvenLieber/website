@@ -5,6 +5,8 @@ share: false
 # Link this post with a project
 projects: []
 
+postDOI: 10.59350/fv3zn-hmx58
+
 # Date published
 date: 2018-06-23T11:27:27+02:00
 
@@ -40,6 +42,18 @@ tags:
 
 categories:
   - events
+
+metadata:
+  authors:
+    - name: Sven Lieber
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0002-7304-3787'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q59469449'
+
+
 ---
 
 At the end of May I had the chance to attend the WebScience conference. A venue where computer scientists and social scientists meet!

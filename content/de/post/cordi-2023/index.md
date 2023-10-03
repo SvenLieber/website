@@ -9,6 +9,8 @@ projects: []
 
 toc: true
 
+postDOI: 10.59350/pg3xj-4z449
+
 # Date published
 date: 2023-09-17T09:00:00+01:00
 
@@ -44,6 +46,18 @@ tags:
 
 categories:
   - events
+
+metadata:
+  authors:
+    - name: Sven Lieber
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0002-7304-3787'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q59469449'
+
+
 ---
 
 {{% callout note %}} Momentan leider nur auf Englisch verfuegbar da ich noch keine Zeit hatte den Blogpost zu uebersetzen. {{% /callout %}}
