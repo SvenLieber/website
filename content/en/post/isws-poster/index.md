@@ -61,8 +61,8 @@ For that we were invited to bring a poster, describing our PhD research. My curr
 My supervisor suggested post-its, but as I have a lot of creative energy (and probably procrastinate writing papers), I decided to go for a small Knowledge Jigsaw Puzzle.
 
 {{% callout note %}}
-If you want to get notified about more content or want to receive weekly updates on FAIR and Linked Data,
-please consider subscribing to my weekly Newsletter.
+If you want to get notified about more content or want to receive bi-weekly updates on FAIR and Linked Data,
+please consider subscribing to my bi-weekly Newsletter.
 {{% /callout %}}
 <iframe src="https://fairdata.substack.com/embed" width="100%" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 

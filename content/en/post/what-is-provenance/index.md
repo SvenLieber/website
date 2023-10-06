@@ -54,8 +54,8 @@ Having Provenance or not having it, that could be worth than several hundred mil
 <!--more-->
 
 {{% callout note %}}
-If you want to get notified about more content or want to receive weekly updates on FAIR and Linked Data,
-please consider subscribing to my weekly Newsletter.
+If you want to get notified about more content or want to receive bi-weekly updates on FAIR and Linked Data,
+please consider subscribing to my bi-weekly Newsletter.
 {{% /callout %}}
 <iframe src="https://fairdata.substack.com/embed" width="100%" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 

@@ -6,7 +6,7 @@ share: true
 commentable: false
 editable: false
 
-summary: My weekly newsletter about my work updates, FAIR data, Linked Data, Open Science and more.
+summary: My bi-weekly newsletter about my work updates, FAIR data, Linked Data, Open Science and more.
 
 # Optional header image (relative to `static/media/` folder).
 header:
@@ -17,14 +17,14 @@ image:
   preview_only: true
 ---
 
-Get the latest updates, interesting links or reviews about the following **every Tuesday** directly into your inbox!
+Get the latest updates, interesting links or reviews about the following **every other Tuesday** directly into your inbox!
 * updates of my work at the Royal Library of Belgium, programming, ...
 * FAIR data, Open Data, Open Science, ...
 * Knowledge Graphs, Linked Data, Ontologies, ...
 * (Belgian) Cultural Heritage, Digital Humanities, ...
 
 
-Here you can **subscribe for free** to get my weekly Newsletter.
+Here you can **subscribe for free** to get my bi-weekly Newsletter.
 
 <iframe src="https://fairdata.substack.com/embed" width="100%" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 

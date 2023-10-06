@@ -73,8 +73,8 @@ but also for how to _actually implement_ Knowledge Graph software
 based on formally sound techniques.
 
 {{% callout note %}}
-If you want to get notified about more content or want to receive weekly updates on FAIR and Linked Data,
-please consider subscribing to my weekly Newsletter.
+If you want to get notified about more content or want to receive bi-weekly updates on FAIR and Linked Data,
+please consider subscribing to my bi-weekly Newsletter.
 {{% /callout %}}
 <iframe src="https://fairdata.substack.com/embed" width="100%" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 
@@ -327,8 +327,8 @@ I am looking forward to the following events.
 
 Don't forget to share this post on social media and in your networks!
 
-Please also consider subscribing to my weekly newsletter _FAIR Data Digest_
-to receive more interesting content every Tuesday!
+Please also consider subscribing to my bi-weekly newsletter _FAIR Data Digest_
+to receive more interesting content every other Tuesday!
 
 <iframe src="https://fairdata.substack.com/embed" width="100%" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 

@@ -114,8 +114,8 @@ this blog post is limited to my own personal (outsider) experiences at the confe
 I am glad to update the post and link relevant other blog posts that provide other insides.
 
 {{% callout note %}}
-If you want to get notified about more content or want to receive weekly updates on FAIR and Linked Data,
-please consider subscribing to my weekly Newsletter.
+If you want to get notified about more content or want to receive bi-weekly updates on FAIR and Linked Data,
+please consider subscribing to my bi-weekly Newsletter.
 {{% /callout %}}
 <iframe src="https://fairdata.substack.com/embed" width="100%" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 
@@ -360,5 +360,5 @@ In the meantime, there will be another NFDI event in 2024, but apparently slight
 ![2024: NFDI meets EOSC](cordi-2023/2023-09-14_cordi-eosc-2024.jpg)
 
 Don't forget to share this post on social media and in your networks!
-Please also consider subscribing to my weekly Newsletter _FAIR Data Digest_ to receive more interesting content every Tuesday!
+Please also consider subscribing to my bi-weekly Newsletter _FAIR Data Digest_ to receive more interesting content every other Tuesday!
 <iframe src="https://fairdata.substack.com/embed" width="100%" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>

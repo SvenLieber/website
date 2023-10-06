@@ -59,8 +59,8 @@ Statements with four components: subject, predicate, object and _context_.
 Continue reading for some practical examples and graphical illustrations.
 
 {{% callout note %}}
-If you want to get notified about more content or want to receive weekly updates on FAIR and Linked Data,
-please consider subscribing to my weekly Newsletter FAIR Data Digest.
+If you want to get notified about more content or want to receive bi-weekly updates on FAIR and Linked Data,
+please consider subscribing to my bi-weekly Newsletter FAIR Data Digest.
 {{% /callout %}}
 <iframe src="https://fairdata.substack.com/embed" width="100%" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 
@@ -209,6 +209,6 @@ at [this Blog post](https://web.archive.org/web/20230124111048/https://blog.meta
 or at [this Blog post](https://web.archive.org/web/20220704093443/https://www.stardog.com/labs/blog/from-vs-from-named-in-sparql/) from the company Stardog.
 
 Curious about more content like this or some behind-the-scenes?
-Consider subscribing to my weekly Newsletter _FAIR Data Digest_ 
-to receive more interesting content about Linked Data every Tuesday!
+Consider subscribing to my bi-weekly Newsletter _FAIR Data Digest_ 
+to receive more interesting content about Linked Data every other Tuesday!
 <iframe src="https://fairdata.substack.com/embed" width="100%" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
