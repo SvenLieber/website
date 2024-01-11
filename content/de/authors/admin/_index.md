@@ -103,8 +103,10 @@ highlight_name: true
 
 
 Hallo! Mein Name ist Sven Lieber, willkommen auf meiner Webseite.
-Momentan bin ich Data Manager an der Königlichen Bibliothek Belgiens (KBR),
-wo Ich in der Abteilung für Forschung und Innovation arbeite, hauptsächlich an den Projekten [MetaBelgica](https://www.kbr.be/en/projects/metabelgica) und [BELTRANS](https://www.kbr.be/en/projects/beltrans).
+Momentan bin ich Data Manager in der Abteilung für Forschung und Innovation an der Königlichen Bibliothek Belgiens (KBR).
+Wir sammeln und archivieren (Daten über) alle Belgischen Publikationen.
+Ich trage dazu bei, unsere Daten über das belgische Kulturerbe Forschern und der Öffentlichkeit zugänglich zu machen, indem ich die Datenqualität erhöhe und die Datenverarbeitungsabläufe verbessere.
+Hauptsächlich arbeite Ich an den Projekten [MetaBelgica](https://www.kbr.be/en/projects/metabelgica) und [BELTRANS](https://www.kbr.be/en/projects/beltrans).
 
 Ich bin ein neugieriger Mensch und sehe mich selbst als [Knowledge Scientist](https://www.knowledgescientist.org).
 Jemand der sich in ein Gebiet oder Problem einarbeitet, Daten analysiert und im darauffolgenden Schritt Lösungen ausarbeitet und anwendet.
