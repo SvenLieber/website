@@ -112,9 +112,9 @@ url_preprint: ""
 url_code: ""
 url_dataset: ""
 url_project: "https://www.kbr.be/en/projects/metabelgica/"
-url_slides: "https://doi.org/10.5281/zenodo.11045761"
+url_slides: ""
 url_video: ""
-url_poster: ""
+url_poster: "https://doi.org/10.5281/zenodo.11045761"
 url_source: ""
 
 # Featured image
