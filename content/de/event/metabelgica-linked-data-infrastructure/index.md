@@ -58,3 +58,4 @@ slides: ''
 projects: ['metabelgica']
 ---
 
+In dieser Präsentation für die erste Edition der Conference on Research Data Infrastructure, präsentierte Ich das MetaBelgica Projekt erstmalig öffentlich. Vier Belgische Föderale Wissenschaftseinrichtungen arbeiten Zusammen um gemeinsam FAIRe Normdaten zu Verwalten und Bereitzustellen. Das Projekt dreht sich im Wesentlichen um die Datenintegration bestehender Normdaten und das Aufsetzen einer Open Source Entity Management Plattform.

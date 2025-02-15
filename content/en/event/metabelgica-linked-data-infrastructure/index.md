@@ -58,3 +58,4 @@ slides: ''
 projects: ['metabelgica']
 ---
 
+In this presentation at the first Conference on Research Data Infrastructure, I present the MetaBelgica project for the first time to the public. Four Federal Belgian institutions join forces to collaboratively maintain authority data and make them available as FAIR data. The project revolves around integrating existing data and setting up an Open Source entity management system.
