@@ -102,7 +102,7 @@ highlight_name: true
 ---
 
 Hello! My name is Sven Lieber, welcome to my website.
-Currently I am a data manager in the research and innovation deparment at the Royal Library of Belgium (KBR).
+Currently I am a data manager in the research and innovation department at the Royal Library of Belgium (KBR).
 We collect (data about) all Belgian publications. I contribute to making our data about Belgian cultural heritage available to researchers and the public
 by increasing data quality and improving data processing workflows.
 I mainly work on the the projects [MetaBelgica](https://www.kbr.be/en/projects/metabelgica) and [BELTRANS](https://www.kbr.be/en/projects/beltrans).
