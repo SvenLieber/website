@@ -1,6 +1,6 @@
 ---
 title: CoRDI 2025
-subtitle: Why research data infrastructures matter - conference report
+subtitle: brining the community back together - conference report
 share: true
 
 
@@ -68,9 +68,8 @@ making agreements about how to collaborate
 and using common tools. 
 These kinds of agreements (or standards) and tools
 are especially crucial given the amount of data nowadays.
-I attended the **2nd Conference on Research Data Infrastructure**,
-in Aachen, Germany from August 26 to 28, 2025,
-where _research data infrastructures_ were discussed.
+Me and around 800 other people attended the **2nd Conference on Research Data Infrastructure**,
+in Aachen, Germany from August 26 to 28, 2025.
 In this blog post I will reflect 
 on the various presentations and posters I saw
 as well as the discussions I had.
@@ -89,15 +88,27 @@ and a balance of the various disciplines and topics
 in the field of research data infrastructure.
 
 Even though my contribution was not selected,
-I anyway attended as this is a great chance to network.
+I anyway attended the conference as this is a great chance to network.
+Next to the small things,
+such as
+the default vegetarian/vegan buffet,
+the RWTH Aachen big band
+and exciting RWTH Aachen demonstrations at the social event,
+the conference featured RDM in various disciplines.
 
 **My main takeaways**
 
-* a
-* b
-* c 
+* **Standards and identifiers are the hidden champions**: Whether in workflows, Knowledge Graphs, or infrastructures, persistent identifiers and authority data are the backbone that allow collaboration across disciplines.
 
-In the rest of this post I will focus on my personal _main highlights_.
+* **Infrastructure is both technical and human**: Behind cables, servers, and workflows, it’s people, governance, and communities that keep infrastructures alive.
+
+* **Bridging scales is key**: The inspiring keynote reminded me how crucial large-scale infrastructures and global governance are. But in the sessions and posters, I also saw how much progress depends on practical tools, workflows, and community initiatives that researchers can actually use today. The real challenge is linking both scales together.
+
+
+Even though in the rest of this post I will only focus on my personal _main highlights_
+it is still a quite lengthy post.
+Feel free to immediately jump to the last section on my [reflections](#reflections--takeaways)
+or other sections that interest you by using the table of contents below.
 
 {{< toc >}}
 
@@ -120,7 +131,7 @@ As well as where he sees potential for AI.
 It's not really my domain,
 but what I take home from Rob's talk
 is the evolution of workflows.
-Because I recognized my work for the BELTRANS project,
+Because I recognized my work for the [BELTRANS project](https://www.kbr.be/en/projects/beltrans/),
 where we create a corpus of book metadata of contemporary
 translations between Dutch and French.
 It's a completely different area,
@@ -200,18 +211,23 @@ I think lots of money is invested in Germany for RDFM at the moment.
 
 ## Persistent identifiers, Authority data & Knowledge Graphs
 
-These are my favorite topics to dive into:
-PIDs, authority data, and Knowledge Graphs. 
-I was really glad to find them featured so prominently at CoRDI,
-some of them even together in a single humanities session!
-It's just a pity that the PID panel discussion 
-was in parallel to
-the humanities section about authority data.
+If there’s one area at CoRDI that resonated most with my own work, 
+it was the trio of persistent identifiers, authority data, and knowledge graphs. 
+They are deeply interconnected: identifiers give us stable references, 
+authority files give meaning to those references, 
+and knowledge graphs weave them together into broader ecosystems. 
 
 
-Even though I missed the PID panel,
-I could speak with experts directly,
-thanks to the poster sessions!
+### PIDs: Small links, big impact
+
+Every Knowledge Graph or authority file starts with the simplest building block: 
+a persistent identifier. 
+Several posters and discussions at CoRDI showed just how central PIDs have become.
+
+Unfortunately I missed the PID panel,
+because it was scheduled in parallel to the humanities and authority files session
+But thanks to the poster sessions,
+I could speak with experts directly.
 For example at the poster of
 [Barbara Fischer](https://orcid.org/0009-0009-5034-6687)
 from the [German National Library (DNB)](https://ror.org/01n7gem85)
@@ -228,7 +244,18 @@ are also looking into the PID topic, at least for the Federal Scientific Institu
 While talking about PIDs, we were also joined by [Daniel Mietchen](https://orcid.org/0000-0001-9488-1870),
 who argued that Wikibase already comes with PIDs out of the box.
 
-----
+But identifiers on their own are just strings (or ideally URIs). 
+Their real value comes when we use them to describe entities 
+such as people, places, or works,
+which is where authority data comes in.
+
+---
+
+### Authority data in the humanities
+
+Authority files give identity to PIDs,
+turning abstract identifiers into meaningful references for people, places, and works. 
+The humanities session at CoRDI highlighted how this plays out in practice.
 
 The humanities session featured talks
 about the GND, which is the authority file of German-speaking countries,
@@ -289,7 +316,20 @@ This fundamental software should be maintained
 and further developed to overcome its current limitations.
 
 
-In the same session,
+Authority files create structure, but once we start connecting them across domains and datasets, 
+we step into the world of Knowledge Graphs and ontologies.
+
+---
+
+### Knowledge Graphs and Ontologies
+
+Knowledge Graphs are where identifiers and authority files come together, 
+enabling connections across datasets and disciplines. 
+At CoRDI, I saw many examples of both the opportunities 
+and the challenges of building such ecosystems.
+
+
+In the humanities session,
 [Florian Thiery](https://orcid.org/0000-0002-3246-3531)
 and
 [Lozana Rossenova](https://orcid.org/0000-0002-5190-1867)
@@ -302,49 +342,12 @@ including FactGrid,
 they noticed technical and conceptual hurdles,
 such as namespace collisions, property mappings or
 allow lists.
-The latter specifying which instances can be called for federated queries.
-
-TODO: our challenge, but not in detail
-
----
-
-More talks and posters about Knowledge Graphs and ontologies sparked my interest at CoRDI.
-
-In the presentation of
-[Leyla Jael Castro](https://orcid.org/0000-0003-3986-0510)
-about 
-Bioschemas and Schemas.science at NFDI ([10.5281/zenodo.16735850](https://doi.org/10.5281/zenodo.16735850)),
-I have learned about Bioschemas and Schemas.science.
-The first is a is a community-driven initiative to build upon Schema.org for the life science domain.
-The latter is a sister website in which they broaden the Bioschemas efforts to a more general research-related extension for Schema.org.
-In both cases to enhance findability, as Schema.org is mainly used by search engines.
-
-Crosswalk don't necessary have to be mappings like in ontology mapping (crosswalk thus for things where you see in a platform that there is a title, keywords etc)
-Cultural heritage data is like a bag of Lego blocks, but without step by step instructions and all needed blocks
-Datasheets for DH
-Put access info on top (against frustration)
-Sample distribution for HealthDCAT.. But how with privacy? How to define quality?
-Comments from more than 100 organizations for HealthDCAT
-
-
-At the poster of the NFDIcore 3.0 ontology, 
-I also had a small chat with
-[Jörg Waitelonis](https://orcid.org/0000-0001-7192-7143)
-about the BFO basis of the ontology ([10.5281/zenodo.16736251](https://doi.org/10.5281/zenodo.16736251)).
-We talked about the possibilities of the ontology to also model temporal aspects, such as names that change over time.
-Which comes with a lot of extra triples (in case this is done for many entities).
-
-![The poster of the NFDIcore 3.0 ontology based on BFO](cordi-2025/2025-08-26_cordi_poster-nfdi-core-ontology.jpg)
-
-
-TODO
-* talk on dcat, datacite and schema.org
-* data integration bioschema
+The latter specifying which other Wikibase instances can be accessed by federated queries.
 
 
 On the last day of the main CoRDI conference,
 [Lozana Rossenova](https://orcid.org/0000-0002-5190-1867)
-presented the results of a survey about
+also presented the results of a survey about
 how NFDI consortia are using Knowledge Graphs ([10.5281/zenodo.16736078](https://doi.org/10.5281/zenodo.16736078)).
 The survey was conducted between March and May 2025
 and covered 27 Knowledge Graphs from 11 consortia.
@@ -390,6 +393,39 @@ The authors were not familiar with IIIF, it's probably less well-known outside o
 Afterwards I had a look myself, there is a 3D community working group at IIIF.
 However, based on the community group's current description it does not seem that this feature already exists.
 
+---
+
+At the poster of the NFDIcore 3.0 ontology, 
+I also had a small chat with
+[Jörg Waitelonis](https://orcid.org/0000-0001-7192-7143)
+about the BFO basis of the ontology ([10.5281/zenodo.16736251](https://doi.org/10.5281/zenodo.16736251)).
+We talked about the possibilities of the ontology to also model temporal aspects, such as names that change over time.
+Which comes with a lot of extra triples (in case this is done for many entities).
+
+![The poster of the NFDIcore 3.0 ontology based on BFO](cordi-2025/2025-08-26_cordi_poster-nfdi-core-ontology.jpg)
+
+
+TODO
+* talk on dcat, datacite and schema.org
+* data integration bioschema
+
+In the presentation of
+[Leyla Jael Castro](https://orcid.org/0000-0003-3986-0510)
+about 
+Bioschemas and Schemas.science at NFDI ([10.5281/zenodo.16735850](https://doi.org/10.5281/zenodo.16735850)),
+I have learned about Bioschemas and Schemas.science.
+The first is a is a community-driven initiative to build upon Schema.org for the life science domain.
+The latter is a sister website in which they broaden the Bioschemas efforts to a more general research-related extension for Schema.org.
+In both cases to enhance findability, as Schema.org is mainly used by search engines.
+
+Sample distribution for HealthDCAT.. But how with privacy? How to define quality?
+Comments from more than 100 organizations for HealthDCAT
+
+
+What struck me in these talks and posters 
+is how often the technical challenges echoed across disciplines. 
+And yet, making all of this usable still depends on practical workflows and tools:
+a theme that carried over into the next sessions I followed.
 
 
 ---
@@ -404,24 +440,25 @@ and for which barriers AI can help.
 
 ![Barriers for FAIR Research Data Management from which two relate to AI](cordi-2025/2025-08-27_cordi_ai-session.jpg)
 
+Ontologie etc is the ground truth to make Ai creative
 
 Other AI-related talks and posters at the conference
 focussed on different aspects to annotate machine learning models.
 To this regard I have learned about things like
-
-* FAIR4ML, a vocabulary to describe Machine/Deep Learning models, presented by [Leyla Jael Castro](https://orcid.org/0000-0003-3986-0510) 
-* Skyscanner or GoogleFlights but for ML models (Nuxt3js)
-* CroissantML.. Ai ready datasets
-* The FAIR Digital Object registry MLentory
-
-* medical image segmentation: define context and what should be detected for example
+FAIR4ML, a vocabulary to describe Machine/Deep Learning models ([10.5281/zenodo.16735334](https://doi.org/10.5281/zenodo.16735334)), presented by [Leyla Jael Castro](https://orcid.org/0000-0003-3986-0510),
+or MLentory, a registry for Machine/Deep Learning models making use of FAIR Digital Objects [10.5281/zenodo.16735316](https://doi.org/10.5281/zenodo.16735316)
 
 
+One presentation also mentioned an AI,
+that can generate a conversational podcast ouf of a research paper
+So you hear artificial voices having a chat about the topic.
+The presentor said that after listening to the podcast,
+one interesting thing was that the AI podcast
+contained examples that were not in the paper,
+but which the author deemed interesting examples as well.
+That sounds amazing to me,
+I have the feeling that this can revolutionize scientific communication.
 
-Workflows
-* Image workflowhub
-* setup of AI session tool with virtuoso and postgresql, fastapi
-* gsap workbench
 
 Research software
 
@@ -474,6 +511,7 @@ In general I find the ethics aspect of CARE interesting,
 so I am wondering if it could be applied even in non-indigenous use cases.
 More info on their poster _The Informed CARE Data Steward. Ways to CAREification_: [https://doi.org/10.5281/zenodo.16736131](https://doi.org/10.5281/zenodo.16736131).
 
+![The informed CARE steward - ways to care for indigenous data sovereignity](cordi-2025/2025-08-26_cordi_poster-care.jpg)
 
 ---
 
@@ -531,16 +569,37 @@ already started to mention this platform (or repository)
 in their mandatory data management plans.
 
 todo:
-* investments
 * hpc talk, jullich, filetransfer & metadata
 * mlz, scicat
 
 
 ---
 
+When we are talking about infrastructure,
+we also have to talk about governance!
+
+
+As mentioned,
+the Q&A of Cathrin's keynote already touched upon
+the difficulties of global governance.
+
+of Cathrin already
+Not only did the last keynote touch upon the difficulties
+of global governance,
+governan
+
 The above mentioned infrastructure example also relates to governane.
 When more than one institution or individual work together,
 agreements are needed!
+
+Pangea saving data, among others because long term funding
+Régulation as Competitive advantage
+Global data governance needed
+Geo political boundaries.. Citizens of science not citizens of US
+
+panel summary: think European and global, data international space station, long term funding, importance of data (it's the basis of all kinds of decision).. The construct (structure) for collaboration
+
+
 
 Data spaces and governance
 * 
@@ -558,49 +617,61 @@ Establishing a Central Helpdesk for KonsortSWD - NFDI4Society: Goals, Challenges
 
 ## Reflections & Takeaways
 
----
+Looking back at CoRDI 2025, 
+I was struck by how often the same themes surfaced across very different tracks. 
+Whether we were talking about workflows in the life sciences, 
+authority files in the humanities, 
+or large-scale infrastructures, 
+the same questions kept coming back: **how do we connect, how do we sustain, and how do we collaborate?**
 
-## Closing
+For me, three things stood out:
 
-Internet access, identity management ...
+* The central role of standards and identifiers. They are no longer a niche concern, but part of every conversation on interoperability and sustainability.
+
+* The balance between technology and people. Infrastructure is cables and servers, but it is equally communities, governance, and trust.
+
+* The value of crossing boundaries. CoRDI made clear that different disciplines face similar challenges — and that solutions developed in one field can inspire another.
+
+These points also resonate with my own work at KBR, 
+where we deal daily with authority data, Knowledge Graphs, and questions of sustainability. 
+I left Aachen with both new technical insights and new energy to bring these discussions into our projects.
+
+I'm glad that this community exists.
+PIDs and standards are probably not the most exciting topics,
+but they are key and enable so much more!
+So far we are preaching to the choir,
+but according to me, 
+research infrastructures must enter main stream discussions.
+**It's not just about some tools or consortia,
+it's nothing less than a shift in how research and research training works.**
+And due to the scaling this also should be a shift in how funding schemes work
+and how we train new generations of students and researchers.
 
 
-# TUESDAY
+If there is one thing missing at CoRDI,
+it is more European and international contributions.
+But I think we are on a good way.
+During the open panel discussion about how to measure the success of NFDI,
+xx from the Dutch Thematic Digital Compentence Centre,
+publicly brought up something that I was thinking as well:
+the success of NFDI is that NFDI is there in the first place!
 
+We, from other European insitutions can reference to the NFDI/CoRDI, simply because it exists.
+Even if it would be only a small initiative it would already be great,
+but the scale of NFDI makes it even better:
+all applied research and lessons learned stem from
+collaborations of all major universities and research institutions of the
+most populous country of the EU.
 
-### Workflows
+Or in the words of the keynote speaker 
+[Cathrin Stöver](https://www.wikidata.org/wiki/Q136008224)
 
-Final words
-* fishbowl discussion, success
+> a community needs it conference.
 
-Dutch Thematic Digital Competence Centre
+I hope CoRDI will become _the_ research infrastructure conference,
+beyond NFDI.
+Hopefully see you all at the next CoRDI!
 
-digital preservation poster
-
-research software in the NFDI
-
-Critics
-* data portals everywhere
-* Mietchen: Things bigger than a poster
-
-
-# WEDNESDAY
-
-Creating a podcast out of a research paper
-
-Calculate embeddings from natural language context and input .. Konda
-Gsap workbench
-Ontologie etc is the ground truth to make Ai creative
-Data preservation... How to replicate data. Data pass alliance
-
-Pangea saving data, among others because long term funding
-Régulation as Competitive advantage
-Global data governance needed
-Geo political boundaries.. Citizens of science not citizens of US
-
-anel summary: think European and global, data international space station, long term funding, importance of data (it's the basis of all kinds of decision).. The construct (structure) for collaboration
-
-Ai to ask question ABOUT image detection
 
 
 
