@@ -12,10 +12,10 @@ toc: true
 postDOI: dummy
 
 # Date published
-date: 2025-09-08T09:00:00+01:00
+date: 2025-09-07T09:00:00+01:00
 
 # Date updated
-lastmod: 2025-09-08T09:00:00+01:00
+lastmod: 2025-09-07T09:00:00+01:00
 
 # Is this an unpublished draft?
 draft: false
@@ -477,8 +477,8 @@ so that only their own researchers
 can use the Jupyter resources 
 from the institution's servers, for example.
 However in theory, researchers from other institutions could also use the provided resources.
-According to Martin, this is also welcome, 
-because cloud hosts want at least a certain percentage of server load;
+According to Martin, this is also in the interest of cloud providers, 
+because they usually want at least a certain percentage of server load;
 otherwise the infrastructure just sits there and costs money.
 
 Eventually,
@@ -663,10 +663,28 @@ Or in the words of the keynote speaker
 
 > a community needs it conference.
 
-I hope CoRDI will become _the_ research infrastructure conference,
+**I hope CoRDI will become _the_ research infrastructure conference,
 beyond NFDI.
-Hopefully see you all at the next CoRDI!
+Hopefully see you all at the next CoRDI!**
 
 
+
+## References
+
+- Fischer, B. K., Eckart, T., Körner, E., Buddenbohm, S., Al-Eryani, S., &amp; Gradl, T. (2025). <i>Authority Files and the Text+ Data Space</i>. Zenodo. https://doi.org/10.5281/ZENODO.16736146
+- Simons, O., &amp; Moeller, K. (2025). <i>Wikibase - the best software to communicate with the upcoming knowledge graphs?</i> Zenodo. https://doi.org/10.5281/ZENODO.16892677
+- Thiery, F., Rossenova, L., Mietchen, D., Homburg, T., &amp; Thiery, P. (2025). <i>Distributed Research Data Knowledge Graphs - Challenges of federated queries using the Wikiverse and OpenStreetMap within the NFDI Knowledge Graph Ecosystem</i>. Zenodo. https://doi.org/10.5281/ZENODO.16736048
+- Rossenova, L., Limani, F., Fortmann-Grote, C., Kaplan, A., Thiery, F., Latif, A., Shigapov, R., Zapilko, B., Schubotz, M., Fliegl, H., &amp; Tietz, T. (2025). <i>How are NFDI consortia using Knowledge Graphs?: An overview of common functions and challenges by the Working Group "Knowledge Graphs"</i>. Zenodo. https://doi.org/10.5281/ZENODO.16736078
+- Hofmann, V., Soylu, M., Preuß, G., Fathalla, S., Kulla, L., Dmello, F., &amp; Sandfeld, S. (2025). <i>The Helmholtz Knowledge Graph - towards a Helmholtz FAIR data space</i>. Zenodo. https://doi.org/10.5281/ZENODO.16736336
+- Ondraszek, S. R., Tietz, T., Posthumus, E., Fliegl, H., Waitelonis, J., &amp; Sack, H. (2025). <i>Indexing Historical Research Data: MemO and the NFDI4Memory Knowledge Graph</i>. Zenodo. https://doi.org/10.5281/ZENODO.16736125
+- Thönnißen, J., Oliveira, S., Oberstrass, A., Kropp, J.-O., Gui, X., Schiffer, C., &amp; Dickscheid, T. (2025). <i>A Perspective on FAIR and Scalable Access to Large Image Data</i>. Zenodo. https://doi.org/10.5281/ZENODO.16736220
+- Waitelonis, J., Tietz, T., Beygi Nasrabadi, H., Bruns, O., Posthumus, E., Fliegl, H., &amp; Sack, H. (2025). <i>NFDIcore 3.0: A Mid-Level BFO2020-Compliant Ontology for Sustainable Research Data Interoperability Across Consortia</i>. Zenodo. https://doi.org/10.5281/ZENODO.16736251
+- Castro, L. J., Gaignard, A., Juty, N., Schnitzer, H., Reed, P., &amp; Goble, C. (2025). <i>Bioschemas and Schemas.science at NFDI</i>. Zenodo. https://doi.org/10.5281/ZENODO.16735850
+- Solanki, D., Ciuciu-Kiss, J. T., Quiñones, N., Ravinder, R., Venkatesh, S., Rebholz-Schuhmann, D., Garijo, D., &amp; Castro, L. J. (2025). <i>FAIR4ML, a vocabulary to describe Machine/Deep Learning models</i>. Zenodo. https://doi.org/10.5281/ZENODO.16735334
+- Quiñones, N., Geist, L., Ravinder, R., Solanki, D., Venkatesh, S., Rebholz-Schuhmann, D., &amp; Castro, L. J. (2025). <i>MLentory: NFDI4DS registry for machine learning models and related artifacts</i>. Zenodo. https://doi.org/10.5281/ZENODO.16735316
+- Herrenbrück, R., &amp; Bayer, S. (2025). <i>Establishing a Central Helpdesk for KonsortSWD - NFDI4Society: Goals, Challenges, and Solutions</i>. Zenodo. https://doi.org/10.5281/ZENODO.16735332
+- Brand, O., Bruhn, K., Cyra, M., Fingerhuth, M., Gerlach, R., Jacob, B., … Weiner, B. (2023). The Federal State Initiatives for RDM as Intermediaries in a Dynamic Landscape of RDM Infrastructures and Services. Proceedings of the Conference on Research Data Infrastructure , 1. https://doi.org/10.52825/cordi.v1i.242
+- Lieber, S. (2023, September 17). CoRDI 2023. Posts | Sven Lieber. https://doi.org/10.59350/pg3xj-4z449
+- Altenhöner, R., & Fabrizius, J. (2025, August 4). Bridging Communities: The Role of FIDs Between Disciplinary Research and National Infrastructure. 2nd Conference on Research Data Infrastructure (CoRDI), Aachen, Germany. https://doi.org/10.5281/zenodo.16736302
 
 
