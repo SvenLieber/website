@@ -86,6 +86,26 @@ dbpedia:IMEC a org:Organization;
        rdfs:label "imec"@en;
        foaf:homepage <http://www.imec-int.com/>.
 
+
+#
+# Research output (example)
+#
+:researchOutputArticles a schema:ItemList ;
+  schema:itemListElement <https://doi.org/10.5281/zenodo.11045761> ;
+  schema:itemListElement <https://doi.org/10.52825/cordi.v1i.381> ;
+
+<https://doi.org/10.5281/zenodo.11045761> a schema:ScholarlyArticle .
+
+<https://doi.org/10.52825/cordi.v1i.381> a schema:ScholarlyArticle ;
+  schema:name " MetaBelgica Project: A Linked Data Infrastructure Between Federal Scientific Institutes in Belgium" ;
+  schema:datePublished "2023" .
+
+# is this really ordered?
+#  schema:author [
+#    a schema:ItemList ;
+#    schema:itemListElement :me ;
+#    schema:itemListElement <>
+#  ].
        
 #
 # Blog
