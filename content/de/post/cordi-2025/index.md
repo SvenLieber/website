@@ -9,7 +9,7 @@ projects: []
 
 toc: true
 
-postDOI: dummy
+postDOI: 10.59350/9w2sk-2jn73
 
 # Date published
 date: 2025-09-07T09:00:00+01:00
