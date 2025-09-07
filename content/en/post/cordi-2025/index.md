@@ -1,6 +1,6 @@
 ---
 title: CoRDI 2025
-subtitle: brining the community back together - conference report
+subtitle: a conference report
 share: true
 
 
@@ -12,10 +12,10 @@ toc: true
 postDOI: dummy
 
 # Date published
-date: 2025-08-31T09:00:00+01:00
+date: 2025-09-08T09:00:00+01:00
 
 # Date updated
-lastmod: 2025-08-31T09:00:00+01:00
+lastmod: 2025-09-08T09:00:00+01:00
 
 # Is this an unpublished draft?
 draft: false
@@ -93,8 +93,8 @@ Next to the small things,
 such as
 live music from the RWTH Aachen big band,
 the daily buffet with default vegetarian/vegan options,
-and exciting RWTH Aachen demonstrations at the social event,
-the conference featured RDM in various disciplines.
+and exciting robot demos at the social event,
+the conference featured Research Data Management (RDM) in various disciplines.
 
 **My main takeaways**
 
@@ -128,6 +128,13 @@ from the [European Bioinformatics Institute](https://ror.org/02catss52)
 talked about the kind of data that they process and publish.
 As well as where he sees potential for AI.
 
+According to Rob,
+and hinting towards work of [Carole Goble](https://orcid.org/0000-0003-1219-2137),
+there are ad-hoc workflows which can be made FAIR
+by describing them with [Ro-Crate](https://www.wikidata.org/wiki/Q124366860)
+and uploading those descriptions to the [WorkflowHub](https://workflowhub.eu/).
+
+
 It's not really my domain,
 but what I take home from Rob's talk
 is the evolution of workflows.
@@ -137,12 +144,6 @@ translations between Dutch and French.
 It's a completely different area,
 but in our case we also start with a bunch of
 Python scripts, glued together with bash scripts.
-
-According to Rob,
-and hinting towards work of [Carole Goble](https://orcid.org/0000-0003-1219-2137),
-those ad-hoc workflows can be made FAIR
-by describing them with Ro-Create
-and uploading thsoe descriptions to the WorkflowHub.
 
 ![From Python scripts to the WorkflowHub](cordi-2025/2025-08-26_cordi_keynote-workflow.jpg)
 
@@ -166,7 +167,7 @@ GÉANT provides research and education network services
 by interconnecting 38 National Research and Education Networks (NRENs)
 such as [_Deutsches Forschungsnetz_ (DFN)](https://ror.org/038t94116) in Germany
 or [BELNET](https://ror.org/02d3h3h49) in Belgium
-and serves around 50 mio users across Europe.
+and serves around 50 million users across Europe.
 In the last 15 years, 
 other parts of the world have been connected as well, 
 such as East Africa extensively and West Africa to a lesser extent.
@@ -195,7 +196,7 @@ both from the German government
 as well as via links to European research.
 I have also met many passionate people at the conference.
 And at least from an outsider perspective,
-I think lots of money is invested in Germany for RDFM at the moment.
+I think lots of money is invested in Germany for RDM at the moment.
 
 ---
 
@@ -227,14 +228,14 @@ from [DataCite](https://ror.org/04wxnsj81) about the PID network Germany.
 
 ![The poster of the PID network Germany](cordi-2025/2025-08-27_cordi_pid-network-de.jpg)
 
-We don't have something similar in Belgium yet,
+We don't have something similar on national level in Belgium yet,
 (probably also due to the special federalism in Belgium),
 but I'm glad that my colleagues from the [FedOSC project](https://www.belspo.be/belspo/coordination/resDev_openScience_en.stm) 
 are also looking into the PID topic, at least for the Federal Scientific Institutions!
 While talking about PIDs, we were also joined by [Daniel Mietchen](https://orcid.org/0000-0001-9488-1870),
 who argued that Wikibase already comes with PIDs out of the box.
 
-But identifiers on their own are just strings (or ideally URIs). 
+But identifiers on their own are just strings (or ideally Uniform Resource Identifiers (URIs)). 
 Their real value comes when we use them to describe entities 
 such as people, places, or works,
 which is where authority data comes in.
@@ -248,8 +249,8 @@ turning abstract identifiers into meaningful references for people, places, and 
 The humanities session at CoRDI highlighted how this plays out in practice.
 
 The humanities session featured talks
-about the GND, which is the authority file of German-speaking countries,
-as well as the Knowledge Graph software Wikibase.
+about the [_Gemeinsame Normdatei (GND)_](https://www.wikidata.org/wiki/Q36578), which is the authority file of German-speaking countries,
+and the Knowledge Graph software Wikibase.
 
 
 In the presentation, _Authority Files and the Text+ Data Space_
@@ -259,8 +260,8 @@ highlighted that
 
 > "standards are not dropping from the sky"
 
-According to her, 
-we should not lose diversity when using standards. 
+Furthermore, 
+she argued that we should not lose diversity when using standards. 
 Barbara used English as an example of a language 
 used for understanding each other in science. 
 However, it does not replace one’s mother tongue, 
@@ -272,12 +273,12 @@ this will also enhance collaboration.
 Open Knowledge Graphs are one way to enable (large-scale) collaboration.
 While most people are familiar with Wikidata,
 there are also lesser-known, more domain-specific Knowledge Bases.
-One such example is the FactGrid Wikibase instance,
+One such example is the [FactGrid](https://www.wikidata.org/wiki/Q90405608) Wikibase instance,
 used by many historians.
 Because the historians share a single Wikibase instance,
 they are also forced to work together.
 
-[FactGrid's](https://www.wikidata.org/wiki/Q90405608) creator,
+FactGrid's creator,
 [Olaf Simons](https://orcid.org/0000-0001-9230-4666)
 gave the presentation _Wikibase - the best software to communicate with the upcoming knowledge graphs?_ 
 ([10.5281/zenodo.16892677](https://doi.org/10.5281/zenodo.16892677)).
@@ -295,7 +296,7 @@ I can very much relate to Olaf's statement.
 As a computer scientist I am used to developing custom software solutions
 when I cannot find standard software that addresses the problem.
 I often see software developers in different (engineering) fields
-develop software even when standard sotware is already available.
+develop software even when standard software is already available.
 One example is software to generate RDF from other data sources.
 Standard software is important!
 In the humanities, for example,
@@ -343,8 +344,13 @@ The survey was conducted between March and May 2025
 and covered 27 Knowledge Graphs from 11 consortia.
 ![Common challenges about using Knowledge Graphs in NFDI consortia](cordi-2025/2025-08-28_cordi_kg-survey-challenges.jpg)
 
-Their results lists challenges in different areas that are very recognizable.
-TODO link to my work
+For their presentation, 
+the challenges were grouped into four larger categories. 
+To me, it looks very familiar. 
+Anyone who starts working with Knowledge Graphs will eventually face one of these challenges. 
+We cannot overcome every challenge in a generic fashion. 
+I believe we should curate best practices related to these challenges 
+and create teaching materials from them.
 
 
 [Volker Hofmann](https://orcid.org/0000-0002-5149-603X)
@@ -354,7 +360,7 @@ separated islands of data. Apparently only a small percentage of all the entitie
 
 ![The Helmholtz Knowledge Graph with many separated islands of data](cordi-2025/2025-08-28_cordi_helmholtz-graph.jpg)
 
-This made me think about the many authority records in MetaBelgica
+This made me think about the many authority records in [MetaBelgica](https://www.wikidata.org/wiki/Q119717964)
 for which we only have a name and no linked birth/death dates or birth/death places.
 In our source data we have linked publications though, 
 instead of leaving them out, we maybe should add some linked PIDs, ISBNs or publication places to MetaBelgica
@@ -369,7 +375,8 @@ Second, they mentioned Sampo, a Linked Data publishing tool from Finland,
 that I have recently seen at various conferences.
 We are testing it for the BELTRANS project as well,
 and I know that the Sampo team is collaborating 
-with the CLARIAH-VL+ project in Flanders/Belgium to improve the software ([Sampo fork](https://github.com/GhentCDH/sampo-ui) that will be rebased to the original Sampo).
+with the CLARIAH-VL+ project in Flanders/Belgium to improve the software 
+([Sampo fork](https://github.com/GhentCDH/sampo-ui) from the Ghent-Centre for Digital Humanities that will be rebased to the original Sampo).
 
 ![Related work to the memO ontology: ArCo, Europeana and Sampo](cordi-2025/2025-08-28_cordi_memo.jpg)
 
@@ -405,17 +412,11 @@ The latter is a sister website in which they broaden the Bioschemas efforts to a
 In both cases to enhance findability, as Schema.org is mainly used by search engines.
 
 
-What struck me in these talks and posters 
-is how often the technical challenges echoed across disciplines. 
-And yet, making all of this usable still depends on practical workflows and tools:
-a theme that carried over into the next sessions I followed.
-
-
 ---
 
-## AI, software & workflows
+## AI
 
-It's 2025, of course there has to be AI!
+It's 2025, of course there has to be at least one session about AI!
 [Sandra Geisler](https://orcid.org/0000-0002-8970-6282)
 introduced the AI session, 
 by mentioning current barriers for FAIR Research Data Management,
@@ -423,21 +424,25 @@ and for which barriers AI can help.
 
 ![Barriers for FAIR Research Data Management from which two relate to AI](cordi-2025/2025-08-27_cordi_ai-session.jpg)
 
+For me it’s also not only about how AI can help RDM, 
+but also how RDM can help AI. 
+I forgot who said it, but someone at CoRDI remarked that _Ontologies and the Semantic Web are the ground truth to make AI creative_. 
+I find this a very spot-on statement, 
+because machine learning without annotated data is just pattern-finding. 
+To move beyond that, we need humans and semantics: 
+structured knowledge that gives AI something meaningful to work with.
 
 Other AI-related talks and posters at the conference
-focussed on different aspects to annotate machine learning models.
+focused on different aspects to annotate machine learning models.
 To this regard I have learned about things like
 FAIR4ML, a vocabulary to describe Machine/Deep Learning models ([10.5281/zenodo.16735334](https://doi.org/10.5281/zenodo.16735334)), presented by [Leyla Jael Castro](https://orcid.org/0000-0003-3986-0510),
-or MLentory, a registry for Machine/Deep Learning models making use of FAIR Digital Objects [10.5281/zenodo.16735316](https://doi.org/10.5281/zenodo.16735316)
+or MLentory, a registry for Machine/Deep Learning models making use of FAIR Digital Objects ([10.5281/zenodo.16735316](https://doi.org/10.5281/zenodo.16735316)).
 
-I forgot who said it,
-but someone at CoRDI said that Ontologies and the Semantic Web
-are the ground truth to make AI creative.
 
 One presentation also mentioned an AI product,
-that can generate a conversational podcast ouf of a research paper
+that can generate a conversational podcast out of a research paper.
 So you hear artificial voices having a chat about the topic.
-The presentor said that after listening to the podcast,
+The presenter said that after listening to the podcast,
 one interesting thing was that the AI podcast
 contained examples that were not in the paper,
 but which the author deemed interesting examples as well.
@@ -482,7 +487,7 @@ or at least pay for virtual machines in the cloud.
 This brings us back to the initial question:
 Who pays for it, and for how long will the services stay online?
 This obviously depends on the research institutions,
-but I think it will likely be poject-based funding after all.
+but I think it will likely be project-based funding after all.
 
 ![Sustainable research data infrastructure is project funding after all? - imgflip](cordi-2025/research-data-infrastructure-meme.jpg)
 
@@ -497,10 +502,6 @@ which also offers a home for research data within its scope.
 For the latter I also have heard that researchers
 already started to mention this platform (or repository)
 in their mandatory data management plans.
-
-todo:
-* hpc talk, jullich, filetransfer & metadata
-* mlz, scicat
 
 Technical infrastructures are impressive, but they rely on more than cables and servers. 
 Agreements, policies, and shared responsibilities - in short, governance - are what make these systems sustainable.
@@ -543,48 +544,31 @@ ensuring that research data remain accessible for the global community, even whe
 
 ### Governance in practice
 
-Governance was also discussed on a much more practical level, related to data stewardship.
-
-Martha Stellmacher pointed out how model contracts for collaborations can be too strict in the early stages, making it harder rather than easier to build something new.
-Robert Herrenbrück presented the establishment of a central helpdesk for KonsortSWD (NFDI4Society), illustrating governance through support: coordination and service structures that help researchers navigate responsibilities without losing sight of their own work.
-
-
-As mentioned,
-the Q&A of Cathrin's keynote already touched upon
-the difficulties of global governance.
-
-of Cathrin already
-Not only did the last keynote touch upon the difficulties
-of global governance,
-governan
-
-The above mentioned infrastructure example also relates to governane.
-When more than one institution or individual work together,
-agreements are needed!
-
-Pangea saving data, among others because long term funding
-Régulation as Competitive advantage
-Global data governance needed
-Geo political boundaries.. Citizens of science not citizens of US
-
-panel summary: think European and global, data international space station, long term funding, importance of data (it's the basis of all kinds of decision).. The construct (structure) for collaboration
-
-
-
-Data spaces and governance
-* 
-
-Governance
-* resiliance discussion
-* Mustervertrag... Alle zu streng wenn man aufbaut
-[Martha Stellmacher](https://orcid.org/0000-0001-5655-0130)
+Governance is also a topic on a much more practical level, related to data stewardship.
 
 [Robert Herrenbrück](https://orcid.org/0000-0002-1355-5043)
-Establishing a Central Helpdesk for KonsortSWD - NFDI4Society: Goals, Challenges, and Solutions [https://doi.org/10.5281/zenodo.16735332](https://doi.org/10.5281/zenodo.16735332)
+presented a poster about the establishment of a central helpdesk for KonsortSWD (NFDI4Society), 
+([https://doi.org/10.5281/zenodo.16735332](https://doi.org/10.5281/zenodo.16735332))
+illustrating governance through support: 
+coordination and service structures that help researchers navigate responsibilities without losing sight of their own work.
+
+Somewhere between the crowded poster stands, 
+I found myself in a memorable discussion that perfectly captured
+some practical governance challenges.
+The discussion was aboutt templates for data sharing agreements.
+Someone mentioned that when adapting the template to their needs
+and referencing the original template,
+they often get feedback such as "the template is different, why did you deviate from it?".
+I think this highlights that while templates provide a much-needed baseline, 
+they shouldn’t become rigid dogma. 
+Real collaborations need room for adaptation, and governance should support flexibility rather than punish it.
+
 
 If governance defines the rules and structures that make infrastructures sustainable, 
 communities are the people who put these rules into practice, 
 train new researchers, and ensure that collaboration thrives.
+
+---
 
 ## Training & Communities
 
@@ -638,10 +622,6 @@ More info on their poster _The Informed CARE Data Steward. Ways to CAREification
 ---
 
 
-
-
----
-
 ## Reflections & Takeaways
 
 Looking back at CoRDI 2025, 
@@ -667,11 +647,11 @@ If there is one thing missing at CoRDI,
 it is more European and international contributions.
 But I think we are on a good way.
 During the open panel discussion about how to measure the success of NFDI,
-xx from the Dutch Thematic Digital Compentence Centre,
+[Joanne Yeomans](https://orcid.org/0000-0002-0738-7661) from the [Dutch Thematic Digital Compentence Centre](https://tdcc.nl/),
 publicly brought up something that I was thinking as well:
 the success of NFDI is that NFDI is there in the first place!
 
-We, from other European insitutions can reference to the NFDI/CoRDI, simply because it exists.
+We, from other European institutions can reference to the NFDI/CoRDI, simply because it exists.
 Even if it would be only a small initiative it would already be great,
 but the scale of NFDI makes it even better:
 all applied research and lessons learned stem from
