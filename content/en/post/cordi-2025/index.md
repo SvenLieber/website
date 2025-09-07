@@ -91,8 +91,8 @@ Even though my contribution was not selected,
 I anyway attended the conference as this is a great chance to network.
 Next to the small things,
 such as
-the default vegetarian/vegan buffet,
-the RWTH Aachen big band
+live music from the RWTH Aachen big band,
+the daily buffet with default vegetarian/vegan options,
 and exciting RWTH Aachen demonstrations at the social event,
 the conference featured RDM in various disciplines.
 
@@ -170,16 +170,6 @@ and serves around 50 mio users across Europe.
 In the last 15 years, 
 other parts of the world have been connected as well, 
 such as East Africa extensively and West Africa to a lesser extent.
-
-Global connectivity is also related to global governance, 
-which is not an easy topic in today's geopolitical reality. 
-This was the main subject of the Q&A, 
-with questions relating to why certain parts of the world are not connected 
-(GÉANT's headquarters are in Amsterdam, 
-so it falls under Dutch and European law and is forced to follow sanctions) 
-and why satellite networks are not used instead of terrestrial networks 
-(there is no low-orbit capacity yet owned by Europe, 
-and high orbit does not provide enough bandwidth).
 
 ![EU and national investments into Research & Infrastructure](cordi-2025/2025-08-28_cordi_geant-rd-funding.jpg)
 
@@ -405,10 +395,6 @@ Which comes with a lot of extra triples (in case this is done for many entities)
 ![The poster of the NFDIcore 3.0 ontology based on BFO](cordi-2025/2025-08-26_cordi_poster-nfdi-core-ontology.jpg)
 
 
-TODO
-* talk on dcat, datacite and schema.org
-* data integration bioschema
-
 In the presentation of
 [Leyla Jael Castro](https://orcid.org/0000-0003-3986-0510)
 about 
@@ -417,9 +403,6 @@ I have learned about Bioschemas and Schemas.science.
 The first is a is a community-driven initiative to build upon Schema.org for the life science domain.
 The latter is a sister website in which they broaden the Bioschemas efforts to a more general research-related extension for Schema.org.
 In both cases to enhance findability, as Schema.org is mainly used by search engines.
-
-Sample distribution for HealthDCAT.. But how with privacy? How to define quality?
-Comments from more than 100 organizations for HealthDCAT
 
 
 What struck me in these talks and posters 
@@ -440,7 +423,6 @@ and for which barriers AI can help.
 
 ![Barriers for FAIR Research Data Management from which two relate to AI](cordi-2025/2025-08-27_cordi_ai-session.jpg)
 
-Ontologie etc is the ground truth to make Ai creative
 
 Other AI-related talks and posters at the conference
 focussed on different aspects to annotate machine learning models.
@@ -448,8 +430,11 @@ To this regard I have learned about things like
 FAIR4ML, a vocabulary to describe Machine/Deep Learning models ([10.5281/zenodo.16735334](https://doi.org/10.5281/zenodo.16735334)), presented by [Leyla Jael Castro](https://orcid.org/0000-0003-3986-0510),
 or MLentory, a registry for Machine/Deep Learning models making use of FAIR Digital Objects [10.5281/zenodo.16735316](https://doi.org/10.5281/zenodo.16735316)
 
+I forgot who said it,
+but someone at CoRDI said that Ontologies and the Semantic Web
+are the ground truth to make AI creative.
 
-One presentation also mentioned an AI,
+One presentation also mentioned an AI product,
 that can generate a conversational podcast ouf of a research paper
 So you hear artificial voices having a chat about the topic.
 The presentor said that after listening to the podcast,
@@ -459,63 +444,8 @@ but which the author deemed interesting examples as well.
 That sounds amazing to me,
 I have the feeling that this can revolutionize scientific communication.
 
-
-Research software
-
-[Stephan Ferenz](https://orcid.org/0000-0001-9523-7227)
-Towards Common Metadata For Research Software in the NFDI [10.5281/zenodo.16735848](https://doi.org/10.5281/zenodo.16735848)
-* image of comparison slide 
-
-
 --- 
-## Training & Communities
-
-Research infrastructure is all about communities as well!
-As an outsider I must say that I am impressed about all the different initiatives
-represented at CoRDI.
-Through discussions at the conference I have learned that there are also other
-non-NFDI initiatives in Germany, some of them older than NFDI.
-For example the different federal state RDM initiatives
-like bwFDM (shout out to _The Länd_) which also had posters this time.
-They jointly presented themselves on the last CoRDI in 2023 ([10.52825/cordi.v1i.242](https://doi.org/10.52825/cordi.v1i.242),
-see also my previous conference report [10.59350/pg3xj-4z449](https://doi.org/10.59350/pg3xj-4z449)).
-
-Other initiatives are the _Fachinformationsdienste (FIDs)_,
-that in its current form receive funding since 2014.
-I personally know the thematic [FIDBenelux](https://www.wikidata.org/wiki/Q63858763) as it relates to Belgium and 
-because they are also in the follow-up committee of the MetaBelgica project.
-At CoRDI, 
-[Reinhard Altenhöner](https://orcid.org/0000-0001-8274-780X)
-and
-Jana Fabrizius
-presented about the Role of FIDs Between Disciplinary Research and National Infrastructure ([10.5281/zenodo.16736302](https://doi.org/10.5281/zenodo.16736302)).
-I have learned that since 2018 FIDs are self organized and currently have long-term funding via FIDPlus.
-
-![Collaboration between FIDs and the NFDI](cordi-2025/2025-08-26_cordi_FID.jpg)
-
-Regarding RDM training, 
-two posters stood out to me as memorable and insightful. 
-One covered the general aspects of collaboration, and the other covered the CARE principles.
-
-The poster _Lost in Collaboration_ really hit the nail with the identified difficulty for effective collaboration:
-
-> "Turning Collaboration into Concrete Outcomes."
-
-![Lost in collaboration poster about soft infrastructures and facilitators](cordi-2025/2025-08-26_cordi_poster-collaboration.jpg)
-
-At the second poster I joined an interesting discussion about the CARE principles.
-[Josef Jeschke](https://orcid.org/0000-0002-8774-0321)
-explained that apparently there is no clear definition in CARE about _indigenous_,
-for example, it does not have to be a minority.
-In general I find the ethics aspect of CARE interesting,
-so I am wondering if it could be applied even in non-indigenous use cases.
-More info on their poster _The Informed CARE Data Steward. Ways to CAREification_: [https://doi.org/10.5281/zenodo.16736131](https://doi.org/10.5281/zenodo.16736131).
-
-![The informed CARE steward - ways to care for indigenous data sovereignity](cordi-2025/2025-08-26_cordi_poster-care.jpg)
-
----
-
-## Infrastructure and Governance
+## Infrastructure
 
 One part that is utterly important,
 and leans towards the impressing keynote,
@@ -572,11 +502,51 @@ todo:
 * hpc talk, jullich, filetransfer & metadata
 * mlz, scicat
 
+Technical infrastructures are impressive, but they rely on more than cables and servers. 
+Agreements, policies, and shared responsibilities - in short, governance - are what make these systems sustainable.
 
 ---
 
-When we are talking about infrastructure,
-we also have to talk about governance!
+## Governance
+
+When we talk about infrastructure, 
+we inevitably end up talking about governance: 
+the agreements, rules, and decisions that make collaboration possible. 
+Networks don’t just run on cables and servers,
+they run on policies, contracts, and trust. 
+This theme surfaced repeatedly, 
+from the inspiring keynote to lively panel debates and practical project presentations.
+
+### Global governance
+
+They keynote of Cathrin about global connectivity
+obviously is also related to global governance, 
+which is not an easy topic in today's geopolitical reality. 
+This was the main subject of the keynote's Q&A, 
+with questions relating to why certain parts of the world are not connected 
+(GÉANT's headquarters are in Amsterdam, 
+so it falls under Dutch and European law and is forced to follow sanctions) 
+and why satellite networks are not used instead of terrestrial networks 
+(there is no low-orbit capacity yet owned by Europe, 
+and high orbit does not provide enough bandwidth).
+
+
+A related perspective came up in the resilience panel: 
+the reminder that researchers are citizens of science, not citizens of a country.
+Infrastructure cannot be shielded from geopolitics, 
+but the research community aspires to build connections that transcend national borders.
+
+This perspective was underlined by the example of PANGAEA during the resilience panel. 
+It stepped in to safeguard research data that risked being lost due to shifts in U.S. policy. 
+Here governance became a matter of resilience: 
+ensuring that research data remain accessible for the global community, even when political frameworks change.
+
+### Governance in practice
+
+Governance was also discussed on a much more practical level, related to data stewardship.
+
+Martha Stellmacher pointed out how model contracts for collaborations can be too strict in the early stages, making it harder rather than easier to build something new.
+Robert Herrenbrück presented the establishment of a central helpdesk for KonsortSWD (NFDI4Society), illustrating governance through support: coordination and service structures that help researchers navigate responsibilities without losing sight of their own work.
 
 
 As mentioned,
@@ -612,6 +582,63 @@ Governance
 [Robert Herrenbrück](https://orcid.org/0000-0002-1355-5043)
 Establishing a Central Helpdesk for KonsortSWD - NFDI4Society: Goals, Challenges, and Solutions [https://doi.org/10.5281/zenodo.16735332](https://doi.org/10.5281/zenodo.16735332)
 
+If governance defines the rules and structures that make infrastructures sustainable, 
+communities are the people who put these rules into practice, 
+train new researchers, and ensure that collaboration thrives.
+
+## Training & Communities
+
+While governance sets the framework, 
+it’s the communities of researchers, data stewards, and trainers who bring it to life. 
+From workshops to collaborative projects, these people ensure that research infrastructures are not just functional, 
+but actually usable and sustainable.
+
+As an outsider I must say that I am impressed about all the different initiatives
+represented at CoRDI.
+Through discussions at the conference I have learned that there are also other
+non-NFDI initiatives in Germany, some of them older than NFDI.
+For example the different federal state RDM initiatives
+like bwFDM (shout out to _The Länd_) which also had posters this time.
+They jointly presented themselves on the last CoRDI in 2023 ([10.52825/cordi.v1i.242](https://doi.org/10.52825/cordi.v1i.242),
+see also my previous conference report [10.59350/pg3xj-4z449](https://doi.org/10.59350/pg3xj-4z449)).
+
+Other initiatives are the _Fachinformationsdienste (FIDs)_,
+that in its current form receive funding since 2014.
+I personally know the thematic [FIDBenelux](https://www.wikidata.org/wiki/Q63858763) as it relates to Belgium and 
+because they are also in the follow-up committee of the MetaBelgica project.
+At CoRDI, 
+[Reinhard Altenhöner](https://orcid.org/0000-0001-8274-780X)
+and
+Jana Fabrizius
+presented about the Role of FIDs Between Disciplinary Research and National Infrastructure ([10.5281/zenodo.16736302](https://doi.org/10.5281/zenodo.16736302)).
+I have learned that since 2018 FIDs are self organized and currently have long-term funding via FIDPlus.
+
+![Collaboration between FIDs and the NFDI](cordi-2025/2025-08-26_cordi_FID.jpg)
+
+Regarding RDM training, 
+two posters stood out to me as memorable and insightful. 
+One covered the general aspects of collaboration, and the other covered the CARE principles.
+
+The poster _Lost in Collaboration_ really hit the nail with the identified difficulty for effective collaboration:
+
+> "Turning Collaboration into Concrete Outcomes."
+
+![Lost in collaboration poster about soft infrastructures and facilitators](cordi-2025/2025-08-26_cordi_poster-collaboration.jpg)
+
+At the second poster I joined an interesting discussion about the CARE principles.
+[Josef Jeschke](https://orcid.org/0000-0002-8774-0321)
+explained that apparently there is no clear definition in CARE about _indigenous_,
+for example, it does not have to be a minority.
+In general I find the ethics aspect of CARE interesting,
+so I am wondering if it could be applied even in non-indigenous use cases.
+More info on their poster _The Informed CARE Data Steward. Ways to CAREification_: [https://doi.org/10.5281/zenodo.16736131](https://doi.org/10.5281/zenodo.16736131).
+
+![The informed CARE steward - ways to care for indigenous data sovereignity](cordi-2025/2025-08-26_cordi_poster-care.jpg)
+
+---
+
+
+
 
 ---
 
@@ -623,18 +650,6 @@ Whether we were talking about workflows in the life sciences,
 authority files in the humanities, 
 or large-scale infrastructures, 
 the same questions kept coming back: **how do we connect, how do we sustain, and how do we collaborate?**
-
-For me, three things stood out:
-
-* The central role of standards and identifiers. They are no longer a niche concern, but part of every conversation on interoperability and sustainability.
-
-* The balance between technology and people. Infrastructure is cables and servers, but it is equally communities, governance, and trust.
-
-* The value of crossing boundaries. CoRDI made clear that different disciplines face similar challenges — and that solutions developed in one field can inspire another.
-
-These points also resonate with my own work at KBR, 
-where we deal daily with authority data, Knowledge Graphs, and questions of sustainability. 
-I left Aachen with both new technical insights and new energy to bring these discussions into our projects.
 
 I'm glad that this community exists.
 PIDs and standards are probably not the most exciting topics,
