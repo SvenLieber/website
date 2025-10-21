@@ -40,8 +40,8 @@ links:
     url: https://twitter.com/SvenLieber
 url_code: ''
 url_pdf: ''
-url_slides: ''
-url_video: ''
+url_slides: 'https://doi.org/10.5281/zenodo.17344191'
+url_video: 'https://op.europa.eu/en/web/endorse-2025/join-us-live'
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
