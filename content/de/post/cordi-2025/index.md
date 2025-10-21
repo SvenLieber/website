@@ -70,7 +70,7 @@ making agreements about how to collaborate
 and using common tools. 
 These kinds of agreements (or standards) and tools
 are especially crucial given the amount of data nowadays.
-Me and around 800 other people attended the **2nd Conference on Research Data Infrastructure**,
+Me and around 700 other people attended the **2nd Conference on Research Data Infrastructure**,
 in Aachen, Germany from August 26 to 28, 2025.
 In this blog post I will reflect 
 on the various presentations and posters I saw
@@ -83,7 +83,7 @@ In August 2025,
 the [_German National Research Data Infrastructure (NFDI)_](https://ror.org/05qj6w324)
 organized the second edition of the
 Conference on Research Data Infrastructure (CoRDI).
-Around **800 people** attended this international multi-track conference.
+Around **700 people** attended this international multi-track conference.
 This year's edition did not follow a standard peer-review,
 but was curated based on the conference organizers
 and a balance of the various disciplines and topics
