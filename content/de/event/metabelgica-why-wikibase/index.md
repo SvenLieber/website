@@ -41,7 +41,7 @@ links:
 url_code: ''
 url_pdf: ''
 url_slides: 'https://doi.org/10.5281/zenodo.17344191'
-url_video: 'https://op.europa.eu/en/web/endorse-2025/join-us-live'
+url_video: 'youtube.com/watch?v=rrhf9HNI9CI&list=PLT5rARDev_rmgK8ZddP7p3oKFaj5A2whJ&index=31'
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
