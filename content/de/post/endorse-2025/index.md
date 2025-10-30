@@ -193,7 +193,7 @@ At the same time, national approaches still vary quite a lot.
 
 During the conference I have learned,
 that also Germany has a catalog of public services:
-the [FIM portal](fimportal.de) (presentation by [Felicitats Löffler](https://orcid.org/0000-0001-6423-7427) and [Marianne Mauch](https://orcid.org/0000-0003-1478-1867) from the state of Thuringia, the _green heart of Germany_).
+the [FIM portal](https://fimportal.de) (presentation by [Felicitats Löffler](https://orcid.org/0000-0001-6423-7427) and [Marianne Mauch](https://orcid.org/0000-0003-1478-1867) from the state of Thuringia, the _green heart of Germany_).
 However, it is not derived from CPSV-AP
 and I don't think it is mapped to it yet.
 This brings me to an interesting point
