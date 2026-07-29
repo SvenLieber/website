@@ -70,4 +70,4 @@ slides: ''
 projects: ['beltrans']
 ---
 
-Upcoming presentation at PIDfest 2026 about the implementation of ARK identifiers at the Royal Library of Belgium
+Bevorstehende Präsentation beim PIDfest 2026 über die Implementation von ARK identifiern an der Königlichen Bibliothek Belgiens
