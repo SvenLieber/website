@@ -24,6 +24,18 @@ publishDate: '2025-09-07T00:00:00Z'
 
 authors:
   - admin
+
+metadata:
+  authors:
+    - name: Sven Lieber
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0002-7304-3787'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q59469449'
+  
+
 tags: ["Wikibase", "RDF", "Linked Data", "Authority File", "Research Data Infrastructure", "GLAM", "data integration", "Persistent Identifier", "EDTF", "GeoNames", "REFNIS"]
 
 # Is this a featured talk? (true/false)

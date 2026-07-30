@@ -27,6 +27,18 @@ publishDate: '2022-11-27T00:00:00Z'
 
 authors:
   - admin
+
+metadata:
+  authors:
+    - name: Sven Lieber
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0002-7304-3787'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q59469449'
+  
+
 tags: []
 
 # Is this a featured talk? (true/false)

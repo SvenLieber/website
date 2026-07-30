@@ -25,6 +25,26 @@ all_day: false
 authors:
   - admin
   - Julie M. Birkholz
+
+metadata:
+  authors:
+    - name: Sven Lieber
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0002-7304-3787'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q59469449'
+    - name: Julie M. Birkholz
+      website: ''
+      sameas:
+        - name: 'Orcid'
+          url: 'https://orcid.org/0000-0003-1193-0847'
+        - name: 'Wikidata'
+          url: 'https://www.wikidata.org/entity/Q107719116'
+
+
+
 tags: []
 
 # Is this a featured talk? (true/false)
