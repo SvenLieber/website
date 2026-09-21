@@ -9,7 +9,7 @@ projects: [metabelgica]
 
 toc: true
 
-postDOI: to do
+postDOI: 10.59350/nj6za-wjb05
 
 # Date published
 date: 2026-09-18T09:00:00+01:00
