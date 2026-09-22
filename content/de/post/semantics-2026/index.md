@@ -187,6 +187,13 @@ their system does not work in MARC.
 ## Our contributions: BELTRANS and MetaBelgica
 
 At this year's SEMANTiCS conference I presented both a demo and a poster.
+Because I had to be at our posters I did not have time to look at all the other posters.
+Unfortunately the poster session was the only moment were most of the posters hang
+(at some conferences the posters and their presenters are also around during some coffee breaks).
+But the good thing is that one can find (images of) all posters also on the [SEMANTiCS website](https://2026-eu.semantics.cc/page/accepted_posters.html).
+Even better would be if the posters would be all uploaded to a research data repository like Zenodo
+instead of a website which is less FAIR (Findable, Accessible, Interoperable, Reusable).
+
 
 The demo was about the user interface to explore
 50 years of book translation flows between Dutch and French in Belgium,
