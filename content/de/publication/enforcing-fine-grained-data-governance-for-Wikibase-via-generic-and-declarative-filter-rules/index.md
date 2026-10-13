@@ -46,15 +46,17 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ""
+url_pdf: "https://ceur-ws.org/Vol-4293/paper37.pdf"
 url_preprint: ""
-url_code: ""
+url_code: "https://github.com/MetaBelgica/wikibase-filter-api"
 url_dataset: ""
 url_project: "https://www.kbr.be/en/projects/metabelgica/"
 url_slides: ""
 url_video: ""
-url_poster: ""
+url_poster: "https://doi.org/10.5281/zenodo.21915884"
 url_source: ""
+
+
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -77,4 +79,4 @@ projects: ['metabelgica']
 #   Otherwise, set `slides: ""`.
 slides: ''
 ---
-Bevorstehende Poster Präsentation bei der SEMANTiCS Konferenz, September 2026 in Gent, Belgien
+Dieses Poster paper wurde bi der SEMANTiCS Konferenz 2026 im belgischen Gent eingereicht. Das Paper beschreibt drei mögliche Arten um Governanceregeln für Items und Properties in einer Wikibase zu modellieren. Die Governanceregeln geben an welche Items und Properties öffentlich einsehbar sind und warum.

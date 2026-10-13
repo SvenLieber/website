@@ -46,14 +46,14 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ""
+url_pdf: "https://ceur-ws.org/Vol-4293/paper37.pdf"
 url_preprint: ""
-url_code: ""
+url_code: "https://github.com/MetaBelgica/wikibase-filter-api"
 url_dataset: ""
 url_project: "https://www.kbr.be/en/projects/metabelgica/"
 url_slides: ""
 url_video: ""
-url_poster: ""
+url_poster: "https://doi.org/10.5281/zenodo.21915884"
 url_source: ""
 
 # Featured image
@@ -77,4 +77,4 @@ projects: ['metabelgica']
 #   Otherwise, set `slides: ""`.
 slides: ''
 ---
-Upcoming poster at the SEMANTiCS conference, September 2026 in Ghent, Belgium
+This poster paper is a submission to SEMANTiCS 2026. It presents three possible modeling choices of property- and item-based governance rules in a Wikibase instance. The governance rules annotate what items and properties should be disclosed to the public and why.

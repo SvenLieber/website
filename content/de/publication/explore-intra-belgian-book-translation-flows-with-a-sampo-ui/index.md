@@ -68,15 +68,17 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ""
+url_pdf: "https://ceur-ws.org/Vol-4293/paper32.pdf"
 url_preprint: ""
-url_code: ""
+url_code: "https://github.com/kbrbe/beltrans-ui-config"
 url_dataset: ""
 url_project: "https://www.kbr.be/en/projects/beltrans/"
 url_slides: ""
 url_video: ""
-url_poster: ""
+url_poster: "https://doi.org/10.5281/zenodo.22275750"
 url_source: ""
+
+
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -99,4 +101,4 @@ projects: ['beltrans']
 #   Otherwise, set `slides: ""`.
 slides: ''
 ---
-Bevorstehende Demo bei der SEMANTiCS Konferenz, September 2026 in Gent, Belgien
+In diesem Demopaper wird beschrieben wie wir eine Benutzeroberfläche basierend auf der SAMPO-UI Plattform konfiguriert haben um den BELTRANS Korpus Zugänglicher zu machen.

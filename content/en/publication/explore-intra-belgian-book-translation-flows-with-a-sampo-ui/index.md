@@ -68,14 +68,14 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ""
+url_pdf: "https://ceur-ws.org/Vol-4293/paper32.pdf"
 url_preprint: ""
-url_code: ""
+url_code: "https://github.com/kbrbe/beltrans-ui-config"
 url_dataset: ""
 url_project: "https://www.kbr.be/en/projects/beltrans/"
 url_slides: ""
 url_video: ""
-url_poster: ""
+url_poster: "https://doi.org/10.5281/zenodo.22275750"
 url_source: ""
 
 # Featured image
@@ -99,4 +99,4 @@ projects: ['beltrans']
 #   Otherwise, set `slides: ""`.
 slides: ''
 ---
-Upcoming demo at the SEMANTiCS conference, September 2026 in Ghent, Belgium
+This demo paper is a submission to SEMANTiCS 2026. It describes how we configured a SAMPO-UI based user interface to make the BELTRANS corpus more accessible.
